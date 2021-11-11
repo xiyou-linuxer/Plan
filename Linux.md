@@ -6,73 +6,76 @@ Linux
 
 # 文件管理
 
-- cat
-- git
-- diff
-- find
-- chmod
-- mv
-- od
-- cp
-- touch
-- rm
+- cat:文本输出命令，通常是用于观看某个文件的内容
+- git:一个开源的分布式版本控制系统
+- diff:用于比较文件的差异
+- find:在指定目录下查找文件
+- chmod:控制用户对文件的权限
+- mv:移动或重命名一个文件、目录或软连接
+- od:以指定格式查看文件内容
+- cp:用于复制文件或目录
+- touch:若文件不存在，系统会建立一个新的文件,还可用于修改文件或者目录的时间属性，。
+- rm:用于删除一个文件或者目录
 
 # 文档编辑
 
-- grep
-- vim
+- grep:管道，用于查找文件里符合条件的字符串
+- vim：文本编辑器
 
 
 # 磁盘管理
 
-- ls
-- cd
-- mkdir
-- pwd
-- rmdir
-- mount
+- ls：用于显示指定工作目录下之内容（列出目前工作目录所含之文件及子目录)。
+- cd：用于切换当前工作目录。
+- mkdir：用于创建目录。
+- pwd：显示当前工作目录
+- rmdir：删除空的目录。
+- mount：挂载文件
 
 # 磁盘维护
 
-- fdisk
+- fdisk：创建和维护分区表
 
 # 网络通信
 
-- ifconfig
-- ping
-- telant
-- nc
-- nestat
-- ip
+- ifconfig：可设置网络设备的状态，或是显示目前的设置。
+- ping：用于检测主机
+- telent:用于远端登入,执行telnet指令开启终端机阶段作业，并登入远端主机。
+- nc:可设置路由器的相关参数。
+- netstat:用于显示网络状态,利用 netstat 指令可让你得知整个 Linux 系统的网络情况。
+- ip:主要功能是用于显示或设置网络设备。
+
 
 # 系统管理
 
-- top
-- ps
-- sudo
-- exit
-- kill
-- su
-- history
+- top:用于实时显示进程的动态。
+- ps：用于显示当前进程的状态
+- sudo：以系统管理者的身份执行指令
+- exit：用于退出目前的shell。
+- kill：用于删除执行中的程序或工作。
+- su：用于变更为其他使用者的身份
+- history：查看和执行历史命令
 
 # 系统设置
 
-- clear
-- export
+- clear：用于清除屏幕。
+- export：用于设置或显示环境变量。
 
 # 压缩
 
-- tar
-- zip
-- gzip
+- tar：用来建立，还原备份文件的工具程序，它可以加入，解开备份文件内的文件解压缩.tar文件
+- zip：用于压缩文件。
+- gzip：使用广泛的压缩程序，文件经它压缩过后，其名称后面会多出".gz"的扩展名。
 
 # 包管理器
 
 - apt(deepin,ubuntu)
-- pacman(arch)
-- yay
+- pacman(arch,manjaro)
+- yay（arch,manjaro)
+
+
 
 # 编译调试
 
-- gcc/clang
-- gdb
+- gcc/clang：编译c程序
+- gdb：**gdb**调试程序的常用命令用于调试c程序
