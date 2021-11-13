@@ -14,7 +14,7 @@
 * 鸟哥 自己选择性看， 学基本的Linux命令，Linux基本知识，有能力可以看 (环编，系统编程手册)
 * git 先学简单的add commit push , 通关 [挑战](https://learngitbranching.js.org/)
 * 数据结构 学习 ,推荐《大话数据结构》
-* 学有余力，golang/c++/java。
+* 学有余力，c++/golang/java。
 
 * 算法题每周4道，[leecode](https://leetcode-cn.com/)或者[洛谷](https://www.luogu.com.cn/)，不要抄题解自己做，至少一道 中等题或者普及题
 ### 有趣的项目： 
