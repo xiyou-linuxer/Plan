@@ -29,9 +29,9 @@ Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系�
 
 > 在计算机领域，网络是你最好的老师。
 
+- [cppreference](https://en.cppreference.com) 。
+- [CSDN](https://www.csdn.net)，一个优劣参半的技术博客平台。
+- [Google](https://www.google.com)。
+- [man](https://man7.org) 网页版 man 手册。
 - [StackOverFlow](https://stackoverflow.com/) ，一个国外的技术问答平台。
-- [Google](https://www.google.com/)。
-- [C reference](https://en.cppreference.com/w/c) C 语言 API 查询。
-- [man](https://man7.org/linux/man-pages/man1/ls.1.html) 网页版 man 手册。
-- [wikipedia](https://en.wikipedia.org/wiki/Main_Page)
-- [CSDN](https://www.csdn.net/?spm=1001.2014.1000.2115)，一个优劣参半的技术博客平台。
+- [Wikipedia](https://en.wikipedia.org)
