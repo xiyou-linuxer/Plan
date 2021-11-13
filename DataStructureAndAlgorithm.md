@@ -11,7 +11,7 @@
 * 遇到比较难的，不要放弃，看题解，慢慢看题解。
 * 强烈建议写题解和记笔记，可以分享给小组
 
-### 书籍推荐
+#### 书籍推荐
 
 - 《啊哈算法》
 - 《labuladong的算法小抄》
@@ -19,12 +19,12 @@
 - 《大话数据结构》
 - 《数据结构与算法之美》
 
-### 刷算法题网址推荐
+#### 刷算法题网址推荐
 
 - [LeetCode](https://leetcode-cn.com/problemset/all/) 为主。
 - [codetop](https://codetop.cc/home)
 - [luogu](https://www.luogu.com.cn/)
 
-### 了解算法的一些网址
+#### 了解算法的一些网址
 
 - [xiyou-linuxer/DataStructuresAndAlgorithms](https://github.com/xiyou-linuxer/Favorites/blob/master/DataStructuresAndAlgorithms.md)
