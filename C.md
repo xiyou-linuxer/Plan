@@ -44,4 +44,4 @@ Linux Kernel 是使用 C 语言开发的。C 语言是学习与理解 Linux 系�
 
 #### 参考资料
 
-[^1]: [CSE251-Programming in C](https://www.cse.msu.edu/~cse251/index.html).
+- [1]: [CSE251-Programming in C](https://www.cse.msu.edu/~cse251/index.html).
