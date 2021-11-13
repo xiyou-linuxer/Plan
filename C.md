@@ -26,8 +26,8 @@ Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系�
 ### 一个 C 库函数我不认识，我该怎么学习它？
 > 在计算机领域，网络是你最好的老师。
 
-- [StackOverFlow](https://stackoverflow.com/) ，一个国外的技术问答平台(需要科学上网)。
-- [Google](https://www.google.com/) (需要科学上网)。
+- [StackOverFlow](https://stackoverflow.com/) ，一个国外的技术问答平台。
+- [Google](https://www.google.com/)。
 - [C reference](https://en.cppreference.com/w/c) C 语言 API 查询。
 - [man](https://man7.org/linux/man-pages/man1/ls.1.html) 网页版 man 手册。
 - [wikipedia](https://en.wikipedia.org/wiki/Main_Page)
