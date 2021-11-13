@@ -7,10 +7,6 @@
 
 ### 推荐：
 
-* << C Primer Plus >>
-* << C和指针 >>
-
-* 学习 GCC, GDB 使用方法， 可以使用vscode ， CLion 写代码， 调试尽量使用GDB
 * 鸟哥 自己选择性看， 学基本的Linux命令，Linux基本知识，有能力可以看 (环编，系统编程手册)
 * git 先学简单的add commit push , 通关 [挑战](https://learngitbranching.js.org/)
 * 数据结构 学习 ,推荐《大话数据结构》

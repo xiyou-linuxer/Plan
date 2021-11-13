@@ -16,11 +16,13 @@ Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系�
 
 这两本书都对 C11 标准的绝大多数细节做了完整的讲解。
 
-- `《C Primer Plus》`
-- `《C 语言编程魔法书：基于 C11 标准》` （还讲解了 `gcc` 与 `clang` 编译器实现的扩展。）
+- `C Primer Plus`
+- `C 语言编程魔法书：基于 C11 标准`
+
+`C 语言编程魔法书：基于 C11 标准` 还讲解了 `gcc` 与 `clang` 编译器实现的扩展。
 
 对于指针与内存管理，也可参考：
-- `《C 和指针》`
+- `C 和指针`
 
 ### 一个 C 库函数我不认识，我该怎么学习它？
 
@@ -33,6 +35,6 @@ Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系�
 - [StackOverFlow](https://stackoverflow.com/) ，一个国外的技术问答平台。
 - [Wikipedia](https://en.wikipedia.org)
 
-### 有什么好的国外 C 语言课程值得我学习？
+### 有什么好的国外 C 语言课程值得我学习
 
 - [cse251](https://www.cse.msu.edu/~cse251/index.html)
