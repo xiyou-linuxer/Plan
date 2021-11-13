@@ -33,8 +33,8 @@ Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系�
 - [wikipedia](https://en.wikipedia.org/wiki/Main_Page)
 - [CSDN](https://www.csdn.net/?spm=1001.2014.1000.2115)，一个优劣参半的技术博客平台。
 
-### 任务说明
+### 大一上 C 语言任务说明
 
-请 21 级同学使用 `GNU/Linux` 操作系统 **在电脑上** 完成 `C Primer Plus` 课后习题，并留存完成题目的代码。
+请 21 级同学使用 `GNU/Linux` 操作系统 **在电脑上** 完成 `《C Primer Plus》` 课后习题，并留存完成题目的代码。
 
-任务截止时间：2021 年 12 月 15 日 23:59:59。
+任务截止时间：2021-12-15 23:59:59。
