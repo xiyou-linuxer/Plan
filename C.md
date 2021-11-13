@@ -10,20 +10,17 @@ C 语言的内存管理或者说指针的的使用是 C 语言中的重点。
 
 Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系统调用 打穿到 Linux 内核。
 
-* 我们并不限制语言的学习，也曾有听闻有人大一时学习五门编程语言（c、c++、python、java、golang），但没有必要。
-在学有余力的情况下，学习一俩门其他的高级语言会让你对编程语言的理解更加深入。
+* 我们并不限制语言的学习，也曾有听闻有人大一时学习五门编程语言（c、c++、python、java、golang），但没有必要。在学有余力的情况下，学习一俩门其他的高级语言会让你对编程语言的理解更加深入。
 
 ### C 语言书籍推荐
 
 这两本书都对 C11 标准的绝大多数细节做了完整的讲解。
 
-- `C Primer Plus`
-- `C 语言编程魔法书：基于 C11 标准`
-
-`C 语言编程魔法书：基于 C11 标准` 还讲解了 `gcc` 与 `clang` 编译器实现的扩展。
+- `《C Primer Plus》`
+- `《C 语言编程魔法书：基于 C11 标准》` （还讲解了 `gcc` 与 `clang` 编译器实现的扩展。）
 
 对于指针与内存管理，也可参考：
-- `C 和指针`
+- `《C 和指针》`
 
 ### 一个 C 库函数我不认识，我该怎么学习它？
 
@@ -31,7 +28,11 @@ Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系�
 
 - [cppreference](https://en.cppreference.com) 。
 - [CSDN](https://www.csdn.net)，一个优劣参半的技术博客平台。
-- [Google](https://www.google.com)。
+- [Google](https://www.google.com)
 - [man](https://man7.org) 网页版 man 手册。
 - [StackOverFlow](https://stackoverflow.com/) ，一个国外的技术问答平台。
 - [Wikipedia](https://en.wikipedia.org)
+
+### 有什么好的国外 C 语言课程值得我学习？
+
+- [cse251](https://www.cse.msu.edu/~cse251/index.html)

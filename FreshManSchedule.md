@@ -16,8 +16,6 @@
 * 数据结构 学习 ,推荐《大话数据结构》
 * 学有余力，golang/c++/java。
 
-
-
 * 算法题每周4道，[leecode](https://leetcode-cn.com/)或者[洛谷](https://www.luogu.com.cn/)，不要抄题解自己做，至少一道 中等题或者普及题
 ### 有趣的项目： 
 
