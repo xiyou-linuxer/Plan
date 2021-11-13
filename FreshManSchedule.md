@@ -1,4 +1,4 @@
-* 学习基本的markdown语法
+* 学习基本的`markdown`语法
 * 学会自我安装Linux
 * 非特殊情况不得使用Linux虚拟机， Windows（wsl 待讨论）
 * 装机之后适应 Linux环境，装软件（推荐VS Code ）

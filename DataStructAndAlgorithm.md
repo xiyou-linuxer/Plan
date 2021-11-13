@@ -22,13 +22,3 @@
 ### 了解算法的一些网址
 
 - [xiyou-linuxer/DataStructuresAndAlgorithms](https://github.com/xiyou-linuxer/Favorites/blob/master/DataStructuresAndAlgorithms.md)
-
-### 大一上学期 要求
-
-由简单题（比如模板题）开始做起，后面慢慢转向中等偏难的题。
-
-第一关：`串`，`数组`，`贪心` 开始刷起，至少 20 题。
-第二关：`深度优先搜索`，`广度优先搜索`。
-第二关：`动态规划` 。
-
-- 坚持每天 1 道题。
