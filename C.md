@@ -35,6 +35,6 @@ Linux 是 C 语言开发的。学习 C 语言可以帮助你从一个 Linux 系�
 - [StackOverFlow](https://stackoverflow.com/) ，一个国外的技术问答平台。
 - [Wikipedia](https://en.wikipedia.org)
 
-### 有什么好的国外 C 语言课程值得我学习
+## 参考资料
 
-- [cse251](https://www.cse.msu.edu/~cse251/index.html)
+[^1]: [CSE251-Programming in C](https://www.cse.msu.edu/~cse251/index.html).
