@@ -36,6 +36,5 @@ A：事实上，我们有很多方式来简化繁琐的命令输入：
 2021-12-15 23:59:59 UTC+8
 
 #### 参考资料
+- \[1\]: 鸟哥.鸟哥的Linux私房菜\[M\].第四版.北京:人民邮电出版社.
 
-- \[1\]: [Pwnki-gyctf_2020_signin](https://www.cnblogs.com/luoleqi/p/13473995.html).
-- \[2\]: [PYozo_free-gyctf_2020_signin](https://www.cnblogs.com/pppyyyzzz/p/14208806.html).
