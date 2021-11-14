@@ -200,8 +200,8 @@ int main() {
 ---
 #### 参考资料
 
-- [strbuf API](https://schacon.github.io/git/technical/api-strbuf.html)
-- [goldsborough/vector](https://github.com/goldsborough/vector)
-- [eteran/c-vector](https://github.com/eteran/c-vector)
-- [git/strbuf](https://github.com/git/git/blob/master/strbuf.h)
-- [redis/sds](https://github.com/redis/redis/blob/unstable/src/sds.h)
+- [1]: [strbuf API](https://schacon.github.io/git/technical/api-strbuf.html).
+- [2]: [goldsborough/vector](https://github.com/goldsborough/vector).
+- [3]: [eteran/c-vector](https://github.com/eteran/c-vector).
+- [4]: [git/strbuf](https://github.com/git/git/blob/master/strbuf.h).
+- [5]: [redis/sds](https://github.com/redis/redis/blob/unstable/src/sds.h).
