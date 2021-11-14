@@ -1,4 +1,4 @@
-### Shell
+### Shell 与命令行
 
 Q：我为什么需要学习 Shell 命令？
 A：一个合格的 Linuxer 常常会频繁的通过终端操控 GNU/Linux 系统，而不是使用低效的 GUI，熟悉这些基础的命令是一个成熟的 Linuxer 的必经之路．
