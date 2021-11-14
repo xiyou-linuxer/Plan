@@ -14,18 +14,20 @@
 
 简单的 echo 服务器 （非阻塞读写，阻塞读写  ）
 
-IO多路复用     select/poll/epoll     （ Et  ，Lt 模式  ）
+IO多路复用
+- select
+- poll
+- epoll
+    - Et
+    - Lt
 
 了解 Reactor ，Proactor 的原理和流程  ，尽量实现
-
-待选 SQL 练习
 
 #### 任务说明
 
 ##### 聊天室
 
 暂未完成
-
 
 #### 参考资料
 
