@@ -1,14 +1,14 @@
-# Project1: 设计一个 C 语言的动态扩容缓冲区
+### Project1: 设计一个 C 语言的动态扩容缓冲区
 
-## 知识要点：
+#### 知识要点
 1. 字符串。
 2. 面向对象的 C 语言设计。
 3. 动态内存分配。
 4. Linux File API。
 5. getline。
 
-## 介绍
-如果同学们了解过 C++ | Java | Golang | Python 的字符串的话，应该知道它们的字符串是可以动态扩容的，见下图 c++ 代码 ：
+#### 介绍
+如果同学们了解过 C++ | Java | Golang | Python 的字符串的话，应该知道它们的字符串是可以动态扩容的，见下图 C++ 代码 ：
 
 ```cpp
 // strbuf_test.cpp
@@ -30,7 +30,7 @@ $ ./strbuf_test
 xiyoulinux
 ```
 
-成功输出 "xiyoulinux"，啊，这就邪恶的 C++ 施展的黑魔法么？
+成功输出 `xiyoulinux`，啊，这就邪恶的 C++ 施展的黑魔法么？
 
 对比 c 语言版本：
 
@@ -82,7 +82,7 @@ $ ./strbuf_test2
 xiyoulinux
 ```
 
-是的，这次我们成功输出了 "xiyoulinux"！
+是的，这次我们成功输出了 `xiyoulinux`！
 
 但是，上面我们硬编码了字符串长度, 我们可不可以将它包装成一个统一的函数去做到这一件事情呢？
 
@@ -115,14 +115,14 @@ int main() {
 
 你需要做的，就是实现 `strbuf` 的这些操作函数。
 
-### HINT
+#### HINT
 
 * `strbuf` 的成员 `len` 代表的是 `buf` 缓冲区的长度，每次我们将字符串追加入 `strbuf` 中，我们都应该使用 `strbuf_setlen()` 去更新 `strbuf` 的长度 `len`，注意 `123\0456` 的长度不是 3，而是 7。
 * `strbuf` 的成员 `alloc` 代表的是 `buf` 缓冲区的容量，也就是我们每次动态分配的数组大小，每当我们需要向 `sb` 内追加一个字符串，我们需要计算当前的字符串长度加上追加的字符串长度，如果超过了当前的容量，我们就需要把容量扩大一倍，然后将字符串添加进去。
 
-## Part 2A
+#### Part 2A
 
-### TASK
+##### TASK
 
 实现字符串缓冲区类 `strbuf` 简单的初始化，填充，释放，交换，比较，清空等操作。
 
@@ -139,9 +139,9 @@ int main() {
 | strbuf_reset(struct strbuf *sb);                                          | 清空 `sb`。                                            |
 
 
-## Part 2B
+#### Part 2B
 
-### TASK
+##### TASK
 
 实现字符串缓冲区类 `strbuf` 扩容，(追加|插入)字符，字符串等操作。
 
@@ -156,11 +156,11 @@ int main() {
 | static inline size_t strbuf_avail(const struct strbuf *sb)                       | 计算 `sb` 目前仍可以向后追加的字符串长度。                    |
 | void strbuf_insert(struct strbuf *sb, size_t pos, const void *data, size_t len); | 向 `sb` 内存坐标为 `pos` 位置插入长度为 `len` 的数据 `data`。 |
 
-## Part 2C
+#### Part 2C
 
-### TASK
+##### TASK
 
-实现字符串缓冲区类 `strbuf` 删除部分内容的功能。
+实现字符串缓冲区类 `strbuf` 删除部分内容等功能。
 
 | API                                                            | 功能简介                                           |
 | -------------------------------------------------------------- | -------------------------------------------------- |
@@ -169,13 +169,13 @@ int main() {
 | void strbuf_remove(struct strbuf *sb, size_t pos, size_t len); | 删除 `sb` 缓冲区从 `pos` 坐标长度为 `len` 的内容。 |
 
 
-## Part 2D
+#### Part 2D
 
 1. 在我们使用 C FILE API 读取一个小文件的时候经常会有这样的一个困惑，我们为什么不能直接一次性读完整个文件到一个大缓冲区呢? 而 `fread` or `read` 总是用一个将一个文件中的内容反复读到一个缓冲区中，然后我们从这个缓冲区中取出内容, 但是为什么我们不能直接将一个文件读到一个缓冲区中呢?
 
-2. 在我们想要从文件或者终端读取一行数据的时候经常有这样的疑惑，我应该用什么函数去读？C++ 的 `cin.getline()`? `c++` 的 `getline()`? C 的 `getline()`? Python 的 `readline()`? 正如 StackOverFlow 的网友的总结[stackoverflow](https://stackoverflow.com/questions/7868936/read-file-line-by-line-using-ifstream-in-c),c版本的 `getline()` 效率是最高的。那么问题来了, C 的 `getline()` 每次都得我去指定缓冲区和长度... 有什么好的方法让用户可以直接调用一个 `strbuf_getline()` 无脑的从缓冲区中拿到想要的内容呢？
+2. 在我们想要从文件或者终端读取一行数据的时候经常有这样的疑惑，我应该用什么函数去读？C++ 的 `cin.getline()`? `C++` 的 `getline()`? C 的 `getline()`? Python 的 `readline()`? 正如 StackOverFlow 的网友的总结[stackoverflow](https://stackoverflow.com/questions/7868936/read-file-line-by-line-using-ifstream-in-c),c版本的 `getline()` 效率是最高的。那么问题来了, C 的 `getline()` 每次都得我去指定缓冲区和长度... 有什么好的方法让用户可以直接调用一个 `strbuf_getline()` 无脑的从缓冲区中拿到想要的内容呢？
 
-### TASK
+##### TASK
 | API                                                                         | 功能简介                                                                                            |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ssize_t strbuf_read(struct strbuf *sb, int fd, size_t hint);                | 为 `sb` 直接扩容 `hint ? hint : 8192` 大小， 然后将文件描述符为 `fd` 的所有文件内容读取到 `sb` 中。 |
@@ -183,9 +183,9 @@ int main() {
 | int strbuf_getline(struct strbuf *sb, FILE *fp);                            | 将 将文件句柄为 `fp` 的一行内容读取到 `sb` 。                                                       |
 
 ---
-### 无信用挑战练习
+#### 无信用挑战练习
 
-### CHALLENGE 
+##### CHALLENGE
 
 1. 实现字符串切割（C 系字符串函数的一个痛点）。
 
@@ -196,12 +196,11 @@ int main() {
 2. 实现判断一个 strbuf 是否以指定字符串开头的功能（C 系字符串函数的另一个痛点）。
 3. 获取字符串从坐标 `[begin, end)` 的所有内容（可以分成引用和拷贝两个模式） 。
 
-
 ---
 #### 参考资料
 
-- [1]: [strbuf API](https://schacon.github.io/git/technical/api-strbuf.html).
-- [2]: [goldsborough/vector](https://github.com/goldsborough/vector).
-- [3]: [eteran/c-vector](https://github.com/eteran/c-vector).
-- [4]: [git/strbuf](https://github.com/git/git/blob/master/strbuf.h).
-- [5]: [redis/sds](https://github.com/redis/redis/blob/unstable/src/sds.h).
+- [1] [strbuf API](https://schacon.github.io/git/technical/api-strbuf.html).
+- [2] [goldsborough/vector](https://github.com/goldsborough/vector).
+- [3] [eteran/c-vector](https://github.com/eteran/c-vector).
+- [4] [git/strbuf](https://github.com/git/git/blob/master/strbuf.h).
+- [5] [redis/sds](https://github.com/redis/redis/blob/unstable/src/sds.h).
