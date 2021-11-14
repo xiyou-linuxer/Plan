@@ -1,5 +1,12 @@
 # Project1: 设计一个 C 语言的动态扩容缓冲区
 
+## 知识要点：
+1. 字符串。
+2. 面向对象的 C 语言设计。
+3. 动态内存分配。
+4. Linux File API。
+5. getline。
+
 ## 介绍
 如果同学们了解过 C++ | Java | Golang | Python 的字符串的话，应该知道它们的字符串是可以动态扩容的，见下图 c++ 代码 ：
 
@@ -123,7 +130,7 @@ int main() {
 
 | API                                                                       | 功能简介                                               |
 | ------------------------------------------------------------------------- | ------------------------------------------------------ |
-| void strbuf_init(struct strbuf *sb, size_t alloc);                        | 初始化 `sb` 结构体，容量为 `alloc`。                    |
+| void strbuf_init(struct strbuf *sb, size_t alloc);                        | 初始化 `sb` 结构体，容量为 `alloc`。                   |
 | void strbuf_attach(struct strbuf *sb, void *str, size_t len, size_t mem); | 将字符串填充到 `sb` 中，长度为 `len`, 容量为 `alloc`。 |
 | void strbuf_release(struct strbuf *sb);                                   | 释放 `sb` 结构体的内存。                               |
 | void strbuf_swap(struct strbuf *a, struct strbuf *b)                      | 交换两个 strbuf。                                      |
@@ -175,17 +182,26 @@ int main() {
 | ssize_t strbuf_read_file(struct strbuf *sb, const char *path, size_t hint); | 为 `sb` 直接扩容 `hint ? hint : 8192` 大小， 然后将路径为 `path` 的所有文件内容读取到 `sb` 中。     |
 | int strbuf_getline(struct strbuf *sb, FILE *fp);                            | 将 将文件句柄为 `fp` 的一行内容读取到 `sb` 。                                                       |
 
+---
+### 无信用挑战练习
+
+### CHALLENGE 
+
+1. 实现字符串切割（C 系字符串函数的一个痛点）。
+
+| API                                                                                     | 功能简介                                                                                                             |
+| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| struct strbuf **strbuf_split_buf(const char *str, size_t len, int terminator, int max); | 将长度为 `len` 的字符串 `str` 根据切割字符 `terminator` 切成多个 strbuf,并从结果返回，max 可以用来限定最大切割数量。 |
+
+2. 实现判断一个 strbuf 是否以指定字符串开头的功能（C 系字符串函数的另一个痛点）。
+3. 获取字符串从坐标 `[begin, end)` 的所有内容（可以分成引用和拷贝两个模式） 。
+
 
 ---
-
-### 知识要点：
-1. 面向对象的 C 语言设计。
-2. malloc() | realloc()。
-3. Linux File API。
-4. getline() 。
-
-不明白问题是什么可以先去网上搜相关资料，这不是闭卷考试～～
-
 #### 参考资料
 
-- [strbuf api](https://schacon.github.io/git/technical/api-strbuf.html)
+- [strbuf API](https://schacon.github.io/git/technical/api-strbuf.html)
+- [goldsborough/vector](https://github.com/goldsborough/vector)
+- [eteran/c-vector](https://github.com/eteran/c-vector)
+- [git/strbuf](https://github.com/git/git/blob/master/strbuf.h)
+- [redis/sds](https://github.com/redis/redis/blob/unstable/src/sds.h)
