@@ -1,0 +1,12 @@
+name: Lint
+
+on: 
+  push:
+
+jobs:
+  MarkownCheck:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+    - name: markdownlint-cli
+      uses: nosborn/github-action-markdown-cli@v2.0.0
