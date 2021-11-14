@@ -35,12 +35,12 @@
 > 教授稍后会在Lecture视频中对课程相关原理解释
 > 完成Assignment中Lab，每隔几节Lecture会有一节课对前几节Lab进行答疑讲解
 
-推荐OSTEP[Operating System Three Easy Pieces/操作系统导论](https://pages.cs.wisc.edu/~remzi/OSTEP/)，写作风格风趣且循序渐进
+推荐 [Operating System Three Easy Pieces,OSTEP/操作系统导论](https://pages.cs.wisc.edu/~remzi/OSTEP/)，写作风格风趣且循序渐进
 > [操作系统导论 -- 豆瓣](https://book.douban.com/subject/33463930/)
-> OSTEP国内配套的[课程](https://www.bilibili.com/video/BV1HN41197Ko)比较硬核的是南大的[绿导师](http://jyywiki.cn/)的课，欢迎勇者冲一波回来写课评
+> OSTEP国内配套的 [课程](https://www.bilibili.com/video/BV1HN41197Ko) 比较硬核的是南大的 [绿导师](http://jyywiki.cn/) 的课，欢迎勇者冲一波回来写课评
 
 ##### 现代操作系统：原理与实现
 
-> 推荐看书与作配套lab相结合（该课程 Arm 汇编据知情人士反馈令人感到不适）
+> 推荐看书与作配套 lab 相结合（该课程 Arm 汇编据知情人士反馈令人感到不适）
 - [现代操作系统原理与实现配套se315](https://ipads.se.sjtu.edu.cn/courses/os/%E2%80%B8)
 
