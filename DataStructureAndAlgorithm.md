@@ -1,7 +1,7 @@
 ### 数据结构与算法
 
-为什么大一应该学好数据结构和算法？
-
+Q：为什么大一应该学好数据结构和算法？
+A：
 数据结构：怎么组织数据并达成某种需求（快 | 省磁盘 | 省内存...）。
 算法：怎么处理数据并达成某种需求（快 | 省磁盘 | 省内存...）。
 
@@ -14,18 +14,18 @@
 
 #### 书籍推荐
 
-- 《啊哈算法》
-- 《labuladong的算法小抄》
-- 《算法 第四版》
-- 《大话数据结构》
-- 《数据结构与算法之美》
+- `啊哈算法`
+- `labuladong的算法小抄`
+- `算法 第四版`
+- `大话数据结构`
+- `数据结构与算法之美`
 
 #### 刷算法题网址推荐
 
 - [LeetCode](https://leetcode-cn.com/problemset/all/) 为主。
 - [codetop](https://codetop.cc/home)
-- [luogu](https://www.luogu.com.cn/)
+- [洛谷](https://www.luogu.com.cn/)
 
-#### 了解算法的一些网址
+#### 参考资料
 
-- [xiyou-linuxer/DataStructuresAndAlgorithms](https://github.com/xiyou-linuxer/Favorites/blob/master/DataStructuresAndAlgorithms.md)
+\[1\]: [xiyou-linuxer/DataStructuresAndAlgorithms](https://github.com/xiyou-linuxer/Favorites/blob/master/DataStructuresAndAlgorithms.md)
