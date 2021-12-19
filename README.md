@@ -22,5 +22,8 @@
         3,4,5                --重点
         
   两本书勾选章节内容基本一致,相互参考
-  有能力可以自由选读其余章节  
+  有能力可以自由选读其余章节
+  
+## 参考
+  [LinuxSystemProgramming.md](LinuxSystemProgramming.md)
   
