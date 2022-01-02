@@ -42,5 +42,5 @@
 ##### 现代操作系统：原理与实现
 
 > 推荐看书与作配套 lab 相结合（该课程 Arm 汇编据知情人士反馈令人感到不适）
-- [现代操作系统原理与实现配套se315](https://ipads.se.sjtu.edu.cn/courses/os/%E2%80%B8)
+- [现代操作系统原理与实现配套se315](https://ipads.se.sjtu.edu.cn/courses/os/)
 
