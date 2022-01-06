@@ -16,11 +16,11 @@
   有能力可以自由选读其余章节
   
 ### task
-   [ls.md](project/ls.md)
+   [ls.md](../project/ls.md)
   
   **任务截止时间**
      预计   2022.03.15
   
 ## 参考
-  [LinuxSystemProgramming.md](LinuxSystemProgramming.md)
+  [LinuxSystemProgramming.md](../LinuxSystemProgramming.md)
   
