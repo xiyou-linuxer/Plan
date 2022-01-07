@@ -131,7 +131,7 @@ int main() {
 | API                                                                       | 功能简介                                               |
 | ------------------------------------------------------------------------- | ------------------------------------------------------ |
 | void strbuf_init(struct strbuf *sb, size_t alloc);                        | 初始化 `sb` 结构体，容量为 `alloc`。                   |
-| void strbuf_attach(struct strbuf *sb, void *str, size_t len, size_t mem); | 将字符串填充到 `sb` 中，长度为 `len`, 容量为 `alloc`。 |
+| void strbuf_attach(struct strbuf *sb, void *str, size_t len, size_t alloc); | 将字符串填充到 `sb` 中，长度为 `len`, 容量为 `alloc`。 |
 | void strbuf_release(struct strbuf *sb);                                   | 释放 `sb` 结构体的内存。                               |
 | void strbuf_swap(struct strbuf *a, struct strbuf *b)                      | 交换两个 strbuf。                                      |
 | char *strbuf_detach(struct strbuf *sb, size_t *sz);                       | 将 `sb` 中的原始内存取出，并获得其长度。               |
