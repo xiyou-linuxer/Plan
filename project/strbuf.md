@@ -136,7 +136,7 @@ int main() {
 | void strbuf_swap(struct strbuf *a, struct strbuf *b)                      | 交换两个 strbuf。                                      |
 | char *strbuf_detach(struct strbuf *sb, size_t *sz);                       | 将 `sb` 中的原始内存取出，并获得其长度。               |
 | int strbuf_cmp(const struct strbuf *first, const struct strbuf *second);  | 比较两个 strbuf 的内存是否相同。                       |
-| strbuf_reset(struct strbuf *sb);                                          | 清空 `sb`。                                            |
+| void strbuf_reset(struct strbuf *sb);                                          | 清空 `sb`。                                            |
 
 
 #### Part 2B
