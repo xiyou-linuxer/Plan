@@ -197,7 +197,7 @@ int main() {
 
 | API  |    功能简介 |
 | -- |   -- |
-| bool strbuf_begin_judge(char* target_str, const char* str);   | target_str : 目标字符串，str : 前缀字符串，前缀相同返回 true 失败返回 false     |
+| bool strbuf_begin_judge(char* target_str, const char* str, int strlen);   | target_str : 目标字符串，str : 前缀字符串，strlen : target_str 长度 ，前缀相同返回 true 失败返回 false     |
 
 
 
@@ -207,7 +207,7 @@ int main() {
 
 | API  |    功能简介 |
 | -- |   -- |
-| char* strbuf_get_mid_buf(char* target_buf, int begin, int end);   | target_str : 目标字符串，begin : 开始下标，end 结束下标。参数不合法返回 NULL. 下标从0开始，[begin, end]区间。 |
+| char* strbuf_get_mid_buf(char* target_buf, int begin, int end, int len);   | target_str : 目标字符串，begin : 开始下标，end 结束下标。len : target_buf的长度，参数不合法返回 NULL. 下标从0开始，[begin, end]区间。 |
 ---
 #### 参考资料
 
