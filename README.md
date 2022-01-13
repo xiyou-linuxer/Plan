@@ -7,8 +7,11 @@
 ## 高优先任务
 
 [strbuf.md](project/strbuf.md)
+
 开始时间  ：   2022.1.6
+
 截止/检查时间  : 2022.1.15
+
 检查/提交方式  [Exercise](https://github.com/xiyou-linuxer/Exercise)
 
 ## 低优先任务
