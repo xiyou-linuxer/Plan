@@ -191,7 +191,7 @@ int main() {
 
 | API                                                                                     | 功能简介                                                                                                             |
 | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| struct strbuf **strbuf_split_buf(const char *str, size_t len, int terminator, int max); | 将长度为 `len` 的字符串 `str` 根据切割字符 `terminator` 切成多个 strbuf,并从结果返回，max 可以用来限定最大切割数量。 |
+| struct strbuf **strbuf_split_buf(const char *str, size_t len, int terminator, int max); | 将长度为 `len` 的字符串 `str` 根据切割字符 `terminator` 切成多个 strbuf,并从结果返回，max 可以用来限定最大切割数量。返回 `struct strbuf` 的指针数组，数组的最后元素为 `NULL` |
 
 2. 实现判断一个 strbuf 是否以指定字符串开头的功能（C 系字符串函数的另一个痛点）。
 
