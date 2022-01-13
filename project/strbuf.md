@@ -194,8 +194,20 @@ int main() {
 | struct strbuf **strbuf_split_buf(const char *str, size_t len, int terminator, int max); | 将长度为 `len` 的字符串 `str` 根据切割字符 `terminator` 切成多个 strbuf,并从结果返回，max 可以用来限定最大切割数量。 |
 
 2. 实现判断一个 strbuf 是否以指定字符串开头的功能（C 系字符串函数的另一个痛点）。
+
+| API  |    功能简介 |
+| -- |   -- |
+| bool strbuf_begin_judge(char* target_str, const char* str);   | target_str : 目标字符串，str : 前缀字符串，前缀相同返回 true 失败返回 false     |
+
+
+
+
 3. 获取字符串从坐标 `[begin, end)` 的所有内容（可以分成引用和拷贝两个模式） 。
 
+
+| API  |    功能简介 |
+| -- |   -- |
+| char* strbuf_get_mid_buf(char* target_buf, int begin, int end);   | target_str : 目标字符串，begin : 开始下标，end 结束下标。参数不合法返回 NULL,。   |
 ---
 #### 参考资料
 
