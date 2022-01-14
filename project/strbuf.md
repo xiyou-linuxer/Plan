@@ -206,7 +206,7 @@ int main() {
 
 | API  |    功能简介 |
 | -- |   -- |
-| char* strbuf_get_mid_buf(char* target_buf, int begin, int end, int len);   | target_str : 目标字符串，begin : 开始下标，end 结束下标。len : target_buf的长度，参数不合法返回 NULL. 下标从0开始，[begin, end]区间。 |
+| char* strbuf_get_mid_buf(char* target_buf, int begin, int end, int len);   | target_str : 目标字符串，begin : 开始下标，end 结束下标。len : target_buf的长度，参数不合法返回 NULL. 下标从0开始，[begin, end)区间。 |
 ---
 #### 参考资料
 
