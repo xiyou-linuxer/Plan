@@ -178,7 +178,7 @@ int main() {
 ##### TASK
 | API                                                                         | 功能简介                                                                                            |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ssize_t strbuf_read(struct strbuf *sb, int fd, size_t hint);                | 为 `sb` 直接扩容 `hint ? hint : 8192` 大小， 然后将文件描述符为 `fd` 的所有文件内容读取到 `sb` 中。 |
+| ssize_t strbuf_read(struct strbuf *sb, int fd, size_t hint);                | `sb` 增长 `hint ? hint : 8192` 大小， 然后将文件描述符为 `fd` 的所有文件内容追加到 `sb` 中。 |
 | int strbuf_getline(struct strbuf *sb, FILE *fp);                            | 将 将文件句柄为 `fp` 的一行内容读取到 `sb` 。                                                       |
 
 ---
