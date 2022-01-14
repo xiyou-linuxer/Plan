@@ -147,7 +147,7 @@ int main() {
 
 | API                                                                              | 功能简介                                                      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| void strbuf_grow(struct strbuf *sb, size_t extra);                               | 将 `sb` 的长度扩大 `extra`。                                  |
+| void strbuf_grow(struct strbuf *sb, size_t extra);                               | 确保在 `len` 之后 `strbuf` 中至少有 `extra` 个字节的空闲空间可用。                                  |
 | void strbuf_add(struct strbuf *sb, const void *data, size_t len);                | 向 `sb` 追加长度为 `len` 的数据 `data`。                      |
 | void strbuf_addch(struct strbuf *sb, int c);                                     | 向 `sb` 追加一个字符 `c`。                                    |
 | void strbuf_addstr(struct strbuf *sb, const char *s);                            | 向 `sb` 追加一个字符串 `s`。                                  |
