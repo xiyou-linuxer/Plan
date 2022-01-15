@@ -134,7 +134,7 @@ int main() {
 | void strbuf_attach(struct strbuf *sb, void *str, size_t len, size_t alloc); | 将字符串填充到 `sb` 中，长度为 `len`, 容量为 `alloc`。 |
 | void strbuf_release(struct strbuf *sb);                                   | 释放 `sb` 结构体的内存。                               |
 | void strbuf_swap(struct strbuf *a, struct strbuf *b)                      | 交换两个 strbuf。                                      |
-| char *strbuf_detach(struct strbuf *sb, size_t *sz);                       | 将 `sb` 中的原始内存取出，并获得其长度。               |
+| char *strbuf_detach(struct strbuf *sb, size_t *sz);                       | 将 `sb` 中的原始内存取出，并将 `sz` 设置为其 `alloc` 大小 。               |
 | int strbuf_cmp(const struct strbuf *first, const struct strbuf *second);  | 比较两个 strbuf 的内存是否相同。                       |
 | void strbuf_reset(struct strbuf *sb);                                          | 清空 `sb`。                                            |
 
