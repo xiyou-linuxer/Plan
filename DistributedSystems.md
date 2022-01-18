@@ -25,30 +25,17 @@ youtube 视频 去 Chrome 下双语翻译插件
 
 学习的过程中可以配套 [极客时间：大数据经典论文解读](https://time.geekbang.org/column/intro/100091101?tab=catalog&page=A) 加深对部分 papers 的理解。
 
-| 论文（英文原版）                                                                                                                                              | 论文 （中文翻译）                                                                                                                                                    | 为什么要看这一篇论文                                             |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| MapReduce: Simplified Data Processing on Large Cluster                                                                                                    | [MapReduce: Simplied Data Processing on Large Clusters](https://github.com/pirDOL/kaka/blob/master/Papers/MapReduce-Simplified-Data-Processing-on-Large-Clusters.md) |
-| [Scaling Memcache at Facebook](https://pdos.csail.mit.edu/6.824/papers/memcache-fb.pdf)                                                                   | [Facebook 对 Memcache 伸缩性的增强](https://www.oschina.net/translate/scaling-memcache-facebook)                                                                     | 了解分布式环境下 DB 和 Cache 之间的一致性是如何实现的            |
-| [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://pdos.csail.mit.edu/6.824/papers/zaharia-spark.pdf) | [RDD：基于内存的集群计算容错抽象](https://shiyanjun.cn/archiveas/744.html)                                                                                           | 了解新一代的分布式计算框架 Spark 是如何获得比 MapReduce 更高性能 |
-| [Secure Untrusted Data Repository (SUNDR)](https://pdos.csail.mit.edu/6.824/papers/li-sundr.pdf)                                                          | N/A                                                                                                                                                                  | 了解非拜占庭文件服务器如何实现 Fork 一致性                       |
-| [Bitcoin: A Peer-to-Peer Electronic Cash System](https://pdos.csail.mit.edu/6.824/papers/bitcoin.pdf)                                                     | [比特币：一种点对点的电子现金系统](https://nakamotoinstitute.org/static/docs/bitcoin-zh-cn.pdf)                                                                      | 了解去中心化的分布式区块链如何达成一致性共识 (拜占庭分布式系统)  |
-| [Blockstack: A Global Naming and Storage System Secured by Blockchains](https://pdos.csail.mit.edu/6.824/papers/blockstack-atc16.pdf)                     | N/A                                                                                                                                                                  | 了解如何通过去中心化的分布式区块链技术实现去中心化服务           |
-
+部分论文有中文翻译，参考 [MIT 6.824涉及的部分论文翻译](https://blog.csdn.net/weixin_43705457/article/details/106083524?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164360970516780357238002%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=164360970516780357238002&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-5-106083524.nonecase&utm_term=mit&spm=1018.2226.3001.4450)。
 
 - [CDDSCLab/training-plan](https://github.com/CDDSCLab/training-plan)
-
 尽管这个成电的培养计划  难度系数挺高的，但说实话内容的确是很硬核的。可以作为学习分布式的扩展学习计划。
 
 ### 推荐的书单
 * 《数据密集型应用系统设计》DDIA
 * 《分布式数据库原理 架构与实践》
 
-
-### github 上开源的分布式项目
-
-* ztcd
-* hdfs
-* ...
+### 自我检验 HOMEWORK
+1. 实现 MIT6.824 的 4 个 plan
 
 ### 学习资源
 
