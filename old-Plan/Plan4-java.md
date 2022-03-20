@@ -17,24 +17,24 @@ Java能够自动处理对象的引用和间接引用，实现自动的无用单�
 
 我们先从简单的java语言基础开始
 
-书籍我推荐是[java语言程序设计-基础篇](https://item.m.jd.com/product/10028902912241.html?gx=RnE1l2dcOWaKwtRP--tyX3l-0lfW_BmQlSTo&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL)和[java语言程序设计-进阶篇](https://item.m.jd.com/product/10036654536931.html?gx=RnE1l2dcOWaKwtRP--tyX3l-0lfW_BmQlSTo&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL)
+书籍我推荐是[java语言程序设计-基础篇](https://item.m.jd.com/product/10028902912241.html)和[java语言程序设计-进阶篇](https://item.m.jd.com/product/10036654536931.html)
 
 章节重点如下:
 
     1 略看(大约半小时)
-    
+
     2-8 快速学习(3,4天)
-    
+
     9-11,13 仔细学习(半个月)
-    
+
     12 快速学习(2天)
-    
+
     14-16 不用学习
-    
+
     17-18 快速学习(3,4天)
-    
+
     19-27 仔细学习(半个月到一个月)
-    
+
     30,32-35,42,43 快速学习(1,2周)
 
 可以辅以视频资料学习,但不建议完全按照视频学习.在相关知识未彻底搞懂之前可以找找相关知识点的资料
@@ -52,7 +52,7 @@ PS4:有些厌倦java?来看看go吧,官方推荐的[go语言之旅](https://tour
 
 ### 有趣的小项目
     1.了解哈夫曼树的构造方式,使用`数据结构-堆`的相关知识,构造一个设计良好的哈夫曼树和一个哈夫曼压缩工具.
-        要求: 
+        要求:
             1. 支持各种类型文件压缩
             2. 使用按位压缩方式
             3. 设计一个良好的树接口(interface)和树节点(接口实现默认的三种遍历方式,并且对于各种类型的树都可以有很方便的实现和拓展性)
@@ -60,7 +60,3 @@ PS4:有些厌倦java?来看看go吧,官方推荐的[go语言之旅](https://tour
             5. (可选)程序整体方便使用,参数以传参形式传入
             6. (可选)支持多文件批处理
     2.待补充......
-
-
-
-
