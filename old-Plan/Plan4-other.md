@@ -25,7 +25,7 @@
   完成任务之后继续阅读其余章节(重点部分在参考资料中），后续任务需要其余章节知识背景，直到书籍阅读完毕
 
 ### task
-   [shell.md](../project/myshell.md)
+   [shell.md](../project/shell.md)
 
   **任务截止时间**
      2022.04.03
