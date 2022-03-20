@@ -1,71 +1,104 @@
 ### Project4: 实现自己的 shell
 
-#### 知识要点
+### 为什么实现一个自己 shell?
 
-1. Linux系统编程 进程控制
+你是一个 Window/Android 用户，你可以直接用图形化桌面直接双击跑一个程序，没压力吧，轻松吧。
+图形化工具为我们屏蔽了底层进程调用的细节。或者你是一个 Linux 用户，你喜欢用 bash 执行 `grep`
+命令来查找文件中的内容，喜欢用 `git` 来提交代码，喜欢用 `ls` 来查看目录内容，有时你还会去使用
+将多个命令一起使用：`cat cat.txt | grep "smelly cat" | wc -c`。作为一个 Linux Hacker，你理应
+当了解这些图形化工具背后的原理，利用它实现一些更好玩的事情。
 
-2. 编程能力
+### Part 1
 
-#### 任务说明
+假设有以下文件 `1.txt` 记录着学长们悲惨的成绩：
 
-`shell` 是 `GNU/Linux` 操作系统中传统的用户和计算机的交互界面．常见 `Shell` 有 `Bash`、`Zsh`、`Fish` 等。
+```
+zzw   环境编程    33
+rzj   环境编程    55
+lsh   网络编程    33
+hzn   网络编程    55
+zzy   数据结构    33
+zt    计算机组成原理  55
+lsh   计算机组成原理  55
+zzy   计算机组成原理  55
+xjj   数据结构    33
+```
 
-请基于 `GNU/Linux` 操作系统，编程实现 `shell` 的 **部分** 功能．
+### TASK
 
-#### 语言要求
+执行下面这行的命令的结果是什么？你能解释下原因么？
 
-语言在 C、C++、Go、Rust 中任选
+1. `cat 1.txt | awk '{print $1}' | sort | uniq -c | sort -r -n | head -n 5`
+2. `grep "rzj" > 2.txt < 1.txt`
+3. `echo "the answer is 42" > 1.txt`
 
-##### C
+### Part 2
 
-- 不得使用除 `readline` 外的第三方库。
-- 当然，你也可以不用 `readline`。
+你的终端 `bash` 或者 `zsh` 是如何执行这些命令的呢？
+参考阅读资料调研 `fork()`, `exec()`, `pipe()`, `mkfifo()` 等进程 API。
 
-##### C++
+### TASK
 
-- 不得使用除 `readline`、`gtest`、`gmock` 外的第三方库。
-- 当然，你也可以不用 `readline`、`gtest`、`gmock` 中的全部或部分。
+打造一个绝无伦比的 `xxx-super-shell` (`xxx` 是你的名字)，它能实现下面这些功能：
 
-##### Go
-
-- 不得使用第三方模块。
-
-##### Rust
-
-- 不得使用除 `libc` 外的 `crate`。
-- 当然，你也可以不用 `libc` 这个 `crate`。
-
-P.S. **不推荐** 没学懂 C++ 的人学 Rust
-
-#### 验收要求
-
-- 实现 管道（也就是 | ）
-- 实现 输入输出重定向(也就是 < > >>)
-- 实现 后台运行（也就是 & ）
-- 实现 cd
-- 屏蔽一些信号（如ctrl + c 不能终止）
+- 实现 管道 (也就是 `|`)
+- 实现 输入输出重定向(也就是 `<` `>` `>>`)
+- 实现 后台运行（也就是 `&` ）
+- 实现 `cd`，要求支持能切换到绝对路径，相对路径和支持 `cd -`
+- 屏蔽一些信号（如 `ctrl + c` 不能终止）
 - 界面美观
 - 开发过程记录、总结、发布在个人博客中
 
-#### 命令输入示例
+要求：
+- 不得出现内存泄漏，内存越界等错误
+- 学会如何使用 gdb 进行调试，使用 valgrind 等工具进行检测
 
-```bash
-echo ABCDEF
-echo ABCDEF > ./1.txt
-cat 1.txt
-ls -t >> 1.txt
-ls -a -l | grep abc | wc -l > 2.txt
-python < ./1.py | wc -c
+#### Example
+
+```sh
+xxx@xxx ~ $ ./xxx-super-shell
+xxx@xxx ~ $ echo ABCDEF
+xxx@xxx ~ $ echo ABCDEF > ./1.txt
+xxx@xxx ~ $ cat 1.txt
+xxx@xxx ~ $ ls -t >> 1.txt
+xxx@xxx ~ $ ls -a -l | grep abc | wc -l > 2.txt
+xxx@xxx ~ $ python < ./1.py | wc -c
+xxx@xxx ~ $ mkdir test_dir
+xxx@xxx ~/test_dir $ cd test_dir
+xxx@xxx ~ $ cd -
+xxx@xxx ~/test_dir $ cd -
+xxx@xxx ~ $ ./xxx-super-shell # shell 中嵌套 shell
+xxx@xxx ~ $ exit
+xxx@xxx ~ $ exit
 ```
 
 注：
 示例请参考 `Bash`、`Zsh` 命令
 
-**截止时间 2022-04-03**
+#### 语言要求
 
+语言在 C、C++、Go、Rust 中任选
+
+#### 截止时间
+
+2022-04-03
+
+#### 知识要点
+
+1. 懂得如何使用 shell
+2. 理解 shell 原理
+3. Linux系统编程：进程控制
+4. gdb
+5. valgrind
 
 #### 参考资料
 
 - man 手册.
 - MichaelKerrisk.Linux/UNIX系统编程手册\[M\].北京:人民邮电出版社.
 - W.RichardStevens.Stephen.UNIX环境高级编程\[M\].第3版.戚正伟,译.北京:人民邮电出版社.
+
+### 开源
+
+- [bash](https://github.com/bminor/bash/graphs/contributors)
+- [zsh](https://github.com/zsh-users/zsh)
+- [fish-shell](https://github.com/fish-shell/fish-shell)
