@@ -12,6 +12,16 @@
     > Bjarne Stroustrup "Foundations of C++"
     >
     > 本贾尼·斯特劳斯特卢普 "Foundations of C++"
+    推荐书籍
+    - C++ Primer                （入门）
+    - 现代 C++ 白皮书           （进阶）
+    - Effective C++             （进阶）
+    - More Effective C+         （进阶）
+    - Effective Modern C++      （进阶）
+    - 深入探索C++对象模型       （进阶）
+
+    推荐**别看**的书：
+    - C++ Primer Plus
 
 - Java
 
