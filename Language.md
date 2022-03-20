@@ -13,6 +13,16 @@ C++ 一直是以高效的著称的。
 >
 >本贾尼·斯特劳斯特卢普 "Foundations of C++"
 
+- Java
+    
+    > 没有什么是一门图灵完备的语言干不了的,但是java给你了一种更简单,更好的选择.
+    
+    > Java 快速、安全、可靠。从笔记本电脑到数据中心，从游戏控制台到科学超级计算机，从手机到互联网，Java 无处不在！
+    
+    > 它是一种通用编程语言，旨在让程序员 编写一次，随处运行(WORA)，意味着编译后的Java 代码可以在所有支持 Java 的平台上运行，而无需重新编译。Java 应用程序通常被编译为可以在任何Java 虚拟机(JVM) 上运行的字节码，而不管底层如何计算机体系结构。
+
+    [Java和C++的比较-wikipedia](https://en.wikipedia.org/wiki/Comparison_of_Java_and_C%2B%2B)
+
 - Go
 
 - Rust
