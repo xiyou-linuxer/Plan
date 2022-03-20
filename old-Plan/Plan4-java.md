@@ -20,22 +20,35 @@ Java能够自动处理对象的引用和间接引用，实现自动的无用单�
 书籍我推荐是[java语言程序设计-基础篇](https://item.m.jd.com/product/10028902912241.html?gx=RnE1l2dcOWaKwtRP--tyX3l-0lfW_BmQlSTo&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL)和[java语言程序设计-进阶篇](https://item.m.jd.com/product/10036654536931.html?gx=RnE1l2dcOWaKwtRP--tyX3l-0lfW_BmQlSTo&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL)
 
 章节重点如下:
+
     1 略看(大约半小时)
+    
     2-8 快速学习(3,4天)
+    
     9-11,13 仔细学习(半个月)
+    
     12 快速学习(2天)
+    
     14-16 不用学习
+    
     17-18 快速学习(3,4天)
+    
     19-27 仔细学习(半个月到一个月)
+    
     30,32-35,42,43 快速学习(1,2周)
 
 可以辅以视频资料学习,但不建议完全按照视频学习.在相关知识未彻底搞懂之前可以找找相关知识点的资料
 
 作为学习java的调剂,在剩余时间应该看看以下内容
+
 PS1:数据结构相关知识可以再看看CS61B的lab
+
 PS2:学学CSAPP的相关课程(推荐看b站的中文视频)
+
 PS3:可以一周左右的时间学习完<<mysql必知必会>>这本书,了解基本语法和知识体系(**重要**)
+
 PS4:有些厌倦java?来看看go吧,官方推荐的[go语言之旅](https://tour.go-zh.org/welcome/1)你绝对不能错过,可以花一周去学习基本语法
+
 
 ### 有趣的小项目
     1.了解哈夫曼树的构造方式,使用`数据结构-堆`的相关知识,构造一个设计良好的哈夫曼树和一个哈夫曼压缩工具.
