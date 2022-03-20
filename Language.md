@@ -36,6 +36,7 @@
     [Java和C++的比较-wikipedia](https://en.wikipedia.org/wiki/Comparison_of_Java_and_C%2B%2B)
 
 - Go
+
     大家已经看到了，c++如此全能，故也有不少的负担。在服务端，c++的某些特性太不友好了。于是google的工程师发明了go, go在服务端做的还是很不错的，自带GC,占用较少的内存，go的并发也很适合服务端。很多新开的项目都会选择go,语言很好学，建议学完 c++ 再学go。
 - Rust
     Rust 也是一门注重效率编程语言。他一直注重 **安全** 与 **无畏并发**。与 C++ 一样，他们提供了很多 **零成本抽象**（zero-cost abstractions）意味着抽象并不会引入运行时开销。
