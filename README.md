@@ -1,10 +1,27 @@
-# 是时候了
+# 新任务！
 
-你们已经大概了解了系统编程是什么了,而在平时的刷题中,也有很多人学会了一些别的高级语言的特性和封装好的的数据结构.
-在这么多的语言中,有没有自己特别喜欢的几种呢?接下来的学习中,我们对于project的要求放宽了很多,不再仅限于c语言去完成,是时候激活你们的兴趣了,少年,选择自己喜欢的语言去奋斗吧!! 
+### 为什么现在就推荐大一的你学习一下新的语言：
 
-[Language](Language.md)
+你可以看到更广阔的编程世界。
 
-[Java](./old-Plan/Plan4-java.md)
+### 为什么你可以不选择学新的语言
 
-[Other](./old-Plan/Plan4-other.md)
+想要之后做 Kernel, Server，DB 的同学，把 C 语言基础打好比学花丽胡哨的新语言更重要。
+- 段错误遇到过吧？怎么解决呢？
+- 栈溢出遇到过吧？怎么解决呢？
+- 内存泄漏遇到过吧？怎么解决呢？
+- 基础数据结构算法实现过没？不想成为调包侠吧？
+
+* [Language2](Language2.md)
+* [Language](Language.md)
+
+### TASKS
+
+给未来学 Java 的同学布置的任务：
+* [Java](./old-Plan/Plan4-java.md)
+
+给未来学其他语言（包括 C 本身）的同学布置的任务：
+* [Other](./old-Plan/Plan4-other.md)
+
+---
+![resource/Tux.svg](resource/Tux.svg)
