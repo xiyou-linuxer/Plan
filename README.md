@@ -1,27 +1,59 @@
-# 新任务！
+### Xiyou Linux Group 培养计划
 
-### 为什么现在就推荐大一的你学习一下新的语言：
+#### 第一学期
 
-你可以看到更广阔的编程世界。
+* C/C++
 
-### 为什么你可以不选择学新的语言
+* 培养方向：Linux 系统编程，网络编程，操作系统。
+* 培养目标：
+  1. 培养对 Linux 的兴趣并熟练使用 Linux 终端和工具。
+  2. 掌握基础 Linux 系统和网络编程。
+  3. 熟练一门或者多门编程语言并能进行底层应用开发。
 
-想要之后做 Kernel, Server，DB 的同学，把 C 语言基础打好比学花丽胡哨的新语言更重要。
-- 段错误遇到过吧？怎么解决呢？
-- 栈溢出遇到过吧？怎么解决呢？
-- 内存泄漏遇到过吧？怎么解决呢？
-- 基础数据结构算法实现过没？不想成为调包侠吧？
+| Time                 | Point             | Detail                           | Project                        | Further Reading |
+| -------------------- | ----------------- | -------------------------------- | ------------------------------ | --------------- |
+| 2021.11 ~ 2021-12-15 | Linux 基础命令    | [Cmd](cmd.md)                    | N/A                            | --------------- |
+| 2021.11 ~ 2021.01.15 | C     基础练习    | [C](C.md)                        | [My Strbuf](old-Plan/Plan2.md) | --------------- |
+| 2022.02 ~ 2022.03.15 | Linux 目录操作    | [Ls](old-Plan/Plan3.md)          | [My Ls](project/ls.md)         | --------------- |
+| 2022.03 ~ 2022.04.03 | Linux 进程通信    | [Shell](old-Plan/Plan4-other.md) | [My Shell](project/shell.md)   | --------------- |
+| ----                 | 高级编程语言 学习 | [Languages](Languages.md)        | N/A                            | --------------- |
+| ----                 | Linux 线程同步    | My ThreadPool                    | My ThreadPool                  | --------------- |
+| ----                 | Linux 网络通信    | My Rpc                           | My Rpc                         | --------------- |
 
-* [Language2](Language2.md)
-* [Language](Language.md)
 
-### TASKS
+* Java
 
-给未来学 Java 的同学布置的任务：
-* [Java](./old-Plan/Plan4-java.md)
+#### 第二，三学期
 
-给未来学其他语言（包括 C 本身）的同学布置的任务：
-* [Other](./old-Plan/Plan4-other.md)
+* C/C++
 
----
-![resource/Tux.svg](resource/Tux.svg)
+* 培养方向：分布式，数据库，操作系统
+* 培养目标：
+  1. 掌握分布式系统，数据库系统等原理并进行应用开发。
+  2. 深入理解 Linux 操作系统底层原理。
+  3. 理解开源文化并参与开源项目。
+
+* Note:
+  1. 下列项目不需要全做，选择你感兴趣的 3 个即可。
+  2. 若在大一已经在完成 `My Rpc` 项目后，则可以不做 `Web 服务器` 项目。
+
+| Time              | Point         | Detail                                                  | Project                                                                                               | Further Reading |
+| ----------------- | ------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------- |
+| 2022.01 ~ 2022.12 | 网络服务器    | [Linux Network Programming](LinuxNetworkProgramming.md) | [Linux Network Programming](LinuxNetworkProgramming.md#%E8%87%AA%E6%88%91%E6%A3%80%E9%AA%8C-homework) | --------------- |
+| 2022.01 ~ 2022.12 | 操作系统      | [Operator System](OS.md)                                | [Mit 6.S081](https://pdos.csail.mit.edu/6.S081)                                                       | --------------- |
+| 2022.01 ~ 2022.12 | 分布式        | [Distributed System](DistributedSystems.md)             | [Mit 6.824](https://pdos.csail.mit.edu/6.824/)                                                        | --------------- |
+| 2022.01 ~ 2022.12 | 关系型数据库  | [DataBase System](DB.md)                                | [Cmu 15455](15445.courses.cs.cmu.edu)                                                                 | --------------- |
+| 2022.01 ~ 2022.12 | Git           | ------                                                  | My Git                                                                                                | --------------- |
+| 2022.01 ~ 2022.12 | KV 外存数据库 | ------                                                  | My Lsm-tree                                                                                           | --------------- |
+| 2022.01 ~ 2022.12 | KV 内存数据库 | ------                                                  | My Redis                                                                                              | --------------- |
+| 2022.01 ~ 2022.12 | 云原生 容器   | ------                                                  | My Docker                                                                                             | --------------- |
+
+* Java
+
+<!--  Then? What's next? -->
+
+### 结语
+
+小组希望每个人都能在大学的四年里培养编程的兴趣，锻炼代码能力，培养独立人格，未来少被老板 PUA 或者有能力 PUA 老板。
+
+![一只来自西安邮电大学的小企鹅](resource/xiyoulinux.png)
