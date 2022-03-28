@@ -12,8 +12,10 @@
 - 内存泄漏遇到过吧？怎么解决呢？
 - 基础数据结构算法实现过没？不想成为调包侠吧？
 
-* [Language2](Language2.md)
-* [Language](Language.md)
+
+### 我该怎么选择语言？
+
+* [流行语言的比较](LanguageComparison.md)
 
 ### TASKS
 
