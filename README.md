@@ -10,15 +10,15 @@
   2. 掌握基础 Linux 系统和网络编程。
   3. 熟练一门或者多门编程语言并能进行底层应用开发。
 
-| Time                 | Point             | Detail                           | Project                        | Further Reading |
-| -------------------- | ----------------- | -------------------------------- | ------------------------------ | --------------- |
-| 2021.11 ~ 2021-12-15 | Linux 基础命令    | [Cmd](cmd.md)                    | N/A                            | --------------- |
-| 2021.11 ~ 2021.01.15 | C     基础练习    | [C](C.md)                        | [My Strbuf](old-Plan/Plan2.md) | --------------- |
-| 2022.02 ~ 2022.03.15 | Linux 目录操作    | [Ls](old-Plan/Plan3.md)          | [My Ls](project/ls.md)         | --------------- |
-| 2022.03 ~ 2022.04.03 | Linux 进程通信    | [Shell](old-Plan/Plan4-other.md) | [My Shell](project/shell.md)   | --------------- |
-| ----                 | 高级编程语言 学习 | [Languages](Languages.md)        | N/A                            | --------------- |
-| ----                 | Linux 线程同步    | My ThreadPool                    | My ThreadPool                  | --------------- |
-| ----                 | Linux 网络通信    | My Rpc                           | My Rpc                         | --------------- |
+| Time                 | Point             | Detail                           | Project                        | Further Reading   |
+| -------------------- | ----------------- | -------------------------------- | ------------------------------ | ----------------- |
+| 2021.11 ~ 2021-12-15 | Linux 基础命令    | [Cmd](preparation/cmd.md)        | [Cmd](project/cmd.md)          | 鸟哥的Linux私房菜 |
+| 2021.11 ~ 2021.01.15 | C     基础练习    | [C](C.md)                        | [My Strbuf](old-Plan/Plan2.md) | ---------------   |
+| 2022.02 ~ 2022.03.15 | Linux 目录操作    | [Ls](old-Plan/Plan3.md)          | [My Ls](project/ls.md)         | ---------------   |
+| 2022.03 ~ 2022.04.03 | Linux 进程通信    | [Shell](old-Plan/Plan4-other.md) | [My Shell](project/shell.md)   | ---------------   |
+| ----                 | 高级编程语言 学习 | [Languages](Languages.md)        | N/A                            | ---------------   |
+| ----                 | Linux 线程同步    | My ThreadPool                    | My ThreadPool                  | ---------------   |
+| ----                 | Linux 网络通信    | My Rpc                           | My Rpc                         | ---------------   |
 
 
 * Java
