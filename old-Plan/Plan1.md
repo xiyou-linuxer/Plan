@@ -1,13 +1,12 @@
 
 
 # 第一阶段Plan
-[C.md](https://github.com/xiyou-linuxer/Plan/blob/main/C.md)
+[C.md](../preparation/C.md)
 
-[cmd.md](https://github.com/xiyou-linuxer/Plan/blob/main/cmd.md)
+[cmd.md](../preparation/cmd.md)
 
-[Blog.md](https://github.com/xiyou-linuxer/Plan/blob/main/Blog.md)
+[Blog.md](../preparation/Blog.md)
 
-[DataStructureAndAlgorithm.md](https://github.com/xiyou-linuxer/Plan/blob/main/DataStructureAndAlgorithm.md)
+[DataStructureAndAlgorithm.md](../preparation/DataStructureAndAlgorithm.md)
 
-[Git.md](https://github.com/xiyou-linuxer/Plan/blob/main/Git.md)
-
+[Git.md](../preparation/Git.md)
