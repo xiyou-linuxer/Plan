@@ -24,3 +24,7 @@
 
 ## 参考
   [LinuxSystemProgramming.md](../preparation/LinuxSystemProgramming.md)
+
+### 无信用挑战
+
+使用 linux 环境将 [MIT6.081 lab1](https://pdos.csail.mit.edu/6.S081/2021/labs/util.html) 中的 `sleep`, `pingpong`, `prime`, `find`, `xargs` 实现并进行相关测试。
