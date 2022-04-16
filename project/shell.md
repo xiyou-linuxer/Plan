@@ -1,4 +1,4 @@
-### Project4: 实现自己的 shell
+### 实现自己的 shell
 
 ### 为什么实现一个自己 shell?
 
