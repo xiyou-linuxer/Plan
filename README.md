@@ -29,7 +29,7 @@
 | Linux    目录操作  | [Plan3](old-Plan/Plan3.md)                                        | [My Ls](project/ls.md)         | 
 | Linux    进程通信  | [Plan4](old-Plan/Plan4-other.md)                                  | [My Shell](project/shell.md)   | 
 | 高级语言 基础      | [Languages](preparation/Languages.md)                             | N/A                            | 
-| Linux    线程同步  | Plan5                                                             | My ThreadPool                  | 
+| Linux    线程同步  | [Thead](old-Plan/Plan5-other.md)                                                             | [ThreadPool](project/Thread.md)                  | 
 | Linux    网络通信  | Plan6                                                             | My Rpc                         | 
 
 
