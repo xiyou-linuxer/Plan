@@ -5,7 +5,7 @@
 template<class T>
 class SPSCQueue {
 public:
-    explicit SPSCQueue();
+    explicit SPSCQueue(int capacity);
     virtual bool Push(std::unique_ptr<T>) = 0;
     virtual std::unique_ptr<T> pop() = 0;
     virtual ~SPSCQueue() = 0;
@@ -15,7 +15,7 @@ public:
 template<class T>
 class MPMCQueue {
 public:
-    explicit MPMCQueue(int threadNumber);
+    explicit MPMCQueue(int capacity);
     virtual bool Push(std::unique_ptr<T>) = 0;
     virtual std::unique_ptr<T> pop() = 0;
     virtual ~MPMCQueue() = 0;

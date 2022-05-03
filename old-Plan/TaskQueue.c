@@ -1,11 +1,12 @@
 // Single-producer , single-consumer Queue
-struct SPSCQueue{
+struct SPSCQueue {
     /* Define Your Data Here */
 
-}typedef SPSCQueue;;
-SPSCQueue *SPSCQueueInit();
-void SPSCQueuePush(SPSCQueue *pool, void *s);
-void *SPSCQueuePop(SPSCQueue *pool);
+} typedef SPSCQueue;
+
+SPSCQueue *SPSCQueueInit(int capacity);
+void SPSCQueuePush(SPSCQueue *queue, void *s);
+void *SPSCQueuePop(SPSCQueue *queue);
 void SPSCQueueDestory(SPSCQueue *);
 
 
@@ -14,7 +15,7 @@ struct MPMCQueue {
     /* Define Your Data Here */
 } typedef MPMCQueue;
 
-MPMCQueue *MPMCQueueInit(int threadNumber);
-void MPMCQueuePush(MPMCQueue *pool, void *s);
-void *MPMCQueuePop(MPMCQueue *pool);
+MPMCQueue *MPMCQueueInit(int capacity);
+void MPMCQueuePush(MPMCQueue *queue, void *s);
+void *MPMCQueuePop(MPMCQueue *queue);
 void MPMCQueueDestory(MPMCQueue *);
