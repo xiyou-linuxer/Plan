@@ -56,6 +56,6 @@ PS4:有些厌倦java?来看看go吧,官方推荐的 [go语言之旅](https://tou
 
 # 有趣的java小项目
 
-1.  [哈夫曼树](../project/huffmanTree.md)
+1.  [哈夫曼树](../project/HuffmanTree.md)
 
 2.  [java中的数据结构](../project/DataStruct--java.md)
