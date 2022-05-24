@@ -17,11 +17,5 @@
 
 * [流行语言的比较](LanguageComparison.md)
 
-### TASKS
 
-给未来学 Java 的同学布置的任务：
-* [Java](../old-Plan/Plan4-java.md)
-
-给未来学其他语言（包括 C 本身）的同学布置的任务：
-* [Other](../old-Plan/Plan4-other.md)
 

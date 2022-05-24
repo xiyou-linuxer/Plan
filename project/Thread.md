@@ -7,9 +7,9 @@
 1. 单生产者单消费者队列（Single-producer , single-consumer Queue）
 2. 多生产者多消费者队列（Multi-producer , Multi-consumer Queue）
 
-- [C API](/old-Plan/TaskQueue.c)
-- [C++ API](/old-Plan/TaskQueue.cpp)
-
+- [C API](../old-Plan/TaskQueue.c)
+- [C++ API](../old-Plan/TaskQueue.cpp)
+- [java interface ](./java/MultiThreading.md)
 ### 哲学家问题
 
 有五个哲学家绕着圆桌坐，每个哲学家面前有一盘面，两人之间有一支筷子，这样每个哲学家左右各有一支筷子。哲学家有2个状态，思考或者拿起筷子吃饭。如果哲学家拿到一只筷子，不能吃饭，直到拿到2只才能吃饭，并且一次只能拿起身边的一支筷子。一旦拿起便不会放下筷子直到把饭吃完，此时才把这双筷子放回原处。如果，很不幸地，每个哲学家拿起他或她左边的筷子，那么就没有人可以吃到饭了。

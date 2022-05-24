@@ -7,5 +7,3 @@
 **任务截止时间**
 2021-12-15 23:59:59 UTC+8
 
-#### 资料
-[CSE251-Programming in C](https://www.cse.msu.edu/~cse251/index.html)/[C Primer Plus](https://book.douban.com/subject/26792521/) 

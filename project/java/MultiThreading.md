@@ -9,7 +9,7 @@
      1.   put
      2.   take
 
-     具体可参照 https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/BlockingQueue.html里的接口文档，我就不写了（懒）
+     具体可参照 [link](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/BlockingQueue.html)里的接口文档，我就不写了（懒）
 
 2.   线程池
 
