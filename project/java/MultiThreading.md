@@ -31,9 +31,9 @@
 
           要求实现一下接口
 
-          1.   ThreadPool(int corePoolSize,int maxPoolSize)
+          1.   ThreadPool(int corePoolSize,int maxPoolSize，int timeout)
           2.   public void execute(Runnable task)
-          3.   public void shutdown()
+          3.   public BlockingQueue shutdown()
 
           内部保存任务的数据结构必须用第一个实现的BlockingQueue
 
