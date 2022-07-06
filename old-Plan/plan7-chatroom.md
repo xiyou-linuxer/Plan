@@ -103,8 +103,8 @@
 	
 - 项目引入外部的日志库或单元测试库。
 
-   > 推荐 C++  — gtest glog 等
+   > C++  — gtest glog 等
    >
-   >     Java – Junit Log4j/log4j2等
+   > Java – Junit Log4j/log4j2等
 
 - 提高功能必须选择1，2个完成
