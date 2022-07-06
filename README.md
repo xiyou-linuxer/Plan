@@ -37,7 +37,7 @@
 | 语言练习(java)   | [Plan4-java](old-Plan/Plan4-java.md)                                  |  
 | Linux    线程同步  | [Plan5](old-Plan/Plan5.md)                                                             | 
 | Linux    网络通信  | [Plan6 ](old-Plan/plan6-Network.md)                                                             | 
-|My Rpc                         |  N/A|
+|My ChatRoom | [Plan7](old-Plan/plan7-chatroom.md) |
 
 ##### TASK
 | c/c++/其他              | java                                                            | 
