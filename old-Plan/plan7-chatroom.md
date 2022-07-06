@@ -73,9 +73,12 @@
 - 使用数据库完成数据存储
 	   
 	> C++ --  Redis 或 levelDB
+	>
 	> Java -- Mysql/mariadb/任意RDBMS
 	
 - 实现图形化界面（超级提高）
+
+- 数据库中数据的存储和取用使用序列化和反序列化完成(Json/Proto等)(提高)
 
 - 撰写用户文档
 
@@ -95,12 +98,13 @@
 - 请将源码合理的拆分在多个文件中，项目的构建使用 
 		
 	> C++   ---  bazel（推荐）、cmake、ninja、makefile（不推荐）中任意一个
+	>
 	> Java  ---- Maven/Gradle 任意一个.
 	
 - 项目引入外部的日志库或单元测试库。
 
-   > 推荐 C++ —gtest glog 等
+   > 推荐 C++  — gtest glog 等
    >
-   > ​		Java  – Junit Log4j/log4j2等
+   >     Java – Junit Log4j/log4j2等
 
 - 提高功能必须选择1，2个完成
