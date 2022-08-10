@@ -45,7 +45,8 @@
 | [Plan3](old-Plan/Plan3.md)  |[Plan3](old-Plan/Plan3.md) |
 | [Plan4-other](old-Plan/Plan4-other.md)| [Plan4-java](old-Plan/Plan4-java.md)                   |
 | [Plan5](old-Plan/Plan5.md)    | [Plan5](old-Plan/Plan5.md)   |
-
+| [Plan7](old-Plan/plan7-chatroom.md)| [Plan7](old-Plan/plan7-chatroom.md) |
+| [Plan8](old-Plan/plan8-other.md) | [Plan8](old-Plan/plan8-java.md) |
 
 #### 第三学期
 
