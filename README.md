@@ -3,19 +3,29 @@
 整体参考路线路：
 - [Linux 系统软件开发方向的 RoadMap](https://github.com/xiyou-linuxer/Plan/issues/1)
 
+<!-- #### Pre
+```
+我仰慕的大多数程序员都有一个很少被谈论的特质：无所畏惧。
+
+他们无所畏惧地面对未知的代码库和未知的任务，尽管不知道如何完成，毅然开始着手做某事。让自己变得无所畏惧，是我发现的最好的学习加速器之一。
+  - "Professional Programming: The First 10 Years"
+```
+Hi，这是小组为你准备的 「road map」，在探索研究之前，有几点前置
+ -->
+
 #### 第一学期
         
 | Point              |Detail                                                            |  
 | ------------------ | ----------------------------------------------------------------- |
-| c语言基础|         [C.md](../preparation/C.md)                              | 
-| 算法基础|         [DataStructureAndAlgorithm.md](../preparation/DataStructureAndAlgorithm.md)|
-| 基础编程工具|     [cmd.md](../preparation/cmd.md) +[Git.md](../preparation/Git.md)                                 | 
-| 知识分享    | [Blog.md](../preparation/Blog.md)                           | 
+| c语言基础|         [C.md](./preparation/C.md)                              | 
+| 算法基础|         [DataStructureAndAlgorithm.md](./preparation/DataStructureAndAlgorithm.md)|
+| 基础编程工具|     [cmd.md](./preparation/cmd.md) +[Git.md](./preparation/Git.md)                                 | 
+| 知识分享    | [Blog.md](./preparation/Blog.md)                           | 
 ##### TASK
 * C基础 ,一些工具的使用
 * 掌握Linux的安装和配置好开发环境
-* 完成[Plan1](./old-Plan/Plan1.md)
-* 完成[Plan2](.old-Plan/Plan2.md)     
+* 完成[Plan1](./realPlan/Plan1.md)
+* 完成[Plan2](./realPlan/Plan2.md)     
 
 #### 第二学期
 
@@ -31,22 +41,22 @@
 | Point              | Detail                                                            | 
 | ------------------ | ----------------------------------------------------------------- | 
 | Linux 系统编程综述 | [Linux System Programming](preparation/LinuxSystemProgramming.md) | 
-| Linux    目录操作  | [Plan3](old-Plan/Plan3.md)                                        |  
+| Linux    目录操作  | [Plan3](realPlan/Plan3.md)                                        |  
 | 高级语言 基础      | [Languages](preparation/Languages.md) + [LanguageComparison](preparation/LanguageComparison.md)                            |  
-| Linux    进程通信(c/c++/其他)  | [Plan4-other](old-Plan/Plan4-other.md)                                  |  
-| 语言练习(java)   | [Plan4-java](old-Plan/Plan4-java.md)                                  |  
-| Linux    线程同步  | [Plan5](old-Plan/Plan5.md)                                                             | 
-| Linux    网络通信  | [Plan6 ](old-Plan/plan6-Network.md)                                                             | 
-|My ChatRoom | [Plan7](old-Plan/plan7-chatroom.md) |
+| Linux    进程通信(c/c++/其他)  | [Plan4-other](realPlan/Plan4-other.md)                                  |  
+| 语言练习(java)   | [Plan4-java](realPlan/Plan4-java.md)                                  |  
+| Linux    线程同步  | [Plan5](realPlan/Plan5.md)                                                             | 
+| Linux    网络通信  | [Plan6 ](realPlan/plan6-Network.md)                                                             | 
+|My ChatRoom | [Plan7](realPlan/plan7-chatroom.md) |
 
 ##### TASK
 | c/c++/其他              | java                                                            | 
 | ------------------ | ----------------------------------------------------------------- | 
-| [Plan3](old-Plan/Plan3.md)  |[Plan3](old-Plan/Plan3.md) |
-| [Plan4-other](old-Plan/Plan4-other.md)| [Plan4-java](old-Plan/Plan4-java.md)                   |
-| [Plan5](old-Plan/Plan5.md)    | [Plan5](old-Plan/Plan5.md)   |
-| [Plan7](old-Plan/plan7-chatroom.md)| [Plan7](old-Plan/plan7-chatroom.md) |
-| [Plan8](old-Plan/plan8-server.md) | [Plan8](old-Plan/plan8-java.md) |
+| [Plan3](realPlan/Plan3.md)  |[Plan3](realPlan/Plan3.md) |
+| [Plan4-other](realPlan/Plan4-other.md)| [Plan4-java](realPlan/Plan4-java.md)                   |
+| [Plan5](realPlan/Plan5.md)    | [Plan5](realPlan/Plan5.md)   |
+| [Plan7](realPlan/plan7-chatroom.md)| [Plan7](realPlan/plan7-chatroom.md) |
+| [Plan8](realPlan/plan8-server.md) | [Plan8](realPlan/plan8-java.md) |
 
 #### 第三学期
 
