@@ -1,8 +1,7 @@
 ### Git的使用
+Git 以及 GithHub 是你们未来四年每天都要接触并且熟悉的工具,不好好学会在上面受很大的苦
 
-Git以及GithHub是你们未来四年每天都要接触并且熟悉的工具,不好好学会在上面受很大的苦
-
-vscode可以学会使用Git Graph 插件,结合 下面的task1可以更好的使用git
+VSCode 可以学会使用Git Graph 插件,结合下面的 task1 可以更好的使用 Git
 
 #### Tasks
 [Learn Git Branching](https://learngitbranching.js.org/)
