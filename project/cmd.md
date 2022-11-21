@@ -23,9 +23,10 @@
 
 #### 终端配置
 `Bash shell` 虽然强大但太过朴素，配置属于自己的 `智能`且`强大`的 Shell 非常有必要。
+> 可参考以下配置方法
 - 安装 `ZSH`
 - 安装 `Oh My Zsh` 对 `ZSH` 的配置进行管理
-- 安装 `Oh My Zsh` 的必备插件，例如：
+- 安装 `Oh My Zsh` 的必备`插件`，例如：
   - git
   - zsh-autosuggestions
   - zsh-syntax-highlighting
