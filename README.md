@@ -14,19 +14,19 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 计算机领域的知识浩瀚如烟，非常容易陷入迷茫，希望这份文档能为你提供指引。  
 在开始探索之前，可以先完成这份前置任务：[Plan0](./realPlan/Plan0.md)
 
-#### 第一学期
-        
-| Point              |Detail                                                            |  
-| ------------------ | ----------------------------------------------------------------- |
-| c语言基础|         [C.md](./preparation/C.md)                              | 
-| 算法基础|         [DataStructureAndAlgorithm.md](./preparation/DataStructureAndAlgorithm.md)|
-| 基础编程工具|     [cmd.md](./preparation/cmd.md) +[Git.md](./preparation/Git.md)                                 | 
-| 知识分享    | [Blog.md](./preparation/Blog.md)                           | 
-##### TASK
-* 「C 语言」基础 ,一些工具的使用
-* 掌握 Linux 的安装和配置好开发环境
-* 完成[Plan1](./realPlan/Plan1.md)
-* 完成[Plan2](./realPlan/Plan2.md)     
+#### 第一学期  
+* C/Linux
+
+* 培养方向：「C 语言」基础，Linux基本入门
+* 培养目标：
+  1. 基本掌握 「C 语言」。
+  2. 能够使用「C 语言」完成简单 Lab。
+  3. 掌握 Linux 操作系统与命令行的基本使用。
+
+|Point |Detail|
+|-|-|
+|C 语言基础 / Linux 入门|[Plan1](./realPlan/Plan1.md)|
+|C 语言编写简单Lab|[Plan2](./realPlan/Plan2.md) |
 
 #### 第二学期
 
