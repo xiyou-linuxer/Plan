@@ -1,5 +1,5 @@
 ### Git的使用
-`Git` 以及 <!-- GithHub Typo hhhhh-->`Github` 是大家未来四年每天都要接触并且熟悉的工具,不好好学会在上面受很大的苦
+`Git` 以及 `Github` 是大家未来四年每天都要接触并且熟悉的工具,不好好学会在上面受很大的苦
 - VSCode 可以学会使用 Git Graph 插件
 - 结合下面的 `Task1` 可以更好的学习使用 Git
 
