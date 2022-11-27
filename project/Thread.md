@@ -7,8 +7,8 @@
 1. 单生产者单消费者队列（Single-producer , single-consumer Queue）
 2. 多生产者多消费者队列（Multi-producer , Multi-consumer Queue）
 
-- [C API](../old-Plan/TaskQueue.c)
-- [C++ API](../old-Plan/TaskQueue.cpp)
+- [C API](../realPlan/TaskQueue.c)
+- [C++ API](../realPlan/TaskQueue.cpp)
 - [java interface ](./java/MultiThreading.md)
 ### 哲学家问题
 
