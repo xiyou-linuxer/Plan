@@ -87,6 +87,9 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 
 <!--  Then? What's next? -->
 
+### Contribute
+欢迎提交 Pull Request
+
 ### 结语
 
 小组希望每个人都能在大学的四年里形成编程的兴趣，锻炼代码能力，培养独立人格，未来少被老板 PUA 或者有能力 PUA 老板 :)
