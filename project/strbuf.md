@@ -198,7 +198,8 @@ int main() {
 | -- |   -- |
 | bool strbuf_begin_judge(char* target_str, const char* str, int strlen);   | target_str : 目标字符串，str : 前缀字符串，strlen : target_str 长度 ，前缀相同返回 true 失败返回 false     |
 
-
+// 参数 int strlen 可能会与 strlen() 函数冲突 
+// 会出现以下报错信息：错误：called object ‘strlen’ is not a function or function pointer
 
 
 3. 获取字符串从坐标 `[begin, end)` 的所有内容（可以分成引用和拷贝两个模式） 。
