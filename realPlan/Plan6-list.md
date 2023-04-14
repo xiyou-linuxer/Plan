@@ -42,9 +42,9 @@ int main()
 
 
 # list类的实现
-[list.hpp](realPlan/Plan6-list.hpp)中定义了需要实现的函数与类,完成这个文件中的所有函数
+[list.hpp](./Plan6-list.hpp)中定义了需要实现的函数与类,完成这个文件中的所有函数
 
-[test.cpp](realPlan/Plan6-test.cpp)中有相应的使用和测试
+[test.cpp](./Plan6-test.cpp)中有相应的使用和测试
 
 
 # 建议
