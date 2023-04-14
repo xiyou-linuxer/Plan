@@ -48,8 +48,9 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 | 高级语言 基础      | [Languages](preparation/Languages.md) + [LanguageComparison](preparation/LanguageComparison.md)   |  
 | Linux    进程通信(c/c++/其他)  | [Plan4](realPlan/Plan4-Shell.md) |
 | Linux    线程同步  | [Plan5](realPlan/Plan5-Thread.md)      | 
-| Linux    网络通信  | [Plan6](realPlan/plan6-Network.md)| 
-|My ChatRoom | [Plan7](realPlan/plan7-chatroom.md) |
+| C++      数据结构  | [Plan6](realPlan/Plan6-list.md)      | 
+| Linux    网络通信  | [Plan7](realPlan/plan7-Network.md)| 
+|My ChatRoom | [Plan8](realPlan/plan8-chatroom.md) |
 
 #### 第三学期
 
