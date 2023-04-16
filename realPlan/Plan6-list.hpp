@@ -1,11 +1,11 @@
 #include <iostream>
-
 //使用你的名字替换YOUR_NAME
-
+#include<gtest/gtest.h>
 namespace YOUR_NAME
 {
     template <class T>
     // list存储的节点
+    // 可以根据你的需要添加适当的成员函数与成员变量
     struct node
     {
         node<T> *prev_;
@@ -42,11 +42,21 @@ namespace YOUR_NAME
         {
         }
         //迭代到下一个节点
+        //++it
         iterator_ &operator++()
         {
         }
         //迭代到前一个节点
+        //--it
         iterator_ &operator--()
+        {
+        }
+        // it++
+        iterator operator++(int)
+        {
+        }
+        //it--
+        iterator operator--(int)
         {
         }
         //获得迭代器的值
@@ -88,9 +98,9 @@ namespace YOUR_NAME
         list(const list<T> &lt)
         {
         }
-        template<class inputIterator>
+        template <class inputIterator>
         //迭代器构造
-        list(inputIterator begin,inputIterator end)
+        list(inputIterator begin, inputIterator end)
         {
         }
 
@@ -106,11 +116,11 @@ namespace YOUR_NAME
         {
         }
         //返回容器中存储的有效节点个数
-        size_t size()
+        size_t size() const
         {
         }
         //判断是否为空
-        bool empty()
+        bool empty() const
         {
         }
         //尾插
@@ -148,7 +158,7 @@ namespace YOUR_NAME
         {
         }
         //查找data对应的迭代器
-        Iterator find(const T &data)
+        Iterator find(const T &data) const
         {
         }
         //获得第一个有效节点

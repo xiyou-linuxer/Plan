@@ -52,6 +52,9 @@ int main()
 * 掌握STL迭代器的思想
 * 可以先实现一个非模板类，后期在用模板进行替换
 
+# 时间
+开始时间：2023-4-20
+截止时间：2023-5-12
 
 # 参考资料
 * [1] [cplusplus/list](https://cplusplus.com/reference/list/list/?kw=list)
