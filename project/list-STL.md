@@ -42,9 +42,9 @@ int main()
 
 
 # list类的实现
-[list.hpp](code/listSTL.hpp)中定义了需要实现的函数与类,完成这个文件中的所有函数
+[list.hpp](./code/listSTL.hpp)中定义了需要实现的函数与类,完成这个文件中的所有函数
 
-[test.cpp](code/listtestSTL.cpp)中有相应的使用和测试
+[test.cpp](./code/listtestSTL.cpp)中有相应的使用和测试
 
 
 # 建议
