@@ -67,7 +67,7 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 | Time              | Point         | Detail     | Project         | Further Reading |
 | ------------ | ------------- | ------- | ------------- | --------- |
 | 2022.01 ~ 2022.12 | 网络服务器    | [Linux Network Programming](preparation/LinuxNetworkProgramming.md) | [Linux Network Programming](preparation/LinuxNetworkProgramming.md#%E8%87%AA%E6%88%91%E6%A3%80%E9%AA%8C-homework) | --------------- |
-| 2022.01 ~ 2022.12 | 操作系统      | [Operator System](preparation/OS.md)   | [Mit 6.S081](https://pdos.csail.mit.edu/6.S081)/[Mit 6.628](https://pdos.csail.mit.edu/6.828/2018/schedule.html)  | --------------- |
+| 2022.01 ~ 2022.12 | 操作系统      | [Operator System](preparation/OS.md)   | [Mit 6.S081](https://pdos.csail.mit.edu/6.S081)/[Mit 6.828](https://pdos.csail.mit.edu/6.828/2018/schedule.html)  | --------------- |
 | 2022.01 ~ 2022.12 | 分布式        | [Distributed System](preparation/DistributedSystems.md)             | [Mit 6.824](https://pdos.csail.mit.edu/6.824/) | --------------- |
 | 2022.01 ~ 2022.12 | 关系型数据库  | [DataBase System](preparation/DB.md)  | [Cmu 15455](https://15445.courses.cs.cmu.edu)    | --------------- |
 | 2022.01 ~ 2022.12 | Git           | ------  | My Git       | --------------- |
