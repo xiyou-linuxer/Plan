@@ -42,10 +42,22 @@ int main()
 
 
 # list类的实现
-[list.hpp](./code/listSTL.hpp)中定义了需要实现的函数与类,完成这个文件中的所有函数
+[list.hpp](./code/list/include/list.hpp)中定义了需要实现的函数与类,完成这个文件中的所有函数
 
-[test.cpp](./code/listtestSTL.cpp)中有相应的使用和测试
+[test.cpp](./code/list/src/test.cc)中有相应的使用和测试
 
+注意:
+>1. **先安装gtest**,不会的话问万能的GPT如何安装
+>2. 需要完成了大部分的函数才能编译通过，或将test.cpp中未完成的函数测试用例先注释掉
+
+编译
+~~~cpp
+cd list
+mkdir build
+cd build
+cmake ..
+make
+~~~
 
 # 建议
 * 先掌握STL容器的使用

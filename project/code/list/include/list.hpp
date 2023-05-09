@@ -1,6 +1,5 @@
 #include <iostream>
 //使用你的名字替换YOUR_NAME
-#include<gtest/gtest.h>
 namespace YOUR_NAME
 {
     template <class T>
@@ -55,7 +54,7 @@ namespace YOUR_NAME
         iterator operator++(int)
         {
         }
-        //it--
+        // it--
         iterator operator--(int)
         {
         }
@@ -89,6 +88,7 @@ namespace YOUR_NAME
     private:
         //可以添加你需要的成员变量
         node_ *head_; //头节点,哨兵（不存储有效数据）
+
     public:
         //构造函数
         list()
@@ -124,27 +124,27 @@ namespace YOUR_NAME
         {
         }
         //尾插
-        void push_back(const T &data)
+        bool push_back(const T &data)
         {
         }
         //头插
-        void push_front(const T &data)
+        bool push_front(const T &data)
         {
         }
         //尾删
-        void pop_back()
+        bool pop_back()
         {
         }
         //头删
-        void pop_front()
+        bool pop_front()
         {
         }
         //默认新数据添加到pos迭代器的后面,根据back的方向决定插入在pos的前面还是后面
-        void insert(Iterator pos, const T &data, bool back = true)
+        bool insert(Iterator pos, const T &data, bool back = true)
         {
         }
         //删除pos位置的元素
-        void erase(Iterator pos)
+        bool erase(Iterator pos)
         {
         }
 
@@ -162,11 +162,11 @@ namespace YOUR_NAME
         {
         }
         //获得第一个有效节点
-        node_ front() const
+        T front() const
         {
         }
         //获得最后一个有效节点
-        node_ back() const
+        T back() const
         {
         }
 
