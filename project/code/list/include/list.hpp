@@ -32,9 +32,9 @@ namespace YOUR_NAME
     {
         typedef node<T> node_;
         typedef iterator<T> iterator_;
-        node_ *data_;
-        iterator(node_ *data)
-            : data_(data)
+        node_ * node_ptr_;
+        iterator(node_ *node_ptr)
+            : node_ptr_(node_ptr)
         {
         }
         ~iterator()
@@ -58,11 +58,12 @@ namespace YOUR_NAME
         iterator operator--(int)
         {
         }
-        //获得迭代器的值
+        //指向迭代器中被访问的成员值
         T &operator*()
         {
         }
-        //获得迭代器对应的指针
+
+        //指向迭代器中被访问的成员指针
         T *operator->()
         {
         }
@@ -153,7 +154,7 @@ namespace YOUR_NAME
         {
         }
 
-        //获得list最后一个节点的下一个位置，可以理解为nullptr
+        //获得list最后一个节点的下一个位置
         Iterator end() const
         {
         }
@@ -161,11 +162,11 @@ namespace YOUR_NAME
         Iterator find(const T &data) const
         {
         }
-        //获得第一个有效节点
+        //获得第一个有效节点元素值
         T front() const
         {
         }
-        //获得最后一个有效节点
+        //获得最后一个有效节点元素值
         T back() const
         {
         }
