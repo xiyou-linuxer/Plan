@@ -19,7 +19,7 @@ protected:
     }
     virtual void TearDown() override {}
 
-    std::unique_ptr<list<int>> list_; 
+    std::unique_ptr<list<int>> list_;
 };
 
 TEST_F(listIntTest, BasicFunctionality)
@@ -80,19 +80,22 @@ TEST_F(listIntTest, DeepCopyConstruct)
     }
 }
 
-TEST_F(listIntTest, DeepCopyAssign) {
+TEST_F(listIntTest, DeepCopyAssign)
+{
     list<int> copy;
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < 10; ++i)
+    {
         copy.push_back(i);
     }
-    EXPECT_EQ(copy.size(),10);
-    EXPECT_GT(copy.size(),list_->size());
-    copy=*list_;
+    EXPECT_EQ(copy.size(), 10);
+    EXPECT_GT(copy.size(), list_->size());
+    copy = *list_;
 
-    EXPECT_EQ(copy.size(),list_->size());
+    EXPECT_EQ(copy.size(), list_->size());
     auto it1 = list_->begin();
     auto it2 = copy.begin();
-    for (; it1 != list_->end(); ++it1, ++it2) {
+    for (; it1 != list_->end(); ++it1, ++it2)
+    {
         EXPECT_EQ(*it1, *it2);
     }
 }
@@ -129,24 +132,60 @@ TEST_F(listIntTest, Add)
 TEST_F(listIntTest, Delete)
 {
     EXPECT_TRUE(list_->pop_front());
-    EXPECT_EQ(list_->front(),2);
-    EXPECT_EQ(list_->back(),2);
+    EXPECT_EQ(list_->front(), 2);
+    EXPECT_EQ(list_->back(), 2);
     EXPECT_TRUE(list_->pop_back());
     EXPECT_TRUE(list_->empty());
 
-    for(int i=0;i<10;i++)
+    for (int i = 0; i < 10; i++)
     {
-       EXPECT_TRUE(list_->push_back(i));
+        EXPECT_TRUE(list_->push_back(i));
     }
 
-    auto it=list_->begin();
+    auto it = list_->begin();
     it++;
-    EXPECT_TRUE(list_->erase(it));//删除第二个元素
-    EXPECT_EQ(list_->size(),9);
-    auto pos=list_->find(1);
+    EXPECT_TRUE(list_->erase(it)); //删除第二个元素
+    EXPECT_EQ(list_->size(), 9);
+    auto pos = list_->find(1);
     // EXPECT_EQ(pos,nullptr);
+}
+struct D
+{
+    int x;
+    std::string y;
+    float z;
+    D(int x_ = 1, std::string y_ = "hello", float z_ = 3.14)
+        : x(x_), y(y_), z(z_)
+    {
+    }
+};
+class listDTest : public ::testing::Test
+{
+protected:
+    listDTest()
+    {
+        list_ = make_unique<list<D>>();
+    }
+    ~listDTest() override = default;
+    virtual void SetUp()
+    {
+    }
+    virtual void TearDown() override {}
+
+    std::unique_ptr<list<D>> list_;
+};
+
+TEST_F(listDTest, Random)
+{
+    list_->push_back({18,"Tom"});
+    list_->push_back({3,"Jerry"});
+    EXPECT_EQ(list_->size(),2);
+    auto it=list_->begin();
+    EXPECT_EQ(it->x,18);
+    EXPECT_EQ(it->y,"Tom");
 
 }
+
 
 int main(int argc, char *argv[])
 {
