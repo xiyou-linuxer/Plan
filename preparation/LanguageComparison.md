@@ -160,6 +160,7 @@ Java能够自动处理对象的引用和间接引用，实现自动的无用单�
 - [Go 语言之旅](https://tour.go-zh.org/welcome/1) -- 入门
 - [Go语言中文文档](https://topgoer.com/) -- 适合宏观浏览Go的方方面面（入门级别）
 - [Go by Example](https://gobyexample-cn.github.io/) -- 入门级手敲实例代码
+- [Go 标准库](https://pkg.go.dev/std) -- Go标准库
 - [Go 语言圣经](https://golang-china.github.io/gopl-zh/) -- 进阶
 - [Go 7天练手系列](https://geektutu.com/post/gee.html) -- 第一个项目
 - [awesome-Go](https://github.com/avelino/awesome-go) -- 大合集
