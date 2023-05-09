@@ -20,7 +20,7 @@ namespace YOUR_NAME
             : prev_(nullptr), next_(nullptr)
         {
         }
-        //稀构函数
+        //析构函数
         ~node()
         {
         }
