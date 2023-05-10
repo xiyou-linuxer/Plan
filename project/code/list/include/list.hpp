@@ -1,6 +1,5 @@
 #include <iostream>
 //使用你的名字替换YOUR_NAME
-#include<gtest/gtest.h>
 namespace YOUR_NAME
 {
     template <class T>
@@ -33,9 +32,9 @@ namespace YOUR_NAME
     {
         typedef node<T> node_;
         typedef iterator<T> iterator_;
-        node_ *data_;
-        iterator(node_ *data)
-            : data_(data)
+        node_ * node_ptr_;
+        iterator(node_ *node_ptr)
+            : node_ptr_(node_ptr)
         {
         }
         ~iterator()
@@ -55,15 +54,16 @@ namespace YOUR_NAME
         iterator operator++(int)
         {
         }
-        //it--
+        // it--
         iterator operator--(int)
         {
         }
-        //获得迭代器的值
+        //指向迭代器中被访问的成员值
         T &operator*()
         {
         }
-        //获得迭代器对应的指针
+
+        //指向迭代器中被访问的成员指针
         T *operator->()
         {
         }
@@ -89,6 +89,7 @@ namespace YOUR_NAME
     private:
         //可以添加你需要的成员变量
         node_ *head_; //头节点,哨兵（不存储有效数据）
+
     public:
         //构造函数
         list()
@@ -124,27 +125,27 @@ namespace YOUR_NAME
         {
         }
         //尾插
-        void push_back(const T &data)
+        bool push_back(const T &data)
         {
         }
         //头插
-        void push_front(const T &data)
+        bool push_front(const T &data)
         {
         }
         //尾删
-        void pop_back()
+        bool pop_back()
         {
         }
         //头删
-        void pop_front()
+        bool pop_front()
         {
         }
         //默认新数据添加到pos迭代器的后面,根据back的方向决定插入在pos的前面还是后面
-        void insert(Iterator pos, const T &data, bool back = true)
+        bool insert(Iterator pos, const T &data, bool back = true)
         {
         }
         //删除pos位置的元素
-        void erase(Iterator pos)
+        bool erase(Iterator pos)
         {
         }
 
@@ -153,7 +154,7 @@ namespace YOUR_NAME
         {
         }
 
-        //获得list最后一个节点的下一个位置，可以理解为nullptr
+        //获得list最后一个节点的下一个位置
         Iterator end() const
         {
         }
@@ -161,12 +162,12 @@ namespace YOUR_NAME
         Iterator find(const T &data) const
         {
         }
-        //获得第一个有效节点
-        node_ front() const
+        //获得第一个有效节点元素值
+        T front() const
         {
         }
-        //获得最后一个有效节点
-        node_ back() const
+        //获得最后一个有效节点元素值
+        T back() const
         {
         }
 
