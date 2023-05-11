@@ -47,7 +47,7 @@ TEST_F(listIntTest, DefaultConstruct)
 
 TEST_F(listIntTest, IteratorConstruct)
 {
-    std::cout << __LINE__ << endl;
+    std::cout <<"LINE: " <<__LINE__ << endl;
 
     for (int i = 3; i <= 10; i++)
     {
