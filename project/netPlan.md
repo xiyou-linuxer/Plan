@@ -6,8 +6,17 @@
 2. 这是一个`必做项目`
     - 任务截止日期: `2023.6.26 UTC+8`
 
+### 任务要求
+- C/C++ 
+  - Golang / Java 系同学不用担心,此 Lab 对 C++ 技能要求不高
+- socket 编程经验
+  - 相信读完书的大家都可以写出一个 echo 服务器了
+
 ### 任务描述
 - 你需要分别在服务器与客户端进行编码工作
+  - 客户端发送字符串
+  - 服务端接收字符串
+  - gRpc 负责验证字符串传输是否正确
 - 你的数据在由客户端发往服务器的时候会经历以下过程
   - 一些网络干扰(`故意的`)
   - 一些网络延迟(`故意的`)
@@ -21,7 +30,9 @@
 - 传输的数据类型包括 ASCII / binary
 
 ### 任务环境准备
+#### Step 1. 准备 gRpc
 - 需启动 gRpc 从而正常运行测试代码
+  - 注意: gRpc 仅负责测试代码,与其相关的代码可以忽略
 - Debian 系(Ubuntu/Mint)
   - 启动一个 Arch Linux 环境的 Docker
   - 通过 Arch 的包管理器 `pacman` 安装必须环境
@@ -33,19 +44,52 @@ pacman -Syu
 pacman -S grpc cmake gcc make pkgconfig
 ```
 
-### 任务代码
-- 任务相当于 `代码填空`
-  - 在 `test_client.cpp` 中编写客户端代码
-  - 在 `test_server.cpp` 中编写服务器代码
+#### Step 2. 生成测试相关代码
 - Clone 代码(使用 Git 提供的 sparsecheckout 对指定文件夹进行 clone)
 ```bash
-> mkdir Network
-> cd Network
+# 创建代码仓库
+> mkdir netPlan
+> cd netPlan
+# 开始克隆
 > git init
 > git remote add origin https://github.com/xiyou-linuxer/Exercise
 > git config core.sparsecheckout true
 > echo "Network" >> .git/info/sparse-checkout
 > git pull origin main
+> cd Network
+# 生成测试相关代码
+> protoc --cpp_out=. NetworkTest.proto
+> protoc --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` NetworkTest.proto
+```
+
+#### Step 3. 运行测试代码
+```bash
+> mkdir build
+> cd build
+> cmake ..
+> make -j8
+```
+- `make` 结束后,在 `build` 文件夹会生成两个文件:
+  - clinet.out
+  - server.out
+- 在不同终端同时运行这两个可执行文件,即可开始自动测试
+
+### 编写代码
+- 任务相当于 `代码填空`
+  - 在 `/netPlan/Network/est_client.cpp` 中编写客户端代码
+  - 在 `/netPlan/Network/test_server.cpp` 中编写服务器代码
+- 你的目标是:
+1. 客户端中,从 msg 类中 `pop` 出一个字符串,并将处理后发送给服务器
+```cpp
+    // pop message
+    auto str = msg->pop();
+    const char *data = str.data();
+```
+2. 服务器中,使用 `commit` 方法将接收到的字符串提交给 测试机, 进行代码测试
+```cpp
+    // commit message
+    std::string str(buf, len);
+    test->commit(std::move(str));
 ```
 
 
