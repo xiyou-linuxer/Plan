@@ -79,8 +79,8 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 - 参与开源社区
 - Note
   - 通过开源活动(Summer)参与
-    - GSoC
-    - OSPP
+    - [GSoC](https://summerofcode.withgoogle.com/)
+    - [OSPP](https://summer-ospp.ac.cn/)
     - ...
   - 直接为社区做贡献
 
