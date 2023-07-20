@@ -53,7 +53,7 @@
 
 - 本书第三部分（第 10 章起包含较多并发与网络编程的知识将在 [Linux 系统编程](/LinuxSystemProgramming.md) 中介绍，这部分可暂不阅读）
 
-- [lib](http://csapp.cs.cmu.edu/3e/labs.html)
+- [lab](http://csapp.cs.cmu.edu/3e/labs.html)
 
 - **【本书不适合通篇连读】**CSAPP更像是一本事事巨细的好“字典”，建议以**实践+查阅**的方式食用，效果更佳。
 
