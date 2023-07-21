@@ -71,7 +71,7 @@
 
 - 使用 I/O 多路复用完成本项目
 
-     > C++/Golang – epoll ET 模式
+     > C++ – epoll ET 模式
      >
      > Java – netty 和 NIO 
 
@@ -119,7 +119,7 @@
 
 
 
-对使用 Redis 的同学的特殊规则：
+### 对使用 Redis 的同学的特殊规则：
 
 请把 Redis 仅作为服务端的存储后端。
 
@@ -133,3 +133,14 @@
 本项目每人最多仅允许启动一个 Redis 实例。且仅允许 服务端 连接 Redis。
 
 违反上面的规定将无法通过验收。
+
+### 对使用 Golang 的同学的特殊规则:
+- 使用 `gin` / Lris / Beego 等开源路由框架组织服务器
+- 使用 `template` 实现前端 web 界面
+- 使用 RESTful API
+  - 使用 Postman / Swagger 管理 API
+- 将项目使用 Docker 进行打包,可通过使用
+```
+docker-compose up -d
+```
+启动整个项目
