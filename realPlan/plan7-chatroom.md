@@ -91,7 +91,7 @@
 
 - 实现服务器日志，记录服务器的状态信息
 
-- C/S 双端均支持在 CLI 自行指定 IP:Port
+- C/S 双端均支持在 CLI/Web 自行指定 IP:Port
 
 - 实现具有高稳定性的客户端和服务器，防止在用户非法输入时崩溃或异常
 	- 实现 TCP 心跳检测
@@ -146,3 +146,6 @@
 docker-compose up -d
 ```
 启动整个项目
+
+# After ChatRoom
+- [进阶之路](./plan8-server.md)
