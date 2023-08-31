@@ -50,6 +50,7 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 | Linux    线程同步  | [Plan5](realPlan/Plan5-Thread.md)      | 
 | Linux    网络通信  | [Plan6](realPlan/plan6-Network.md)| 
 |My ChatRoom | [Plan7](realPlan/plan7-chatroom.md) |
+|To Be Continue|[After Chatroom](/realPlan/plan8-server.md)|
 
 #### 第三学期
 
