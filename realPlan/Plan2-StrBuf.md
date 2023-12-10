@@ -4,20 +4,18 @@
 
 ## 高优先任务
 
-[strbuf.md](../project/strbuf.md)
+任务要求 [strbuf.md](../project/strbuf.md)
 
-本地测试 [StrbufTest](https://github.com/xiyou-linuxer/StrbufTest)
 <!--  
 2021级
 开始时间  ：   2022.1.6
 截止/检查时间  : 2022.1.15
 -->
-<!-- 
-开始时间: 2022.12.14 
-结束时间: 2022.12.30
--->
 
-检查/提交方式  [Exercise](https://github.com/xiyou-linuxer/Exercise)
+开始时间: 2023.12.10\
+结束时间: 2022.12.15
+
+检查/提交方式  [Strbuf](https://github.com/xiyou-linuxer/Strbuf)
 
 ## 低优先任务
   学会命令行的使用,以及如何使用 `vim`,`gcc`,`gdb` 
