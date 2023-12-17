@@ -1,4 +1,6 @@
 ### Xiyou Linux Group 培养计划
+- [x] Guy, you found our treasures  
+--- 
 
 - 整体参考路线路：
   - [Linux 系统软件开发方向的 RoadMap](https://github.com/xiyou-linuxer/Plan/issues/1)   
@@ -54,7 +56,7 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 
 #### 第三学期
 
-* C/C++
+* C/C++/Java/Golang
 
 * 培养方向：分布式，数据库，操作系统
 * 培养目标：
@@ -81,7 +83,9 @@ Hi，这是小组为你准备的 「Road Map」，尽情探索研究吧!
 - Note
   - 通过开源活动(Summer)参与
     - [GSoC](https://summerofcode.withgoogle.com/)
+    - [LFX](https://lfx.linuxfoundation.org/)
     - [OSPP](https://summer-ospp.ac.cn/)
+    - [GitLink](https://www.gitlink.org.cn/glcc)
     - ...
   - 直接为社区做贡献
 
