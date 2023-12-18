@@ -38,6 +38,7 @@ ls -i /home /etc
 #### 参考资料
 
 - man 手册.
+- Unix/Linux编程实践教程
 - MichaelKerrisk.Linux/UNIX系统编程手册\[M\].北京:人民邮电出版社.
 - W.RichardStevens.Stephen.UNIX环境高级编程\[M\].第3版.戚正伟,译.北京:人民邮电出版社.
 
