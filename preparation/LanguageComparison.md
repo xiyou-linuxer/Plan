@@ -122,6 +122,9 @@ Java能够自动处理对象的引用和间接引用，实现自动的无用单�
 
 - [Java和C++的比较-wikipedia](https://en.wikipedia.org/wiki/Comparison_of_Java_and_C%2B%2B)
 
+#### 推荐的练手小项目
+- [实现一个 Java 的 PriorityQueue](../project/PriorityQueue.md)
+
 ---
 
 眼光放到 10 年前，Golang 诞生在 2007, Rust 诞生在 2010, 它们作为新世纪的新语言，以它们独特的功能吸引了非常多的编程爱好者，并在一些传统领域占领了一部分的 C++/Java 市场。
