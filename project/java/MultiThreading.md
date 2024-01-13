@@ -6,10 +6,15 @@
 
      只需要实现BlockingQueue的以下接口
 
-     1.   put
-     2.   take
+     1.   offer
+     2.   poll
+     - [实现一个 Java 的 BlockingQueue](../code/BlockingQueue)
 
-     具体可参照 [link](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/BlockingQueue.html)里的接口文档，我就不写了（懒）
+     [BlockingQueue1](../code/BlockingQueue/src/main/java/com/xiyoulinux/blockingqueue/BlockingQueue1.java)中定义了需要实现的方法和类
+
+     [TestBlockingQueue1](../code/BlockingQueue/src/test/java/com/xiyoulinux/blockingqueue/TestBlockingQueue1.java)中有相应的使用和测试
+
+  具体可参照 [link](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html)里的接口文档
 
 2.   线程池
 
