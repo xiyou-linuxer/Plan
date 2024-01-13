@@ -1,4 +1,4 @@
-package com.alibaba.priorityqueue;
+package com.xiyoulinux.priorityqueue;
 
 /**
  * 队列接口

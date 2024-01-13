@@ -1,4 +1,4 @@
-package com.alibaba.blockingqueue;
+package com.xiyoulinux.blockingqueue;
 
 import java.util.Arrays;
 

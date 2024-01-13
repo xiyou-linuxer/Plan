@@ -1,4 +1,4 @@
-package com.alibaba.blockingqueue;
+package com.xiyoulinux.blockingqueue;
 
 /**
  * 目前队列存在的问题

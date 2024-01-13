@@ -1,4 +1,4 @@
-package com.alibaba.blockingqueue;
+package com.xiyoulinux.blockingqueue;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -10,9 +10,9 @@
      2.   poll
      - [实现一个 Java 的 BlockingQueue](../code/BlockingQueue)
 
-     [BlockingQueue1](../code/BlockingQueue/src/main/java/com/alibaba/blockingqueue/BlockingQueue1.java)中定义了需要实现的方法和类
+     [BlockingQueue1](../code/BlockingQueue/src/main/java/com/xiyoulinux/blockingqueue/BlockingQueue1.java)中定义了需要实现的方法和类
 
-     [TestBlockingQueue1](../code/BlockingQueue/src/test/java/com/alibaba/blockingqueue/TestBlockingQueue1.java)中有相应的使用和测试
+     [TestBlockingQueue1](../code/BlockingQueue/src/test/java/com/xiyoulinux/blockingqueue/TestBlockingQueue1.java)中有相应的使用和测试
 
   具体可参照 [link](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html)里的接口文档
 

@@ -48,9 +48,9 @@ Removed: 10
 优先队列在数据结构中非常重要，具体体现就是LeetCode算法题和项目中经常用到
 
 # PriorityQueue类的实现
-[PriorityQueue](./code/PriorityQueue/src/main/java/com/alibaba/priorityqueue/PriorityQueue.java)中定义了需要实现的类,完成这个文件中的所有方法,可以自由添加辅助方法
+[PriorityQueue](./code/PriorityQueue/src/main/java/com/xiyoulinux/priorityqueue/PriorityQueue.java)中定义了需要实现的类,完成这个文件中的所有方法,可以自由添加辅助方法
 
-[TestPriorityQueue.java](./code/PriorityQueue/src/test/java/com/alibaba/priorityqueue/TestPriorityQueue.java)中有相应的测试(包括测试时间复杂度)
+[TestPriorityQueue.java](./code/PriorityQueue/src/test/java/com/xiyoulinux/priorityqueue/TestPriorityQueue.java)中有相应的测试(包括测试时间复杂度)
 
 注意:
 >1. **先安装maven**,一般IDEA自带maven,所以熟悉怎么使用即可
