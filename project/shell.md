@@ -43,6 +43,13 @@ xjj   数据结构    33
 
 - 实现 管道 (也就是 `|`)
 - 实现 输入输出重定向(也就是 `<` `>` `>>`)
+    - 要求实现 在管道组合命令的两端实现重定向运算符
+    ```shell
+    # Require 
+    cat < 1.txt | grep -C 10 abc | grep -L efd | tac >> 2.txt
+    # Does not require
+    cat < 1.txt | grep -C 10 abc > test1.txt | test2.txt > grep -L efd | tac >> 2.txt
+    ```
 - 实现 后台运行（也就是 `&` ）
 - 实现 `cd`，要求支持能切换到绝对路径，相对路径和支持 `cd -`
 - 屏蔽一些信号（如 `ctrl + c` 不能终止）
