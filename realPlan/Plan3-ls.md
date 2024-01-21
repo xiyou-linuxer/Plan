@@ -27,7 +27,7 @@
   <!--
     2023.03.03 20:00(UTC+8)
   -->
-    寒假收假之前（待定）
+    2024.02.17 24:00(UTC+8)
 ## 参考
   [LinuxSystemProgramming.md](../preparation/LinuxSystemProgramming.md)
 
