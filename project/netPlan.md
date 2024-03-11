@@ -52,9 +52,7 @@ pacman -S grpc cmake gcc make pkgconfig
 > cd netPlan
 # 开始克隆
 > git init
-> git remote add origin https://github.com/xiyou-linuxer/Exercise
-> git config core.sparsecheckout true
-> echo "Network" >> .git/info/sparse-checkout
+> git remote add origin git@github.com:xiyou-linuxer/NetWork.git
 > git pull origin main
 > cd Network
 # 生成测试相关代码
