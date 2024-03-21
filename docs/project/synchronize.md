@@ -10,7 +10,7 @@
 
 - [C API](https://github.com/xiyou-linuxer/Plan/tree/main/code/TaskQueue.c)
 - [C++ API](https://github.com/xiyou-linuxer/Plan/tree/main/code/TaskQueue.cpp)
-- [java interface ](./java/MultiThreading.md)
+- [java interface ](./java/multi-threading.md)
 
 ### 哲学家问题
 

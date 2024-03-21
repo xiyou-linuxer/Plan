@@ -4,11 +4,12 @@
 
      当然这就说的有点远了，就是让你们知道这个东西其实蛮重要（但是重要的是他的抽象不是实现）
 
-     只需要实现BlockingQueue的以下接口
+     只需要实现 BlockingQueue 的以下接口
 
      1.   offer
      2.   poll
-     - [实现一个 Java 的 BlockingQueue](https://github.com/xiyou-linuxer/Plan/tree/main/code/BlockingQueue.md)
+
+     - [实现一个 Java 的 BlockingQueue](https://github.com/xiyou-linuxer/Plan/tree/main/code/BlockingQueue)
 
      [BlockingQueue1](https://github.com/xiyou-linuxer/Plan/tree/main/code/BlockingQueue/src/main/java/com/xiyoulinux/blockingqueue/BlockingQueue1.java)中定义了需要实现的方法和类
 

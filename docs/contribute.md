@@ -2,6 +2,10 @@
 
 如果你想为本仓库做贡献，欢迎提交 Pull Request。
 
+!!! bug "TODO"
+    - 优化 Markdown 排版（尤其是 `docs/Project/` 内）。
+    - 从项目中解耦 `code/` 内的代码。
+
 ## 维护记录
 
 ### 2024 年
