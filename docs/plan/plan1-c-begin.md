@@ -6,8 +6,8 @@
 
 | 任务                        | 参阅                                                         |
 | --------------------------- | ------------------------------------------------------------ |
-| 完成 *C Primer Plus* 课后题 | [C 语言基础任务](../project/c-basic.md) (注意截止时间)       |
-| 完全在 **命令行** 编程      | [Shell 与命令行](../project/command-line.md) (注意截止时间)  |
+| 完成 *C Primer Plus* 课后题 | [C 语言基础任务](../project/c-basic.md)（注意截止时间）      |
+| 完全在 **命令行** 编程      | [Shell 与命令行](../project/command-line.md)（注意截止时间） |
 | 多写 Blog                   | [博客与 Markdown](../preparation/blog.md)                    |
 | 多刷算法                    | [数据结构与算法](../preparation/data-structure-algorithm.md) |
-| 通关Git挑战                 | [Git 的使用](../preparation/git.md)                          |
+| 通关 Git 挑战               | [Git 的使用](../preparation/git.md)                          |
