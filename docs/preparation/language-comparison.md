@@ -116,7 +116,7 @@ Python 最流行，C 语言第二，Java 第三，C++ 第四, Golang 进入了�
 
 - [实现一个 C++ 的 std::list](../project/cpp-list-stl.md)
 
-#### Java
+### Java
 
 - 没有什么是一门图灵完备的语言干不了的,但是java给你了一种更简单,更好的选择.
 

@@ -34,4 +34,4 @@
 
 ## 无信用挑战
 
-使用 linux 环境将 [MIT 6.S081 Lab 1](https://pdos.csail.mit.edu/6.S081/2021/labs/util.html) 中的 `sleep`, `pingpong`, `prime`, `find`, `xargs` 实现并进行相关测试。
+使用 Linux 环境将 [MIT 6.S081 Lab 1](https://pdos.csail.mit.edu/6.S081/2021/labs/util.html) 中的 `sleep`、`pingpong`、`prime`、`find`、`xargs` 实现并进行相关测试。

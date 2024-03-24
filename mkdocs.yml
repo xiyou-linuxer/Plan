@@ -3,8 +3,21 @@ site_url: https://plan.xiyoulinux.com/
 repo_url: https://github.com/xiyou-linuxer/Plan
 repo_name: xiyou-linuxer/Plan
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xiyou-linuxer
+
+copyright: © 2006-2024 西邮 Linux 兴趣小组 
+
+extra_css:
+  - asset/custom.css
+
 theme:
   name: material
+  icon:
+    logo: material/bulletin-board
+  favicon: /favicon.ico
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
