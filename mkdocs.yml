@@ -18,6 +18,7 @@ theme:
   icon:
     logo: material/bulletin-board
   favicon: /favicon.ico
+  font: false
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
