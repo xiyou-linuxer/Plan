@@ -15,4 +15,4 @@
 
 ## 我该怎么选择语言？
 
-- [流行语言的比较](language-comparison.md)
+- [流行语言的比较](language-comparison.md){ .md-button }

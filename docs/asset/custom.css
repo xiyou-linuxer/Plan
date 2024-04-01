@@ -1,3 +1,4 @@
 .md-typeset .md-button {
-    padding: .1em 1em;
+    padding: 0 .5em;
+    border-radius: .25em;
 }

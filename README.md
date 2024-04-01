@@ -1,4 +1,4 @@
-# 西邮 Linux 兴趣小组培养计划 / Plan of Xiyou Linux Group
+# 西邮 Linux 兴趣小组培养计划 / Plan of Xiyou Linux Group
 
 > [!TIP]
 > Hey, you found our treasures
@@ -20,13 +20,14 @@
 ```sh
 git clone https://github.com/xiyou-linuxer/Plan.git --depth 1
 cd Plan
+# Arch Linux 用户请自行解决 pip 依赖问题
 pip install -r requirements.txt
 mkdocs serve
 ```
 
 ## Contribute
 
-欢迎提交 Pull Request
+欢迎阅读 [贡献者指南](https://plan.xiyoulinux.com/contribute/) 后提交 Pull Request，帮助我们优化文档。
 
 > Carpe diem，seize the day
 

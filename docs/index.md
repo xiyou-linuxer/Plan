@@ -62,16 +62,16 @@ Linux 系统编程，网络编程（面向对象）。
 
 #### Note
 
-| Point                        | Detail                                                                                      |
-| ---------------------------- | ------------------------------------------------------------------------------------------- |
-| Linux 系统编程综述           | [Linux 系统编程](preparation/linux-system-programming.md)                                   |
-| Linux 目录操作               | [Plan3](plan/plan3-ls.md){ .md-button .md-button--primary }                                 |
-| 高级语言基础                 | [语言学习](preparation/languages.md) + [流行语言的比较](preparation/language-comparison.md) |
-| Linux 进程通信（C/C++/其他） | [Plan4](plan/plan4-shell.md){ .md-button .md-button--primary }                              |
-| Linux 线程同步               | [Plan5](plan/plan5-thread.md){ .md-button .md-button--primary }                             |
-| Linux 网络通信               | [Plan6](plan/plan6-network.md){ .md-button .md-button--primary }                            |
-| My ChatRoom                  | [Plan7](plan/plan7-chatroom.md){ .md-button .md-button--primary }                           |
-| To Be Continued              | [Server 后续学习](plan/plan8-server.md)                                                     |
+| Point                        | Detail                                                                                                                |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Linux 系统编程综述           | [Linux 系统编程](preparation/linux-system-programming.md){ .md-button }                                               |
+| Linux 目录操作               | [Plan3](plan/plan3-ls.md){ .md-button .md-button--primary }                                                           |
+| 高级语言基础                 | [语言学习](preparation/languages.md){ .md-button } [流行语言的比较](preparation/language-comparison.md){ .md-button } |
+| Linux 进程通信（C/C++/其他） | [Plan4](plan/plan4-shell.md){ .md-button .md-button--primary }                                                        |
+| Linux 线程同步               | [Plan5](plan/plan5-thread.md){ .md-button .md-button--primary }                                                       |
+| Linux 网络通信               | [Plan6](plan/plan6-network.md){ .md-button .md-button--primary }                                                      |
+| My ChatRoom                  | [Plan7](plan/plan7-chatroom.md){ .md-button .md-button--primary }                                                     |
+| To Be Continued              | [Server 后续学习](plan/plan8-server.md){ .md-button .md-button--primary }                                             |
 
 ### 第三学期：C/C++/Java/Golang
 
@@ -89,16 +89,16 @@ Linux 系统编程，网络编程（面向对象）。
 
 下列项目不需要全部完成，选择你感兴趣的 3 个即可。
 
-| 时间              | 知识点        | 详情                                                       | 项目                                                                                                             |
-| ----------------- | ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| 2022.01 ~ 2022.12 | 网络服务器    | [Linux 网络编程](preparation/linux-network-programming.md) | [Linux 网络编程](preparation/linux-network-programming.md#homework)                                              |
-| 2022.01 ~ 2022.12 | 操作系统      | [操作系统](preparation/os.md)                              | [MIT 6.S081](https://pdos.csail.mit.edu/6.S081)/[MIT 6.828](https://pdos.csail.mit.edu/6.828/2018/schedule.html) |
-| 2022.01 ~ 2022.12 | 分布式        | [分布式系统](preparation/distributed-systems.md)           | [MIT 6.824](https://pdos.csail.mit.edu/6.824/)                                                                   |
-| 2022.01 ~ 2022.12 | 关系型数据库  | [数据库](preparation/database.md)                          | [CMU 15-445/645](https://15445.courses.cs.cmu.edu)                                                               |
-| 2022.01 ~ 2022.12 | Git           | -                                                          | 我的 Git                                                                                                         |
-| 2022.01 ~ 2022.12 | KV 外存数据库 | -                                                          | 我的 Lsm-tree                                                                                                    |
-| 2022.01 ~ 2022.12 | KV 内存数据库 | -                                                          | 我的 Redis                                                                                                       |
-| 2022.01 ~ 2022.12 | 云原生容器    | -                                                          | 我的 Docker                                                                                                      |
+| 时间              | 知识点        | 详情                                                                     | 项目                                                                                                             |
+| ----------------- | ------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| 2022.01 ~ 2022.12 | 网络服务器    | [Linux 网络编程](preparation/linux-network-programming.md){ .md-button } | [Linux 网络编程](preparation/linux-network-programming.md#homework)                                              |
+| 2022.01 ~ 2022.12 | 操作系统      | [操作系统](preparation/os.md){ .md-button }                              | [MIT 6.S081](https://pdos.csail.mit.edu/6.S081)/[MIT 6.828](https://pdos.csail.mit.edu/6.828/2018/schedule.html) |
+| 2022.01 ~ 2022.12 | 分布式        | [分布式系统](preparation/distributed-systems.md){ .md-button }           | [MIT 6.824](https://pdos.csail.mit.edu/6.824/)                                                                   |
+| 2022.01 ~ 2022.12 | 关系型数据库  | [数据库](preparation/database.md){ .md-button }                          | [CMU 15-445/645](https://15445.courses.cs.cmu.edu)                                                               |
+| 2022.01 ~ 2022.12 | Git           | -                                                                        | 我的 Git                                                                                                         |
+| 2022.01 ~ 2022.12 | KV 外存数据库 | -                                                                        | 我的 Lsm-tree                                                                                                    |
+| 2022.01 ~ 2022.12 | KV 内存数据库 | -                                                                        | 我的 Redis                                                                                                       |
+| 2022.01 ~ 2022.12 | 云原生容器    | -                                                                        | 我的 Docker                                                                                                      |
 
 ### 第四学期：参与开源社区
 

@@ -117,4 +117,4 @@
 
 ## After ChatRoom
 
-[进阶之路](plan8-server.md)
+[进阶之路](plan8-server.md){ .md-button }

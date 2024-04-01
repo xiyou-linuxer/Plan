@@ -2,7 +2,7 @@
 
 ## 主任务
 
-设计一个 C 语言的动态扩容缓冲区：[StrBuf 任务要求](../project/strbuf.md)
+设计一个 C 语言的动态扩容缓冲区：[StrBuf 任务要求](../project/strbuf.md){ .md-button }
 
 ### 任务时间
 
@@ -21,4 +21,4 @@
 !!! note
     此任务将在主任务截止一周后截止。
 
-[学会使用命令行](../project/command-line.md)
+[学会使用命令行](../project/command-line.md){ .md-button }

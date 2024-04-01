@@ -1,14 +1,21 @@
 # 贡献者指南
 
-如果你想为本仓库做贡献，欢迎提交 Pull Request。
+欢迎提交 Pull Request，帮助我们优化文档。
 
 !!! bug "TODO"
     - 从项目中解耦 `code/` 内的代码。
+
+## 贡献指南
+
+1. 请使用规范的 Markdown 格式编写内容。
+2. 内容书写需要符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)。
+3. 内容应当具有指导性、可读性、可理解性。
 
 ## 维护记录
 
 ### 2024 年
 
+- 4月1日，为站内链接添加按钮样式，更换颜色。
 - 3月24日，继续优化 Markdown 排版。
 - 3月20日，将本 Plan 的构建为站点。过程中发现了一些问题：
     - 标点符号(逗号，括号）不匹配,文件命名/MD 语法不规范---甚至在介绍 Markdown 的页面也有 MD 语法问题．
