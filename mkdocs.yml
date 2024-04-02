@@ -25,21 +25,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-auto
-        name: 浅色模式
-    - media: "(prefers-color-scheme: light)"
-      primary: green
-      accent: light blue
-      scheme: default
-      toggle:
-        icon: material/brightness-7
+        icon: material/brightness-4
         name: 深色模式
     - media: "(prefers-color-scheme: dark)"
       primary: teal
-      accent: green
+      accent: light blue
       scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
+        name: 浅色模式
+    - media: "(prefers-color-scheme: light)"
+      primary: green
+      accent: orange
+      scheme: default
+      toggle:
+        icon: material/brightness-auto
         name: 系统颜色模式
   language: zh
 
