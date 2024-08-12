@@ -1,9 +1,11 @@
 # 西邮 Linux 兴趣小组培养计划 / Plan of Xiyou Linux Group
 
+<img src="docs/asset/logo2023_compressed.webp" alt="一只来自西安邮电大学的小企鹅" height="200px" align="right">
+
 > [!TIP]
 > Hey, you found our treasures
 
-[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[![访问](https://img.shields.io/badge/%E8%AE%BF%E9%97%AE-plan.xiyoulinux.com-green?style=for-the-badge)](https://plan.xiyoulinux.com)
 
 ---
 
@@ -13,7 +15,7 @@
 
 ## 阅读本 Plan
 
-地址：https://plan.xiyoulinux.com
+https://plan.xiyoulinux.com
 
 ## 本地运行
 
@@ -31,5 +33,6 @@ mkdocs serve
 
 > Carpe diem，seize the day
 
-![一只来自西安邮电大学的小企鹅](docs/asset/logo2023_compressed.webp)
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
 
