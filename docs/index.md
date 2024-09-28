@@ -91,14 +91,15 @@ Linux 系统编程，网络编程（面向对象）。
 
 | 时间              | 知识点        | 详情                                                                     | 项目                                                                                                             |
 | ----------------- | ------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| 2022.01 ~ 2022.12 | 网络服务器    | [Linux 网络编程](preparation/linux-network-programming.md){ .md-button } | [Linux 网络编程](preparation/linux-network-programming.md#homework)                                              |
-| 2022.01 ~ 2022.12 | 操作系统      | [操作系统](preparation/os.md){ .md-button }                              | [MIT 6.S081](https://pdos.csail.mit.edu/6.S081)/[MIT 6.828](https://pdos.csail.mit.edu/6.828/2018/schedule.html) |
-| 2022.01 ~ 2022.12 | 分布式        | [分布式系统](preparation/distributed-systems.md){ .md-button }           | [MIT 6.824](https://pdos.csail.mit.edu/6.824/)                                                                   |
-| 2022.01 ~ 2022.12 | 关系型数据库  | [数据库](preparation/database.md){ .md-button }                          | [CMU 15-445/645](https://15445.courses.cs.cmu.edu)                                                               |
-| 2022.01 ~ 2022.12 | Git           | -                                                                        | 我的 Git                                                                                                         |
-| 2022.01 ~ 2022.12 | KV 外存数据库 | -                                                                        | 我的 Lsm-tree                                                                                                    |
-| 2022.01 ~ 2022.12 | KV 内存数据库 | -                                                                        | 我的 Redis                                                                                                       |
-| 2022.01 ~ 2022.12 | 云原生容器    | -                                                                        | 我的 Docker                                                                                                      |
+| 2024.10 ~ 2025.01 | 网络服务器    | [Linux 网络编程](preparation/linux-network-programming.md){ .md-button } | [Linux 网络编程](preparation/linux-network-programming.md#homework)                                              |
+| 2024.10 ~ 2025.01 | 操作系统      | [操作系统](preparation/os.md){ .md-button }                              | [MIT 6.S081](https://pdos.csail.mit.edu/6.S081)/[MIT 6.828](https://pdos.csail.mit.edu/6.828/2018/schedule.html) |
+| 2024.10 ~ 2025.01 | 分布式        | [分布式系统](preparation/distributed-systems.md){ .md-button }           | [MIT 6.824](https://pdos.csail.mit.edu/6.824/)                                                                   |
+| 2024.10 ~ 2025.01 | 关系型数据库  | [数据库](preparation/database.md){ .md-button }                          | [CMU 15-445/645](https://15445.courses.cs.cmu.edu)                                                                |
+| 2024.10 ~ 2025.01 | Git           | -                                                                       | 我的 Git                                                                                                         |
+| 2024.10 ~ 2025.01 | KV 外存数据库 | -                                                                        | 我的 Lsm-tree                                                                                                    |
+| 2024.10 ~ 2025.01 | KV 内存数据库 | -                                                                        | 我的 Redis                                                                                                       |
+| 2024.10 ~ 2025.01 | 云原生容器    | -                                                                        | 我的 Docker                                                                                                      |
+| 2024.10 ~ 2025.01 | 网络        | [网络](preparation/network.md){ .md-button }                               | [CS144](https://cs144.github.io/)                                                                               |
 
 ### 第四学期：参与开源社区
 
