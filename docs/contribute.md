@@ -2,23 +2,16 @@
 
 欢迎提交 Pull Request，帮助我们优化文档。
 
-!!! bug "TODO"
-    - 从项目中解耦 `code/` 内的代码。
+## 文件内容规范
 
-## 贡献指南
-
-1. 请使用规范的 Markdown 格式编写内容。
-2. 内容书写需要符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)。
+1. 请使用规范的 Markdown 格式编写内容，文件命名使用 `kebab-case` 格式。
+2. 内容书写需要符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)；减少中文西化，使用现代汉语语序，避免大量使用宾语前置和被动语态。
 3. 内容应当具有指导性、可读性、可理解性。
 
-## 维护记录
+## 贡献方式
 
-### 2024 年
+<!-- 待补充 -->
 
-- 4月1日，为站内链接添加按钮样式，更换颜色。
-- 3月24日，继续优化 Markdown 排版。
-- 3月20日，将本 Plan 的构建为站点。过程中发现了一些问题，后续同学请注意避免：
-    - 标点符号不匹配，文件命名/MD 语法不规范
-    - 中文西化现象，混乱语序，宾语前置问题
-    - 中英文夹杂滥用，英文名词无特定含义
-    - `code` 标签滥用，其用于 `变量/文件名`，而不是 `专有名词`
+## 贡献者公约（CODE OF CONDUCT）
+
+<!-- 待补充 -->

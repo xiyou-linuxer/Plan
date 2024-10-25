@@ -1,4 +1,4 @@
-# 西邮 Linux 兴趣小组培养计划 / Plan of Xiyou Linux Group
+# 西邮 Linux 兴趣小组培养计划 / Plan of Xiyou Linux Group
 
 <img src="docs/asset/logo2023_compressed.webp" alt="一只来自西安邮电大学的小企鹅" height="200px" align="right">
 
@@ -19,6 +19,8 @@ https://plan.xiyoulinux.com
 
 ## 本地运行
 
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=flat-square&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
 ```sh
 git clone https://github.com/xiyou-linuxer/Plan.git --depth 1
 cd Plan
@@ -31,8 +33,5 @@ mkdocs serve
 
 欢迎阅读 [贡献者指南](https://plan.xiyoulinux.com/contribute/) 后提交 Pull Request，帮助我们优化文档。
 
-> Carpe diem，seize the day
-
-[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
-
+> Carpe diem, seize the day
 
