@@ -30,7 +30,7 @@ Hi，这是小组为你准备的「Road Map」，尽情探索研究吧！
 计算机领域的知识浩瀚如烟，非常容易陷入迷茫，希望这份文档能为你提供指引。
 在开始探索之前，可以先完成这份前置任务：[Plan0](./plan/plan0.md){ .md-button .md-button--primary }
 
-### 第一学期：C/Linux
+### 第一阶段：C/Linux
 
 #### 培养方向
 
@@ -49,7 +49,7 @@ Hi，这是小组为你准备的「Road Map」，尽情探索研究吧！
 | C 语言基础 / Linux 入门 | [Plan1](./plan/plan1-c-begin.md){ .md-button .md-button--primary } |
 | C 语言编写简单 Lab      | [Plan2](./plan/plan2-strbuf.md){ .md-button .md-button--primary }  |
 
-### 第二学期：C/C++/Java
+### 第二阶段：C/C++/Java
 
 #### 培养方向
 
@@ -75,35 +75,30 @@ Linux 系统编程，网络编程（面向对象）。
 | My ChatRoom                  | [Plan7](plan/plan7-chatroom.md){ .md-button .md-button--primary }                                                     |
 | To Be Continued              | [Server 后续学习](plan/plan8-server.md){ .md-button .md-button--primary }                                             |
 
-### 第三学期：C/C++/Java/Golang
+### 第三阶段：C/C++/Golang
 
 #### 培养方向
 
-分布式、数据库、操作系统
+分布式、数据库、操作系统、网络
 
 #### 培养目标
 
-1. 掌握分布式系统、数据库系统等原理并进行应用开发。
-2. 深入理解 Linux 操作系统底层原理。
-3. 理解开源文化并参与开源项目。
+1. 深入掌握 Linux 操作系统的底层原理
+2. 熟练掌握高性能网络编程和网络协议
+3. 深入理解数据库内核并进行实际应用开发
+4. 掌握分布式系统的原理及其构建方法
 
 #### Note
 
-下列项目不需要全部完成，选择你感兴趣的 3 个即可。
+| 时间              | 知识点     | 详情                                                                     | 项目                                                                                                             |
+| ----------------- | ---------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| 2024.10 ~ 2025.01 | 网络服务器 | [Linux 网络编程](preparation/linux-network-programming.md){ .md-button } | [Linux 网络编程](preparation/linux-network-programming.md#homework)                                              |
+| 2024.10 ~ 2025.01 | 操作系统   | [操作系统](preparation/os.md){ .md-button }                              | [MIT 6.S081](https://pdos.csail.mit.edu/6.S081)/[MIT 6.828](https://pdos.csail.mit.edu/6.828/2018/schedule.html) |
+| 2024.10 ~ 2025.01 | 分布式     | [分布式系统](preparation/distributed-systems.md){ .md-button }           | [MIT 6.824](https://pdos.csail.mit.edu/6.824/)                                                                   |
+| 2024.10 ~ 2025.01 | 数据库     | [数据库](preparation/database.md){ .md-button }                          | [CMU 15-445/645](https://15445.courses.cs.cmu.edu)                                                               |
+| 2024.10 ~ 2025.01 | 网络       | [网络](preparation/network.md){ .md-button }                             | [CS144](https://cs144.github.io/)                                                                                |
 
-| 时间              | 知识点        | 详情                                                                     | 项目                                                                                                             |
-| ----------------- | ------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| 2024.10 ~ 2025.01 | 网络服务器    | [Linux 网络编程](preparation/linux-network-programming.md){ .md-button } | [Linux 网络编程](preparation/linux-network-programming.md#homework)                                              |
-| 2024.10 ~ 2025.01 | 操作系统      | [操作系统](preparation/os.md){ .md-button }                              | [MIT 6.S081](https://pdos.csail.mit.edu/6.S081)/[MIT 6.828](https://pdos.csail.mit.edu/6.828/2018/schedule.html) |
-| 2024.10 ~ 2025.01 | 分布式        | [分布式系统](preparation/distributed-systems.md){ .md-button }           | [MIT 6.824](https://pdos.csail.mit.edu/6.824/)                                                                   |
-| 2024.10 ~ 2025.01 | 关系型数据库  | [数据库](preparation/database.md){ .md-button }                          | [CMU 15-445/645](https://15445.courses.cs.cmu.edu)                                                               |
-| 2024.10 ~ 2025.01 | Git           | -                                                                        | 我的 Git                                                                                                         |
-| 2024.10 ~ 2025.01 | KV 外存数据库 | -                                                                        | 我的 Lsm-tree                                                                                                    |
-| 2024.10 ~ 2025.01 | KV 内存数据库 | -                                                                        | 我的 Redis                                                                                                       |
-| 2024.10 ~ 2025.01 | 云原生容器    | -                                                                        | 我的 Docker                                                                                                      |
-| 2024.10 ~ 2025.01 | 网络          | [网络](preparation/network.md){ .md-button }                             | [CS144](https://cs144.github.io/)                                                                                |
-
-### 第四学期：参与开源社区
+### 第四阶段：参与开源社区
 
 #### Note
 
