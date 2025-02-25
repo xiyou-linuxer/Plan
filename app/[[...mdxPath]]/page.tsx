@@ -1,5 +1,6 @@
 import { generateStaticParamsFor, importPage } from 'nextra/pages'
 import { useMDXComponents } from '../../mdx-components'
+import PostFooter from '../components/PostFooter'
 
 export const generateStaticParams = generateStaticParamsFor('mdxPath')
 
@@ -18,6 +19,7 @@ export default async function Page(props) {
   return (
     <Wrapper toc={toc} metadata={metadata}>
       <MDXContent {...props} params={params} />
+      <PostFooter />
     </Wrapper>
   )
 }
