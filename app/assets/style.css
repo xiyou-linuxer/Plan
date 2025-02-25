@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 江城律动宋;
+    src: url(/江城律动宋.subset.woff2);
+}
+
+.type-song {
+    font-family: 江城律动宋;
+    flex-shrink: 0;
+}
+
+.type-song::first-letter {
+    font-size: 1.5em;
+    line-height: 1;
+}

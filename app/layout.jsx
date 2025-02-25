@@ -12,13 +12,13 @@ export const metadata = {
 const head = (
   <link rel="icon" href="https://www.xiyoulinux.com/favicon.ico"></link>
 )
-const banner = (
-  <Banner storageKey="migration-to-nextra">本站于 2025-02-24 由 Material for MkDocs 转为 Nextra 构建，遇到问题请提 Issue。</Banner>
-)
 const navbar = (
   <Navbar
-    logo={<b>西邮 Linux 兴趣小组培养计划</b>}
+    align="left"
+    logo={<strong className="type-song">培养计划</strong>}
     projectLink="https://github.com/xiyou-linuxer/Plan"
+    chatLink="https://www.xiyoulinux.com/"
+    chatIcon={<img src="https://www.xiyoulinux.com/favicon.ico" width="24" />}
   />
 )
 const footer = <Footer>© {new Date().getFullYear()} 西邮 Linux 兴趣小组</Footer>
@@ -29,7 +29,7 @@ export default async function RootLayout({ children }) {
       <Head children={head} />
       <body>
         <Layout
-          banner={banner}
+          // banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/xiyou-linuxer/Plan"
