@@ -22,21 +22,13 @@ cd xlg-plan
 # package-manager install pnpm
 pnpm i
 pnpm dev
+# browser open http://localhost:3000
 ```
 
-需要的 VS Code 插件：
+需要安装 `ESLint` 和 `MDX` VS Code 插件以规范代码并高亮语法。
 
-- ESLint：代码规范
-- Prettier：代码格式化
-- MDX：MDX 语法高亮
+## Contributing
 
-参考文档：
-
-- [Nextra](https://nextra.site/)：文档主题配置
-- [MDX](https://mdxjs.com/)：MDX 增强语法
-
-## Contribute
-
-欢迎阅读 [贡献者指南](https://plan.xiyoulinux.com/contribute/) 后提交 Pull Request，帮助我们优化文档。
+欢迎阅读 [贡献者指南](https://plan.xiyoulinux.com/manual/contributing/) 后提交 Pull Request，帮助我们优化文档。
 
 > Carpe diem, seize the day

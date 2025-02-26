@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@iconify/tailwind4";
 
 @font-face {
     font-family: 江城律动宋;
@@ -13,4 +14,14 @@
 .type-song::first-letter {
     font-size: 1.5em;
     line-height: 1;
+}
+
+
+.nextra-callout > div:last-child > :not(:first-child) {
+    line-height: 1.5;
+    margin: 0.5em 0 0.25em;
+}
+
+article > main > :where(ul,ol) :where(ul,ol) {
+    margin-top: .75em;
 }

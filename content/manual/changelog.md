@@ -8,4 +8,4 @@
 
 - 4~11月，更新培养计划内容。
 - 3月24日，优化 Markdown 排版。
-- 3月20日，使用 mkdocs-material 将本 Plan 构建为站点。
+- 3月20日，使用 Material for Mkdocs 将本 Plan 构建为站点。
