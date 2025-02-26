@@ -1,14 +1,10 @@
-# 西邮 Linux 兴趣小组培养计划 / Plan of Xiyou Linux Group
-
-<img src="https://www.xiyoulinux.com/logo2023_compressed.webp" alt="一只来自西安邮电大学的小企鹅" width="120" align="right">
-
-[![访问](https://img.shields.io/badge/%E8%AE%BF%E9%97%AE-plan.xiyoulinux.com-green?style=for-the-badge)](https://plan.xiyoulinux.com)
-
----
+# 西邮 Linux 兴趣小组培养计划<br>*Plan of Xiyou Linux Group*
 
 > [!TIP]
 >
 > Hey, you found our treasures!
+>
+> [![访问](https://img.shields.io/badge/%E8%AE%BF%E9%97%AE-plan.xiyoulinux.com-green?style=for-the-badge)](https://plan.xiyoulinux.com)
 
 整体参考路线：[Linux 系统软件开发方向的 RoadMap](https://github.com/xiyou-linuxer/Plan/issues/1)
 
@@ -27,8 +23,11 @@ pnpm dev
 
 需要安装 `ESLint` 和 `MDX` VS Code 插件以规范代码并高亮语法。
 
-## Contributing
+## 开源信息
 
-欢迎阅读 [贡献者指南](https://plan.xiyoulinux.com/manual/contributing/) 后提交 Pull Request，帮助我们优化文档。
+- 代码协议：[MIT](https://github.com/xiyou-linuxer/Plan/blob/main/LICENSE)
+- 文本协议：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)
+- 贡献者指南：[网页](https://plan.xiyoulinux.com/manual/contributing/) · [contributing.md](./content/manual/contributing)
+- 更新日志：[网页](https://plan.xiyoulinux.com/manual/changelog/) · [changelog.md](./content/manual/changelog)
 
-> Carpe diem, seize the day
+## <code>Carpe diem, seize the day<img src="https://avatars.githubusercontent.com/xiyou-linuxer" alt="一只来自西安邮电大学的小企鹅" width="64"></code>
