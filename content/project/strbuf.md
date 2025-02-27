@@ -1,3 +1,8 @@
+---
+author: [adlternative, Y7n05h, fansheep]
+editor: [hiixfj, vincillau]
+---
+
 # 设计一个 C 语言的动态扩容缓冲区
 
 ## 知识要点

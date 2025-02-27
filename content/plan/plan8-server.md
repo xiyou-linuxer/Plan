@@ -1,3 +1,8 @@
+---
+author: [Y7n05h, Daz-3ux]
+editor: [Ph0m1, L33Z22L11]
+---
+
 # 8. Server 后续学习
 
 ## 必学内容

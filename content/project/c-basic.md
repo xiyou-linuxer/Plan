@@ -1,3 +1,7 @@
+---
+author: [adlternative, Daz-3ux]
+---
+
 # C 语言基础任务
 
 ## 任务说明

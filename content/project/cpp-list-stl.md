@@ -1,3 +1,8 @@
+---
+author: [zevin02]
+editor: [ShawnJeffersonWang]
+---
+
 # C++ List STL
 
 ## 前置 C++ 语言知识

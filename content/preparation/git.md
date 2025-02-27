@@ -1,3 +1,7 @@
+---
+author: [yegetables, zhoukuo123]
+---
+
 # Git 的使用
 
 Git 以及 GitHub 是大家未来四年每天都要接触并且熟悉的工具，不好好学会在上面受很大的苦。

@@ -1,3 +1,7 @@
+---
+author: [adlternative]
+---
+
 # 分布式系统
 
 ## 前置条件

@@ -1,3 +1,7 @@
+---
+author: [fansehep, Y7n05h, L33Z22L11]
+---
+
 # 博客与 Markdown
 
 ## 为什么需要写博客？

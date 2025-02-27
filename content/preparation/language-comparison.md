@@ -1,3 +1,8 @@
+---
+author: [yegetables, Y7n05h, adlternative, Daz-3ux]
+editor: [dangyuxin]
+---
+
 # 流行语言的比较
 
 ## 为什么要学 XXX 语言?

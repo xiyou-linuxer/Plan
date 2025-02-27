@@ -1,3 +1,7 @@
+---
+author: [akaakking, ShawnJeffersonWang]
+---
+
 # Java 多线程
 
 ## BlockingQueue

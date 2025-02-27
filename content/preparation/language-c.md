@@ -1,3 +1,7 @@
+---
+author: [Y7n05h, adlternative]
+---
+
 # C 语言基础入门
 
 ## Q&A

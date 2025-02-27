@@ -1,3 +1,7 @@
+---
+author: [yegetables]
+---
+
 # 2. C 语言编写简单 Lab
 
 ## 主任务

@@ -1,3 +1,7 @@
+---
+author: [Y7n05h, yubindy, hizhisong, BBAslayer, yanyanran, Daz-3ux]
+---
+
 # 操作系统
 
 > 操作系统需要处理如管理与配置内存、决定系统资源供需的优先次序、控制输入设备与输出设备、操作网络与管理文件系统等基本事务。

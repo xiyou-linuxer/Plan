@@ -1,3 +1,8 @@
+---
+author: [Y7n05h]
+editor: [tiny-sky]
+---
+
 # 5. Linux 线程同步
 
 ## 进程间通信

@@ -1,3 +1,7 @@
+---
+author: [adlternative, tiny-sky]
+---
+
 # 实现自己的 Shell
 
 ## 为什么实现一个自己的 Shell？

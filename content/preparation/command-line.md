@@ -1,3 +1,8 @@
+---
+author: [Y7n05h, yegetables, adlternative]
+
+---
+
 # Shell 与命令行
 
 ## Q&A

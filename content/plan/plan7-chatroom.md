@@ -1,3 +1,8 @@
+---
+author: [Y7n05h, yegetables, Daz-3ux]
+editor: [L33Z22L11]
+---
+
 # 7. 一个 ChatRoom
 
 > 编程为什么有趣？作为回报，它的从业者期望得到什么样的快乐？

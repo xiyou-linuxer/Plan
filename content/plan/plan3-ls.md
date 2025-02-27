@@ -1,3 +1,8 @@
+---
+author: [yegetables, adlternative]
+editor: [Y7n05h]
+---
+
 # 3. Linux 目录操作
 
 ## 前置知识

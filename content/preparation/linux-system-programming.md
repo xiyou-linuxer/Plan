@@ -1,3 +1,8 @@
+---
+author: [houkuo123, vincillau]
+editor: [Y7n05h]
+---
+
 # Linux 系统编程
 
 学习 Linux 系统编程，就是学习使用 Linux 内核和 C 库（通常是 glibc，它封装了 Linux 内核提供给我们的系统调用及其他有用的工具函数）为我们编写的应用程序提供的接口。
