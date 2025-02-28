@@ -5,7 +5,7 @@ author: [adlternative]
 # 分布式系统
 
 ## 前置条件
-你连单机服务器编程都整不会，搁着搭空中楼阁呢？！分布式本身就是许多个单机节点构成的。为此，你得先看 [Linux 网络编程](linux-network-programming.md)，等你把该看的书都看了，该做的项目都做了，咱再回来跟你好好说一说咋去学分布式这些狗屁玩意~
+你连单机服务器编程都整不会，搁着搭空中楼阁呢？！分布式本身就是许多个单机节点构成的。为此，你得先看 [Linux 网络编程](linux-network-programming)，等你把该看的书都看了，该做的项目都做了，咱再回来跟你好好说一说咋去学分布式这些狗屁玩意~
 
 ## 为什么要学习分布式
 
@@ -52,4 +52,4 @@ Youtube 视频去 Chrome 扩展商店下双语翻译插件，或者 B 站有个 
 >
 > 由你来完善和丰富！
 
-- [Favorites/DistributedSystem.md](https://github.com/xiyou-linuxer/Favorites/blob/master/DistributedSystem.md)
+- [Favorites/DistributedSystem](https://fav.xiyoulinux.com/DistributedSystem)

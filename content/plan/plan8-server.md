@@ -25,11 +25,11 @@ editor: [Ph0m1, L33Z22L11]
 
 ### 操作系统
 
-- [操作系统](../preparation/os.md)
+- [操作系统](../preparation/os)
   - 早日通关 `必看课程`
 
 ### 计算机网络
-- [计网](../preparation/linux-network-programming.md)
+- [计网](../preparation/linux-network-programming)
   - 祖安风格 `Σ(°Д°;`
 
 > TCP 到底是怎么玩的？重传是如何进行的？拥塞控制和流量控制又该如何实现？

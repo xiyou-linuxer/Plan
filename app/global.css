@@ -11,17 +11,30 @@
     flex-shrink: 0;
 }
 
-.type-song::first-letter {
-    font-size: 1.5em;
-    line-height: 1;
+[class*="icon-["] {
+    font-size: 1.3em;
+    vertical-align: text-top;
 }
 
+article > main > h1 {
+    margin-top: 1rem;
+}
 
-.nextra-callout > div:last-child > :not(:first-child) {
+article > main > :where(h2, h3, h4, h5, h6, a) {
+    margin: 1.2em 0 .8em;
+}
+
+article > main p + p {
+    margin-top: .8em;
+}
+
+article > main > :where(ul, ol) :where(ul, ol) {
+    margin-top: .75em;
+}
+
+.nextra-callout > div:last-child> :not(:first-child) {
     line-height: 1.5;
     margin: 0.5em 0 0.25em;
 }
 
-article > main > :where(ul,ol) :where(ul,ol) {
-    margin-top: .75em;
-}
+

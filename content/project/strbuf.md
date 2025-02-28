@@ -1,5 +1,5 @@
 ---
-author: [adlternative, Y7n05h, fansheep]
+author: [adlternative, Y7n05h, fansehep]
 editor: [hiixfj, vincillau]
 ---
 
@@ -222,7 +222,10 @@ ssize_t strbuf_read(struct strbuf *sb, int fd, size_t hint);
 int strbuf_getline(struct strbuf *sb, FILE *fp);
 ```
 
+<!-- 主线任务有此任务时，应在主线任务处说明截止时间 -->
+
 ---
+
 ## 无信用挑战练习
 
 ### CHALLENGE

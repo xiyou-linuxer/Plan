@@ -119,7 +119,7 @@ Python 最流行，C 语言第二，Java 第三，C++ 第四, Golang 进入了�
 
 #### 推荐的练手小项目
 
-- [实现一个 C++ 的 std::list](../project/cpp-list-stl.md)
+- [实现一个 C++ 的 std::list](../project/cpp-list-stl)
 
 ### Java
 
@@ -147,7 +147,7 @@ Java能够自动处理对象的引用和间接引用，实现自动的无用单�
 
 #### 推荐的练手小项目
 
-- [实现一个 Java 的 PriorityQueue](../project/priority-queue.md)
+- [实现一个 Java 的 PriorityQueue](../project/priority-queue)
 
 ---
 

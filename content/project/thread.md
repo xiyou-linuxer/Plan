@@ -43,7 +43,7 @@ author: [Daz-3ux, YarBor]
 
 是不是很简单？？？快来试试吧！！！
 
-- [Simple thread pool challenge](../plan/simple-thread-pool-challenge.md)
+- [Simple thread pool challenge](../plan/simple-thread-pool-challenge)
 
 ### 多线程文件搜索
 

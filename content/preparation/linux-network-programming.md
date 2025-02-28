@@ -7,8 +7,8 @@ editor: [Y7n05h]
 
 ## 前置条件
 
-1. 你以为你不懂多线程多进程文件就敢来碰网络编程？！跑个单线程 epoll 谁不会？连多线程并发控制都不会，客户数据出错了你负责？赶紧 run 去学 [Linux 系统编程](linux-system-programming.md) 吧你。
-2. 数据结构和算法不会？不会还有人用链表去存所有用户元数据吧，笑死了，别这写低性能服务器了，打好你的基础：[数据结构和算法](data-structure-algorithm.md) 先吧。
+1. 你以为你不懂多线程多进程文件就敢来碰网络编程？！跑个单线程 epoll 谁不会？连多线程并发控制都不会，客户数据出错了你负责？赶紧 run 去学 [Linux 系统编程](linux-system-programming) 吧你。
+2. 数据结构和算法不会？不会还有人用链表去存所有用户元数据吧，笑死了，别这写低性能服务器了，打好你的基础：[数据结构和算法](data-structure-algorithm) 先吧。
 
 ## 为什么要学习服务器？
 
@@ -86,8 +86,8 @@ editor: [Y7n05h]
 好了，你的服务器总算比屎好一点了。但如果客户要求你存储 TB 级别的数据，你难道还会使用文件存储吗？学习数据库可以让你了解服务器可以提供哪些服务，学习分布式系统可以了解如何扩展服务器的容量和性能，以及如何提供容错性。
 
 1. 数据库
-2. [分布式系统](distributed-systems.md)
+2. [分布式系统](distributed-systems)
 
 ## 参考资料
 
-- [Favorites/NetworkProgramming.md](https://github.com/xiyou-linuxer/Favorites/blob/master/NetworkProgramming.md)
+- [Favorites/NetworkProgramming](https://fav.xiyoulinux.com/NetworkProgramming)

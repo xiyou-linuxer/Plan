@@ -49,9 +49,9 @@ editor: [tiny-sky]
 
 ## TASK
 
-在此任务中你需要使用线程来提高并发性能：[Thread](../project/thread.md)
+在此任务中你需要使用线程来提高并发性能：[Thread](../project/thread)
 
-在此任务中你需要处理不同状况下线程间的同步问题： [Synchronize](../project/synchronize.md)
+在此任务中你需要处理不同状况下线程间的同步问题： [Synchronize](../project/synchronize)
 
 ## 参考
 

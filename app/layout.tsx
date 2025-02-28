@@ -1,6 +1,9 @@
 import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
+
+import Logo from './components/Logo'
+
 import 'nextra-theme-docs/style.css'
 import './global.css'
 
@@ -35,16 +38,16 @@ const projectLink = 'https://github.com/xiyou-linuxer/Plan'
 
 const navbar = (
   <Navbar
+    logo={<Logo />}
     align="left"
-    logo={<span className="type-song">培养计划</span>}
     projectLink={projectLink}
     chatLink="https://www.xiyoulinux.com/"
-    chatIcon={<span>主站</span>}
+    chatIcon={<i className="text-2xl! icon-[ph--linux-logo-fill] " />}
   />
 )
 
 const footer = (
-  <Footer className="gap-4">
+  <Footer className="flex-wrap gap-x-6 gap-y-2">
     <span>© {new Date().getFullYear()} 西邮 Linux 兴趣小组</span>
     <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer nofollow">陕ICP备2023007680号-1</a>
   </Footer>
@@ -69,10 +72,8 @@ export default async function RootLayout({ children }) {
             title: '目录',
             backToTop: '回到顶部',
           }}
-          feedback={{
-            content: '提出Issue',
-          }}
-          editLink="编辑本页"
+          feedback={{ content: null }}
+          editLink={null}
           footer={footer}
         >
           {children}

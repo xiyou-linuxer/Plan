@@ -17,7 +17,7 @@ author: [Y7n05h]
 
 - [C API](https://github.com/xiyou-linuxer/Plan/tree/main/code/TaskQueue.c)
 - [C++ API](https://github.com/xiyou-linuxer/Plan/tree/main/code/TaskQueue.cpp)
-- [Java interface](./java/multi-threading.md)
+- [Java interface](./java/multi-threading)
 
 ## 哲学家问题
 

@@ -1,14 +1,14 @@
 # 西邮 Linux 兴趣小组培养计划<br>*Plan of Xiyou Linux Group*
 
 > [!TIP]
->
-> Hey, you found our treasures!
+> <!-- YarBor -->
+> Hey, you found our treasure!
 >
 > [![访问](https://img.shields.io/badge/%E8%AE%BF%E9%97%AE-plan.xiyoulinux.com-green?style=for-the-badge)](https://plan.xiyoulinux.com)
 
 整体参考路线：[Linux 系统软件开发方向的 RoadMap](https://github.com/xiyou-linuxer/Plan/issues/1)
 
-知识点图鉴：[Favorites](https://github.com/xiyou-linuxer/Favorites)
+知识点图鉴：[Favorites](https://fav.xiyoulinux.com/)
 
 ## 本地运行
 

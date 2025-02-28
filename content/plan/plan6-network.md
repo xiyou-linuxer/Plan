@@ -66,7 +66,7 @@ author: [Y7n05h]
 | ---- | ---- | -------- |
 | 63   | √    | 60 min   |
 
-网络内容章节请在 `2023.6.19 UTC+8` 之前阅读完毕，并按时完成 [netPlan](../project/plan-net.md)
+网络内容章节请在 `2023.6.19 UTC+8` 之前阅读完毕，并按时完成 [netPlan](../project/plan-net)
 
 ---
 

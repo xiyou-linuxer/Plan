@@ -17,6 +17,5 @@ Git 以及 GitHub 是大家未来四年每天都要接触并且熟悉的工具�
 
 ## 参考资料
 
-[1]：[xiyou-linuxer/Favorites/Git.md](https://github.com/xiyou-linuxer/Favorites/blob/master/Git.md)
-
-[2]：[常用的 Git 命令查找](https://github.com/521xueweihan/git-tips)
+- [1]：[xiyou-linuxer/Favorites/Git](https://fav.xiyoulinux.com/Git)
+- [2]：[常用的 Git 命令查找](https://github.com/521xueweihan/git-tips)
