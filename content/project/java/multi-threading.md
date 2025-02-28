@@ -6,7 +6,7 @@ author: [akaakking, ShawnJeffersonWang]
 
 ## BlockingQueue
 
-或许是为了让用户严格遵循CSP模型（或许只是因为懒），Go自身没有线程安全的数据结构，但是Go的chan实际上就相当于一个线程安全的BlockingQueue（实际上还是有些区别）。我们一般写并发的程序就直接加很多锁，其实这种思维方式不是很到位，因为锁不是那么好加的，粒度大了效率低，粒度小了出问题。所以针对并发编程，大牛们就抽象出了一个模型叫CSP（Communicating Sequential Processes），让我们这些智力不如他们的人借助这个模型来安排自己的程序结构，不加锁也可以很好地解决并发问题（不加锁怎么可能只是锁加在了chan或者说BlockingQueue里）。Go借助chan就可以很好地支持这种模型。
+或许是为了让用户严格遵循 CSP 模型（或许只是因为懒），Go 自身没有线程安全的数据结构，但是 Go 的 chan 实际上就相当于一个线程安全的 BlockingQueue（实际上还是有些区别）。我们一般写并发的程序就直接加很多锁，其实这种思维方式不是很到位，因为锁不是那么好加的，粒度大了效率低，粒度小了出问题。所以针对并发编程，大牛们就抽象出了一个模型叫 CSP（Communicating Sequential Processes），让我们这些智力不如他们的人借助这个模型来安排自己的程序结构，不加锁也可以很好地解决并发问题（不加锁怎么可能只是锁加在了 chan 或者说 BlockingQueue 里）。Go 借助 chan 就可以很好地支持这种模型。
 
 当然这说得有点远了，就是让你们知道这个东西其实挺重要的（但是重要的是它的抽象而不是实现）。
 
@@ -18,14 +18,14 @@ author: [akaakking, ShawnJeffersonWang]
 ### 代码
 
 - [实现一个 Java 的 BlockingQueue](https://github.com/xiyou-linuxer/Queue4j/tree/main/BlockingQueue)
-    - [BlockingQueue1](https://github.com/xiyou-linuxer/Queue4j/tree/main/BlockingQueue/src/main/java/com/xiyoulinux/blockingqueue/BlockingQueue1.java)中定义了需要实现的方法和类。
-    - [TestBlockingQueue1](https://github.com/xiyou-linuxer/Queue4j/tree/main/BlockingQueue/src/test/java/com/xiyoulinux/blockingqueue/TestBlockingQueue1.java)中有相应的使用和测试。
+  - [BlockingQueue1](https://github.com/xiyou-linuxer/Queue4j/tree/main/BlockingQueue/src/main/java/com/xiyoulinux/blockingqueue/BlockingQueue1.java)中定义了需要实现的方法和类。
+  - [TestBlockingQueue1](https://github.com/xiyou-linuxer/Queue4j/tree/main/BlockingQueue/src/test/java/com/xiyoulinux/blockingqueue/TestBlockingQueue1.java)中有相应的使用和测试。
 
 具体可参考 [link](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html) 里的接口文档。
 
 ## 线程池
 
-借助Google查找以下问题写一篇博客，并完成线程池。
+借助 Google 查找以下问题写一篇博客，并完成线程池。
 
 ### 什么是线程池？
 

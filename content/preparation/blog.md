@@ -20,8 +20,8 @@ author: [fansehep, Y7n05h, L33Z22L11]
 
 - 国内平台：CSDN、博客园、知乎
 - 自行部署
-    - 引擎：Hexo、Hugo、Halo
-    - 托管：Vercel、Cloudflare Pages、GitHub Pages、Netlify
+  - 引擎：Hexo、Hugo、Halo
+  - 托管：Vercel、Cloudflare Pages、GitHub Pages、Netlify
 
 ## 如何写博客呢？
 

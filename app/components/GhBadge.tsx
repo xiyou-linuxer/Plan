@@ -1,5 +1,5 @@
-export default function GhBadge(props: { name: string, className?: string }) {
-  const { name, className } = props
+export default function GhBadge(props: { name: string; className?: string }) {
+  const { name, className } = props;
 
   return (
     <a
@@ -9,11 +9,11 @@ export default function GhBadge(props: { name: string, className?: string }) {
       rel="noreferrer"
     >
       <img
-        className="avatar rounded-full h-[1.2em]"
+        className="avatar h-[1.2em] rounded-full"
         src={`https://wsrv.nl/?url=github.com/${name}.png%3fsize=48`}
         alt=""
       />
       {name}
     </a>
-  )
+  );
 }

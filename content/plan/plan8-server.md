@@ -29,6 +29,7 @@ editor: [Ph0m1, L33Z22L11]
   - 早日通关 `必看课程`
 
 ### 计算机网络
+
 - [计网](../preparation/linux-network-programming)
   - 祖安风格 `Σ(°Д°;`
 
@@ -40,13 +41,14 @@ editor: [Ph0m1, L33Z22L11]
 
 - [计算机网络：自顶向下](https://book.douban.com/subject/36081529/)
 - 推荐课程 [CS 144](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS144/)
-    - 请完成对应课程的 [lab0 , lab4]
+  - 请完成对应课程的 [lab0 , lab4]
 
 ### 业务脚手架使用
+
 - 想面试业务团队？业务代码和大家之前写的代码有很多不一样的地方，业务代码需要尽快落地，复用一切可以复用的轮子，构建出 MVP 后快速上线，因此一个合格的业务开发框架必不可少。
 - 可能你已经了解和使用过 Gin 了，但是对于业务开发来说，Gin 提供的能力还是太简单了，不是一个完整意义上的“框架”，在这，向你介绍几款 Golang 开发常见的脚手架，推荐从 beego 开始学习，多个框架之间有很多相似之处，学会一个之后可以了解下其他框架，最终选取最适合自己项目的框架开始使用，丰富简历。
-    - [beego](https://github.com/beego/beego)
-    - [GoFrame](https://github.com/gogf/gf)
-    - [eagle](https://github.com/go-eagle/eagle)
+  - [beego](https://github.com/beego/beego)
+  - [GoFrame](https://github.com/gogf/gf)
+  - [eagle](https://github.com/go-eagle/eagle)
 - v2ex 上一位开源框架维护者写的[为什么我们需要脚手架](https://v2ex.com/t/1059001)
 - [GoFrame 官网对多个框架的一个比较](https://goframe.org/pages/viewpage.action?pageId=3673375)

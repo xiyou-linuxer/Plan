@@ -14,7 +14,7 @@ author: [adlternative, tiny-sky]
 
 假设有以下文件 `1.txt` 记录着学长们悲惨的成绩：
 
-```
+```plain
 zzw   环境编程    33
 rzj   环境编程    55
 lsh   网络编程    33
@@ -35,6 +35,7 @@ xjj   数据结构    33
 3. `echo "the answer is 42" > 1.txt`
 
 > 提示（由 AI 生成）
+>
 > 1. 这个命令的结果是列出 `1.txt` 文件中出现频率最高的前五个名字，并按照频率降序排列。具体解释如下：
 >    - `cat 1.txt`：将文件的内容输出到标准输出。
 >    - `awk '{print $1}'`：使用 AWK 工具提取每一行的第一个字段（以空格为分隔符），即名字。
@@ -72,6 +73,7 @@ xjj   数据结构    33
 - 开发过程记录、总结、发布在个人博客中
 
 要求：
+
 - 不得出现内存泄漏、内存越界等错误
 - 学会如何使用 gdb 进行调试，使用 valgrind 等工具进行检测
 
@@ -115,7 +117,7 @@ xxx@xxx ~ $ exit
 
 - man 手册.
 - Michael Kerrisk. Linux/UNIX 系统编程手册[M]. 北京: 人民邮电出版社.
-- W. Richard Stevens. Stephen. UNIX 环境高级编程[M]. 第3版. 戚正伟, 译. 北京: 人民邮电出版社.
+- W. Richard Stevens. Stephen. UNIX 环境高级编程[M]. 第 3 版. 戚正伟, 译. 北京: 人民邮电出版社.
 
 ## 开源
 

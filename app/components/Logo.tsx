@@ -1,5 +1,8 @@
-export default function Logo(props: { className?: string, style?: React.CSSProperties }) {
-  const { className, style } = props
+export default function Logo(props: {
+  className?: string;
+  style?: React.CSSProperties;
+}) {
+  const { className, style } = props;
 
   return (
     <span className={`type-song select-none ${className}`} style={style}>
@@ -8,5 +11,5 @@ export default function Logo(props: { className?: string, style?: React.CSSPrope
       <span className="inline-block -translate-y-[10%]">计</span>
       <span>划</span>
     </span>
-  )
+  );
 }

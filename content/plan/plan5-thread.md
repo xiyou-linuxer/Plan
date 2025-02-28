@@ -7,14 +7,14 @@ editor: [tiny-sky]
 
 ## 进程间通信
 
-阅读《Linux/Unix系统编程手册(上)》
+阅读《Linux/Unix 系统编程手册(上)》
 
 | 章节 | 精读 | 预计耗时 |
 | ---- | ---- | -------- |
 | 43   | √    | 30 min   |
 | 44   | √    | 50 min   |
 
-阅读《UNIX环境高级编程》
+阅读《UNIX 环境高级编程》
 
 | 章节      | 精读 | 预计耗时 |
 | --------- | ---- | -------- |
@@ -28,7 +28,7 @@ editor: [tiny-sky]
 >
 > 完成任务之后继续阅读其余章节（重点部分在参考资料中），后续任务需要其余章节知识背景，直到书籍阅读完毕。
 
-阅读《Linux/Unix系统编程手册(上)》
+阅读《Linux/Unix 系统编程手册(上)》
 
 | 章节 | 精读 | 预计耗时 |
 | ---- | ---- | -------- |
@@ -38,7 +38,7 @@ editor: [tiny-sky]
 | 32   | √    | 20 min   |
 | 33   | √    | 30 min   |
 
-阅读《UNIX环境高级编程》
+阅读《UNIX 环境高级编程》
 
 | 章节 | 精读 | 预计耗时 |
 | ---- | ---- | -------- |
@@ -61,9 +61,9 @@ editor: [tiny-sky]
 可以尝试使用以下日志库：
 
 - C
-    - [zlog](http://hardysimpson.github.com/zlog)
+  - [zlog](http://hardysimpson.github.com/zlog)
 - C++
-    - [spdlog](https://github.com/gabime/spdlog)
-    - [glog](https://github.com/google/glog)
+  - [spdlog](https://github.com/gabime/spdlog)
+  - [glog](https://github.com/google/glog)
 - Go
-    - [zap](https://github.com/uber-go/zap)
+  - [zap](https://github.com/uber-go/zap)

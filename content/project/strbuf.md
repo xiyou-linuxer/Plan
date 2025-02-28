@@ -55,7 +55,7 @@ int main() {
 
 我们来编译运行一下：
 
-```
+```plain
 $ gcc strbuf_test.c -o ./strbuf_test
 $ ./strbuf_test
 xiyoulinux
@@ -63,7 +63,7 @@ xiyoulinux
 [1]    1117368 abort (core dumped)  ./strbuf_test
 ```
 
-然而....可恶！吾可爱的栈竟然被粉碎了！！！这是为何？
+然而……可恶！吾可爱的栈竟然被粉碎了！！！这是为何？
 
 使用一个 c 语言字符数组似乎不可避免的存放不下一个不确定长度的字符串，你开长度为 11，我也许就想要存长度为 20 的字符串。所以你又有新的方法：`malloc` + `realloc`：
 
@@ -123,8 +123,8 @@ int main() {
 
 ## HINT
 
-* `strbuf` 的成员 `len` 代表的是 `buf` 缓冲区的长度，每次我们将字符串追加入 `strbuf` 中，我们都应该使用 `strbuf_setlen()` 去更新 `strbuf` 的长度 `len`，注意 `123\0456` 的长度不是 3，而是 7。
-* `strbuf` 的成员 `alloc` 代表的是 `buf` 缓冲区的容量，也就是我们每次动态分配的数组大小，每当我们需要向 `sb` 内追加一个字符串，我们需要计算当前的字符串长度加上追加的字符串长度，如果超过了当前的容量，我们就需要把容量扩大一倍，然后将字符串添加进去。
+- `strbuf` 的成员 `len` 代表的是 `buf` 缓冲区的长度，每次我们将字符串追加入 `strbuf` 中，我们都应该使用 `strbuf_setlen()` 去更新 `strbuf` 的长度 `len`，注意 `123\0456` 的长度不是 3，而是 7。
+- `strbuf` 的成员 `alloc` 代表的是 `buf` 缓冲区的容量，也就是我们每次动态分配的数组大小，每当我们需要向 `sb` 内追加一个字符串，我们需要计算当前的字符串长度加上追加的字符串长度，如果超过了当前的容量，我们就需要把容量扩大一倍，然后将字符串添加进去。
 
 ## Part 2A
 
@@ -210,7 +210,7 @@ void strbuf_remove(struct strbuf *sb, size_t pos, size_t len);
 
 1. 在我们使用 C FILE API 读取一个小文件的时候经常会有这样的一个困惑，我们为什么不能直接一次性读完整个文件到一个大缓冲区呢? 而 `fread` or `read` 总是用一个将一个文件中的内容反复读到一个缓冲区中，然后我们从这个缓冲区中取出内容, 但是为什么我们不能直接将一个文件读到一个缓冲区中呢?
 
-2. 在我们想要从文件或者终端读取一行数据的时候经常有这样的疑惑，我应该用什么函数去读？C++ 的 `cin.getline()`? `C++` 的 `getline()`? C 的 `getline()`? Python 的 `readline()`? 正如 Stack Overflow 的网友的总结[Stack Overflow](https://stackoverflow.com/questions/7868936/read-file-line-by-line-using-ifstream-in-c),c版本的 `getline()` 效率是最高的。那么问题来了, C 的 `getline()` 每次都得我去指定缓冲区和长度... 有什么好的方法让用户可以直接调用一个 `strbuf_getline()` 无脑的从缓冲区中拿到想要的内容呢？
+2. 在我们想要从文件或者终端读取一行数据的时候经常有这样的疑惑，我应该用什么函数去读？C++ 的 `cin.getline()`? `C++` 的 `getline()`? C 的 `getline()`? Python 的 `readline()`? 正如 Stack Overflow 的网友的总结[Stack Overflow](https://stackoverflow.com/questions/7868936/read-file-line-by-line-using-ifstream-in-c),c 版本的 `getline()` 效率是最高的。那么问题来了, C 的 `getline()` 每次都得我去指定缓冲区和长度... 有什么好的方法让用户可以直接调用一个 `strbuf_getline()` 无脑的从缓冲区中拿到想要的内容呢？
 
 ### TASK
 
@@ -232,51 +232,51 @@ int strbuf_getline(struct strbuf *sb, FILE *fp);
 
 1. 实现字符串切割（C 系字符串函数的一个痛点）。
 
-    ```c
-    /**
-    * @brief 将指定长度的字符串按切割字符切割成多个 strbuf
-    *
-    * @param str 要切割的字符串
-    * @param len 字符串的长度
-    * @param terminator 切割字符
-    * @param max 最大切割数量（可选）
-    * @return struct strbuf** 指向 struct strbuf 的指针数组，数组的最后一个元素为 NULL
-    *
-    * @note 函数将字符串 str 根据切割字符 terminator 切割成多个 strbuf，并返回结果。可选参数 max 用于限定最大切割数量。
-    */
-    struct strbuf** strbuf_split_buf(const char* str, size_t len, int terminator, int max);
-    ```
+   ```c
+   /**
+   * @brief 将指定长度的字符串按切割字符切割成多个 strbuf
+   *
+   * @param str 要切割的字符串
+   * @param len 字符串的长度
+   * @param terminator 切割字符
+   * @param max 最大切割数量（可选）
+   * @return struct strbuf** 指向 struct strbuf 的指针数组，数组的最后一个元素为 NULL
+   *
+   * @note 函数将字符串 str 根据切割字符 terminator 切割成多个 strbuf，并返回结果。可选参数 max 用于限定最大切割数量。
+   */
+   struct strbuf** strbuf_split_buf(const char* str, size_t len, int terminator, int max);
+   ```
 
 2. 实现判断一个 strbuf 是否以指定字符串开头的功能（C 系字符串函数的另一个痛点）。
 
-    ```c
-    /**
-    * @brief 判断目标字符串是否以指定前缀开头
-    *
-    * @param target_str 目标字符串
-    * @param str 前缀字符串
-    * @param strlen target_str 的长度
-    * @return bool 前缀相同返回 true，否则返回 false
-    */
-    bool strbuf_begin_judge(char* target_str, const char* str, int strlen);
-    ```
+   ```c
+   /**
+   * @brief 判断目标字符串是否以指定前缀开头
+   *
+   * @param target_str 目标字符串
+   * @param str 前缀字符串
+   * @param strlen target_str 的长度
+   * @return bool 前缀相同返回 true，否则返回 false
+   */
+   bool strbuf_begin_judge(char* target_str, const char* str, int strlen);
+   ```
 
 3. 获取字符串从坐标 `[begin, end)` 的所有内容（可以分成引用和拷贝两个模式） 。
 
-    ```c
-    /**
-    * @brief 获取目标字符串的指定子串
-    *
-    * @param target_buf 目标字符串
-    * @param begin 开始下标（包含）
-    * @param end 结束下标（不包含）
-    * @param len target_buf 的长度
-    * @return char* 指向获取的子串的指针，如果参数不合法则返回 NULL
-    *
-    * @note 下标从0开始，[begin, end)表示左闭右开区间
-    */
-    char* strbuf_get_mid_buf(char* target_buf, int begin, int end, int len);
-    ```
+   ```c
+   /**
+   * @brief 获取目标字符串的指定子串
+   *
+   * @param target_buf 目标字符串
+   * @param begin 开始下标（包含）
+   * @param end 结束下标（不包含）
+   * @param len target_buf 的长度
+   * @return char* 指向获取的子串的指针，如果参数不合法则返回 NULL
+   *
+   * @note 下标从0开始，[begin, end)表示左闭右开区间
+   */
+   char* strbuf_get_mid_buf(char* target_buf, int begin, int end, int len);
+   ```
 
 ---
 

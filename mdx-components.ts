@@ -1,9 +1,11 @@
-import { useMDXComponents as getThemeComponents } from 'nextra-theme-docs'
-import { Callout, Cards, Image, ImageZoom } from 'nextra/components'
+import { useMDXComponents as getThemeComponents } from "nextra-theme-docs";
+import { Callout, Cards, Image, ImageZoom } from "nextra/components";
 
-const themeComponents = getThemeComponents()
+const themeComponents = getThemeComponents();
 
-export function useMDXComponents(components?: Record<string, React.ComponentType>) {
+export function useMDXComponents(
+  components?: Record<string, React.ComponentType>,
+) {
   return {
     Callout,
     Cards,
@@ -11,5 +13,5 @@ export function useMDXComponents(components?: Record<string, React.ComponentType
     ImageZoom,
     ...themeComponents,
     ...components,
-  }
+  };
 }

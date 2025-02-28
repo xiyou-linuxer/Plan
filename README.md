@@ -1,7 +1,9 @@
-# 西邮 Linux 兴趣小组培养计划<br>*Plan of Xiyou Linux Group*
+# 西邮 Linux 兴趣小组培养计划<br>_Plan of Xiyou Linux Group_
 
 > [!TIP]
+>
 > <!-- YarBor -->
+>
 > Hey, you found our treasure!
 >
 > [![访问](https://img.shields.io/badge/%E8%AE%BF%E9%97%AE-plan.xiyoulinux.com-green?style=for-the-badge)](https://plan.xiyoulinux.com)
@@ -21,7 +23,16 @@ pnpm dev
 # browser open http://localhost:3000
 ```
 
-需要安装 `ESLint` 和 `MDX` VS Code 插件以规范代码并高亮语法。
+需要安装 `Iconify IntelliSense` `Prettier` `MDX` VS Code 插件以规范代码并高亮语法。
+
+### 格式化代码
+
+项目启用了自动格式化，再也不怕格式混乱了！（VS Code 中按 F1 输入`fswf`以保存时避免格式化）
+
+```sh
+pnpm lint       # check only
+pnpm lint:fix   # check and fix
+```
 
 ## 开源信息
 
@@ -34,4 +45,4 @@ pnpm dev
 
 [![贡献者](https://contrib.rocks/image?repo=xiyou-linuxer/Plan)](https://github.com/xiyou-linuxer/Plan/graphs/contributors)
 
-## *Carpe diem, seize the day* <img align="right" src="https://avatars.githubusercontent.com/xiyou-linuxer" alt="一只来自西安邮电大学的小企鹅" width="64">
+## _Carpe diem, seize the day_ <img align="right" src="https://avatars.githubusercontent.com/xiyou-linuxer" alt="一只来自西安邮电大学的小企鹅" width="64">

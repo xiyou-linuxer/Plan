@@ -1,8 +1,6 @@
-import nextra from 'nextra'
+import nextra from "nextra";
 
-const withNextra = nextra({
-
-})
+const withNextra = nextra({});
 
 export default withNextra({
   cleanDistDir: true,
@@ -12,6 +10,6 @@ export default withNextra({
   images: {
     unoptimized: true,
   },
-  output: 'export',
+  output: "export",
   reactStrictMode: true,
-})
+});

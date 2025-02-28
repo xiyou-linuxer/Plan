@@ -12,6 +12,7 @@ author: [adlternative]
 | mmap + write |     |     |     |     |
 | sendfile     |     |     |     |     |
 | direct io    |     |     |     |     |
+
 <!-- maybe async io? -->
 
 ## 性能变化曲线

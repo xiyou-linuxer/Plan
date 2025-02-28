@@ -9,7 +9,7 @@ author: [L33Z22L11]
 ## 文件内容规范
 
 1. 请使用规范的 Markdown 格式编写内容，文件命名使用 `kebab-case` 格式。
-2. 内容书写需要符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)；减少中文西化，使用现代汉语语序，避免大量使用宾语前置和被动语态。
+2. 内容书写尽量符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md) [中文技术文档的写作规范(阮一峰)](https://github.com/ruanyf/document-style-guide)；减少中文西化，使用现代汉语语序，避免大量使用宾语前置和被动语态。
 3. 内容应当具有指导性、可读性、可理解性。
 4. 为某个文件贡献超过一大段中文内容时，可在 Front Matter 的 `author` 数组中添加自己；为文件更新时效内容、修订重要错误或多个语法错误时，可在 `editor` 数组中添加自己。用 GitHub 用户名表示。
 
@@ -31,6 +31,9 @@ author: [L33Z22L11]
   - [Iconify for Tailwind CSS 4](https://iconify.design/docs/usage/css/tailwind/tailwind4/)：Iconify 图标库
   - [Yesicon](https://yesicon.app/)：Iconify 图标库的图标搜索工具
   - 请尽量使用同一个图标库（推荐 [Phospher](https://yesicon.app/ph)）中同一风格（推荐 bold）的图标
+- [Prettier](https://prettier.io/)：代码格式化工具
+  - [prettier-plugin-lint-md](https://github.com/lint-md/prettier-plugin)：中英文标点符号、空格、换行等格式化
+  - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)：Tailwind CSS 类名顺序规则
 
 ## 贡献方式
 

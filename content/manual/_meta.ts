@@ -1,8 +1,8 @@
-import type { MetaRecord } from 'nextra'
+import type { MetaRecord } from "nextra";
 
 const meta: MetaRecord = {
-  contributing: { title: '贡献指南' },
-  changelog: { title: '更新日志' },
-}
+  contributing: { title: "贡献指南" },
+  changelog: { title: "更新日志" },
+};
 
-export default meta
+export default meta;

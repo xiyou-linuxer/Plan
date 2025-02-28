@@ -45,7 +45,7 @@ public class PriorityQueueExample {
 
 我们运行上述代码会看到如下结果：
 
-```
+```plain
 Removed: 2
 Removed: 3
 Removed: 5

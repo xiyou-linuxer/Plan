@@ -46,4 +46,4 @@ ls -i /home /etc
 - man 手册
 - Unix/Linux 编程实践教程（新手推荐）
 - Michael Kerrisk. Linux/UNIX 系统编程手册 [M]. 北京: 人民邮电出版社.
-- W. Richard Stevens, Stephen. UNIX 环境高级编程 [M]. 第3版. 戚正伟, 译. 北京: 人民邮电出版社.
+- W. Richard Stevens, Stephen. UNIX 环境高级编程 [M]. 第 3 版. 戚正伟, 译. 北京: 人民邮电出版社.

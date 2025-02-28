@@ -68,6 +68,7 @@ Python 最流行，C 语言第二，Java 第三，C++ 第四，Golang 进入了�
 - 编写高性能服务器。
 
 #### 缺点
+
 - 没有系统的封装库，一个高级语言中简单的扩容数组都没有，你得自己造轮子（造的说不定还有 BUG，心累）。
 - 手动管理内存，带来负担就是程序员自己需要细心的管理内存，避免内存泄漏。高级语言都在想尽方法改善这个问题。
 
@@ -88,6 +89,7 @@ Python 最流行，C 语言第二，Java 第三，C++ 第四，Golang 进入了�
 
 - 东西太多。学习路线漫长。Google 当年就是嫌 C++ 语法太繁琐造了 Golang，取其精华，去其糟糠。
 - 历史包袱太重。许多“必须品”如网络库如今都没有加到 C++ 标准库中。导致编程爱好者们都自行的造轮子，可大家造的轮子还不能兼容。。。
+
   > In general, C++ implementations obey the zero-overhead principle: What you don’t use, you don’t pay for. And further: What you do use, you couldn’t hand code any better.
   >
   > 从整体来说，C++ 的实现遵循了零开销原则：你不需要的，无需为他们买单。更有甚者的是：你需要的时候，也不可能找到其他更好的代码了。
@@ -105,17 +107,15 @@ Python 最流行，C 语言第二，Java 第三，C++ 第四，Golang 进入了�
 | Effective C++        | 进阶 |
 | More Effective C++   | 进阶 |
 | Effective Modern C++ | 进阶 |
-| 深入探索C++对象模型  | 进阶 |
+| 深入探索 C++对象模型 | 进阶 |
 
-  `必备网站`
-  [cppreference](https://en.cppreference.com/w/)
-  [cppreference-zh](https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5)
+`必备网站`
+[cppreference](https://en.cppreference.com/w/)
+[cppreference-zh](https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5)
 
-  推荐**别看**的书：
-    - C++ Primer Plus
+推荐**别看**的书：- C++ Primer Plus
 
-  可应用范围:
-    - 我是时候告诉你C++能做什么呢？高性能的他可以做操作系统，数据库，游戏引擎，客户端开发，浏览器内核(chromium)，服务器，低延时系统，分布式系统，机器学习，人工智能，音视频流媒体，移动应用native开发。在硬件领域也很吃的开：嵌入式，单片机(可直接操控硬件)......可谓是包罗万象，但我偷偷告诉你，每个都是一条漫长的路。不要贪心哦。
+可应用范围: - 我是时候告诉你 C++能做什么呢？高性能的他可以做操作系统，数据库，游戏引擎，客户端开发，浏览器内核(chromium)，服务器，低延时系统，分布式系统，机器学习，人工智能，音视频流媒体，移动应用 native 开发。在硬件领域也很吃的开：嵌入式，单片机(可直接操控硬件)……可谓是包罗万象，但我偷偷告诉你，每个都是一条漫长的路。不要贪心哦。
 
 #### 推荐的练手小项目
 
@@ -131,7 +131,7 @@ Python 最流行，C 语言第二，Java 第三，C++ 第四，Golang 进入了�
 
 Java 语言自诞生起，就是为了简化开发的存在，Java 在语言层面屏蔽了大量的细节，经过这么多年的发展，拥有各种各样的第三方包和繁荣的生态，并且尽力去简化开发，让你专注于创造自己特有的应用逻辑和特殊之处，而不拘泥于在语言语法层面的繁琐。
 
-Java 是一门面向对象的编程语言，不仅吸收了 C++ 语言的各种优点，还摒弃了 C++ 里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程。
+Java 是一门面向对象的编程语言，不仅吸收了 C++ 语言的各种优点，还摒弃了 C++ 里难以理解的多继承、指针等概念，因此 Java 语言具有功能强大和简单易用两个特征。Java 语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程。
 
 Java 能够自动处理对象的引用和间接引用，实现自动的无用单元收集，使用户不必为存储管理问题烦恼，能更多的时间和精力花在研发上。
 
@@ -159,47 +159,48 @@ C++ 诞生自 1980 年代，虽算不上「古老」，但随着时间的积累�
 
 Golang 通过 `GC` 与 `协程`，极大的简化了并发程序的开发复杂度。不但如此，Golang 还有着统一的模块管理，统一的代码格式化，统一的编译和构建系统等众多现代化语言的特性。
 
-#### 优点：
+#### 优点
 
-- Go易于学习
-    - 熟悉 C 语言的人，可以快速上手 Go
-    - 可以在 Go 中调用 C，C 中调用 Go
+- Go 易于学习
+  - 熟悉 C 语言的人，可以快速上手 Go
+  - 可以在 Go 中调用 C，C 中调用 Go
 - 基于 goroutines 和 channels 的简单并发编程
 - 丰富的标准库和包
 - 出色的性能
 - 语言层面定义的源代码格式化
 - 标准化的测试框架
-- Defer声明，降低心智负担
+- Defer 声明，降低心智负担
 - 在 DevOps 世界中广泛应用
 - 没有预处理器，编译速度快，可以当成脚本语言使用
 - ~~Go 希望带给开发者快乐，快乐的心情容易编写优美的代码~~
 
-#### 缺点：
+#### 缺点
 
 - 不`直接`支持面向对象编程
 - 原生数据结构太简单
 - 对泛型支持差
 
-#### 可应用范围：
+#### 可应用范围
+
 - 云
-    - docker
-    - kubernetes
-    - etcd
-    - ...
+  - docker
+  - kubernetes
+  - etcd
+  - ...
 - 分布式
-- Web开发
+- Web 开发
 - 网络编程
 
 #### 推荐资料
 
 - [Go 语言之旅](https://tour.go-zh.org/welcome/1) -- 入门
-- [Go语言中文文档](https://topgoer.com/) -- 适合宏观浏览Go的方方面面（入门级别）
+- [Go 语言中文文档](https://topgoer.com/) -- 适合宏观浏览 Go 的方方面面（入门级别）
 - [Go by Example](https://gobyexample-cn.github.io/) -- 入门级手敲实例代码
-- [Go 标准库](https://pkg.go.dev/std) -- Go标准库
+- [Go 标准库](https://pkg.go.dev/std) -- Go 标准库
 - [Go 语言圣经](https://golang-china.github.io/gopl-zh/) -- 进阶
-- [Go 7天练手系列](https://geektutu.com/post/gee.html) -- 第一个项目
+- [Go 7 天练手系列](https://geektutu.com/post/gee.html) -- 第一个项目
 - [awesome-Go](https://github.com/avelino/awesome-go) -- 大合集
-- [Go语言中文网](https://studygolang.com/) -- Go语言交流网站
+- [Go 语言中文网](https://studygolang.com/) -- Go 语言交流网站
 
 ### Rust
 
