@@ -50,7 +50,7 @@ xjj   数据结构    33
 ## Part 2
 
 你的终端 `bash` 或者 `zsh` 是如何执行这些命令的呢？
-参考阅读资料调研 `fork()`, `exec()`, `pipe()`, `mkfifo()` 等进程 API。
+参考阅读资料调研 `fork()` `exec()` `pipe()` `mkfifo()` 等进程 API。
 
 ### TASK
 

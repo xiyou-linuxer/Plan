@@ -30,4 +30,8 @@ pnpm dev
 - 贡献者指南：[网页](https://plan.xiyoulinux.com/manual/contributing/) · [contributing.md](./content/manual/contributing)
 - 更新日志：[网页](https://plan.xiyoulinux.com/manual/changelog/) · [changelog.md](./content/manual/changelog)
 
-## <code>Carpe diem, seize the day<img src="https://avatars.githubusercontent.com/xiyou-linuxer" alt="一只来自西安邮电大学的小企鹅" width="64"></code>
+<br>
+
+[![贡献者](https://contrib.rocks/image?repo=xiyou-linuxer/Plan)](https://github.com/xiyou-linuxer/Plan/graphs/contributors)
+
+## *Carpe diem, seize the day* <img align="right" src="https://avatars.githubusercontent.com/xiyou-linuxer" alt="一只来自西安邮电大学的小企鹅" width="64">

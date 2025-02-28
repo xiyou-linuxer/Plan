@@ -91,9 +91,9 @@ xiyoulinux
 
 是的，这次我们成功输出了 `xiyoulinux`！
 
-但是，上面我们硬编码了字符串长度, 我们可不可以将它包装成一个统一的函数去做到这一件事情呢？
+但是，上面我们硬编码了字符串长度，我们可不可以将它包装成一个统一的函数去做到这一件事情呢？
 
-事实上，在很多优秀项目都会去封装这样的一种接口，如 [redis](https://github.com/redis/redis/blob/unstable/src/sds.c),[git](https://github.com/git/git/blob/master/strbuf.c)。现在你的目标是重新造一遍轮子（belong to you!）：
+事实上，在很多优秀项目都会去封装这样的一种接口，如 [Redis](https://github.com/redis/redis/blob/unstable/src/sds.c)、[Git](https://github.com/git/git/blob/master/strbuf.c)。现在你的目标是重新造一遍轮子（belong to you!）：
 
 这个缓冲区类的定义就免费送给你们啦：
 
@@ -164,28 +164,28 @@ void strbuf_reset(struct strbuf *sb);
 实现字符串缓冲区类 `strbuf` 扩容，(追加|插入)字符，字符串等操作。
 
 ```c
-// 确保在 len 之后 strbuf 中至少有 extra 个字节的空闲空间可用。
+// 确保在 len 之后 strbuf 中至少有 extra 个字节的空闲空间可用
 void strbuf_grow(struct strbuf *sb, size_t extra);
 
-// 向 sb 追加长度为 len 的数据 data。
+// 向 sb 追加长度为 len 的数据 data
 void strbuf_add(struct strbuf *sb, const void *data, size_t len);
 
-// 向 sb 追加一个字符 c。
+// 向 sb 追加一个字符 c
 void strbuf_addch(struct strbuf *sb, int c);
 
-// 向 sb 追加一个字符串 s。
+// 向 sb 追加一个字符串 s
 void strbuf_addstr(struct strbuf *sb, const char *s);
 
-// 向一个 sb 追加另一个 strbuf 的数据。
+// 向一个 sb 追加另一个 strbuf 的数据
 void strbuf_addbuf(struct strbuf *sb, const struct strbuf *sb2);
 
-// 设置 sb 的长度 len。
+// 设置 sb 的长度 len
 void strbuf_setlen(struct strbuf *sb, size_t len);
 
-// 计算 sb 目前仍可以向后追加的字符串长度。
+// 计算 sb 目前仍可以向后追加的字符串长度
 size_t strbuf_avail(const struct strbuf *sb);
 
-// 向 sb 内存坐标为 pos 位置插入长度为 len 的数据 data。
+// 向 sb 内存坐标为 pos 位置插入长度为 len 的数据 data
 void strbuf_insert(struct strbuf *sb, size_t pos, const void *data, size_t len);
 ```
 
@@ -196,13 +196,13 @@ void strbuf_insert(struct strbuf *sb, size_t pos, const void *data, size_t len);
 实现字符串缓冲区类 `strbuf` 删除部分内容等功能。
 
 ```c
-// 去除 sb 缓冲区左端的所有空格、制表符和'\t'字符。
+// 去除 sb 缓冲区左端的所有空格、制表符和'\t'字符
 void strbuf_ltrim(struct strbuf *sb);
 
-// 去除 sb 缓冲区右端的所有空格、制表符和'\t'字符。
+// 去除 sb 缓冲区右端的所有空格、制表符和'\t'字符
 void strbuf_rtrim(struct strbuf *sb);
 
-// 删除 sb 缓冲区从 pos 坐标开始长度为 len 的内容。
+// 删除 sb 缓冲区从 pos 坐标开始长度为 len 的内容
 void strbuf_remove(struct strbuf *sb, size_t pos, size_t len);
 ```
 
@@ -215,10 +215,10 @@ void strbuf_remove(struct strbuf *sb, size_t pos, size_t len);
 ### TASK
 
 ```c
-// 将文件描述符为 fd 的所有文件内容追加到 sb 中。sb 增长 hint ? hint : 8192 大小。
+// 将文件描述符为 fd 的所有文件内容追加到 sb 中，sb 增长 hint ? hint : 8192 大小
 ssize_t strbuf_read(struct strbuf *sb, int fd, size_t hint);
 
-// 将文件句柄为 fp 的一行内容（抛弃换行符）读取到 sb。
+// 将文件句柄为 fp 的一行内容（抛弃换行符）读取到 sb
 int strbuf_getline(struct strbuf *sb, FILE *fp);
 ```
 

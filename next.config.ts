@@ -5,13 +5,13 @@ const withNextra = nextra({
 })
 
 export default withNextra({
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
+  cleanDistDir: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
+  images: {
+    unoptimized: true,
+  },
+  output: 'export',
   reactStrictMode: true,
-  cleanDistDir: true,
 })
