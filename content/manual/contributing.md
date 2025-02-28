@@ -11,7 +11,7 @@ author: [L33Z22L11]
 1. 请使用规范的 Markdown 格式编写内容，文件命名使用 `kebab-case` 格式。
 2. 内容书写尽量符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md) [中文技术文档的写作规范(阮一峰)](https://github.com/ruanyf/document-style-guide)；减少中文西化，使用现代汉语语序，避免大量使用宾语前置和被动语态。
 3. 内容应当具有指导性、可读性、可理解性。
-4. 为某个文件贡献超过一大段中文内容时，可在 Front Matter 的 `author` 数组中添加自己；为文件更新时效内容、修订重要错误或多个语法错误时，可在 `editor` 数组中添加自己。用 GitHub 用户名表示。
+4. 为某个文件贡献超过一大段中文内容时，可在 front-matter 的 `author: []` 中添加自己；为文件更新时效内容、修订重要错误或多个语法错误时，可在 `editor: []` 数组中添加自己。用 GitHub 用户名表示。
 
 ## 参考文档
 

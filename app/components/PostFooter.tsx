@@ -13,13 +13,13 @@ export default function PostFooter(props: { filePath: string; title: string }) {
       <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
         <strong>{title}</strong>
         <a
-          className="icon-[ph--pencil-simple-line-bold] text-blue-500"
+          className="text-blue-500 icon-[ph--pencil-simple-line-bold]"
           href={`https://github.com/xiyou-linuxer/Plan/blame/main/${filePath}`}
           target="_blank"
         />
         {/* {author || editor ? <span className="h-4 border-l-2 border-gray-400" /> : null} */}
-        {author?.map((name: string) => <GhBadge key={name} name={name} />)}
-        {editor?.map((name: string) => (
+        {author?.map?.((name: string) => <GhBadge key={name} name={name} />)}
+        {editor?.map?.((name: string) => (
           <GhBadge key={name} name={name} className="opacity-60" />
         ))}
       </p>

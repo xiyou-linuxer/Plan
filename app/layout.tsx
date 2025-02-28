@@ -1,7 +1,6 @@
 import { Footer, Layout, Navbar } from "nextra-theme-docs";
-import { Head } from "nextra/components";
+import { Head, Search } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
-
 import Logo from "./components/Logo";
 
 import "nextra-theme-docs/style.css";
@@ -32,41 +31,56 @@ export const metadata = {
   },
 };
 
-const head = <></>;
-
-const projectLink = "https://github.com/xiyou-linuxer/Plan";
-
-const navbar = (
-  <Navbar
-    logo={<Logo />}
-    align="left"
-    projectLink={projectLink}
-    chatLink="https://www.xiyoulinux.com/"
-    chatIcon={<i className="icon-[ph--linux-logo-fill] text-2xl!" />}
-  />
-);
-
-const footer = (
-  <Footer className="flex-wrap gap-x-6 gap-y-2">
-    <span>© {new Date().getFullYear()} 西邮 Linux 兴趣小组</span>
-    <a
-      href="https://beian.miit.gov.cn"
-      target="_blank"
-      rel="noopener noreferrer nofollow"
-    >
-      陕ICP备2023007680号-1
-    </a>
-  </Footer>
-);
-
 export default async function RootLayout({ children }) {
+  const projectLink = "https://github.com/xiyou-linuxer/Plan";
+
+  const navbar = (
+    <Navbar
+      logo={<Logo />}
+      align="left"
+      projectLink={projectLink}
+      chatLink="https://www.xiyoulinux.com/"
+      chatIcon={
+        <img
+          className="w-6"
+          src="https://www.xiyoulinux.com/favicon.ico"
+          title="西邮 Linux 兴趣小组主站"
+        />
+      }
+    />
+  );
+
+  const search = (
+    <Search
+      emptyResult="未找到结果"
+      loading="正在搜索…"
+      errorText="搜索失败"
+      placeholder="请善用搜索功能"
+    />
+  );
+
+  const footer = (
+    <Footer className="flex-wrap gap-x-6 gap-y-2">
+      <span>© {new Date().getFullYear()} 西邮 Linux 兴趣小组</span>
+      <a
+        href="https://beian.miit.gov.cn"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+      >
+        陕ICP备2023007680号-1
+      </a>
+    </Footer>
+  );
+
   const pageMap = await getPageMap();
+
   return (
     <html lang="zh" dir="ltr" suppressHydrationWarning>
-      <Head>{head}</Head>
+      <Head />
       <body>
         <Layout
           navbar={navbar}
+          search={search}
           docsRepositoryBase={projectLink}
           pageMap={pageMap}
           themeSwitch={{
