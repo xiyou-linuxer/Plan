@@ -23,8 +23,6 @@ author: [L33Z22L11]
 - [Next.js](https://nextjs.org/)：文档主题框架
   - [部署 Next.js](https://nextjs.org/docs/app/building-your-application/deploying)
   - [部署为静态网站](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
-  - 部署命令：`pnpm build`
-  - 输出目录：`out`
 - [JSX](https://zh-hans.react.dev/learn/writing-markup-with-jsx)：在 React 框架中描述 UI 的语法
 - [Tailwind CSS](https://tailwindcss.com/docs/installation/framework-guides/nextjs)：原子化 CSS 框架
 - [Iconify Design](https://iconify.design/)：开源图标库

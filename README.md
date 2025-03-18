@@ -17,22 +17,36 @@
 ```sh
 git clone https://github.com/xiyou-linuxer/Plan.git xlg-plan
 cd xlg-plan
-# package-manager install pnpm
+# 安装 pnpm：package-manager install pnpm
+# pnpm 换源：pnpm i -g nrm && nrm use taobao
 pnpm i
 pnpm dev
-# browser open http://localhost:3000
+# 打开网站：browser open http://localhost:3000
 ```
 
 需要安装 `Iconify IntelliSense` `Prettier` `MDX` VS Code 插件以规范代码并高亮语法。
 
 ### 格式化代码
 
-项目启用了自动格式化，再也不怕格式混乱了！（VS Code 中按 F1 输入`fswf`以保存时避免格式化）
+项目启用了保存时自动格式化，再也不怕格式混乱了！（VS Code 中按 F1 输入`fswf`以保存时避免格式化）
+
+但是保存时格式化不会在 VS Code 自动保存时触发，所以我给出了检查和修复格式的命令，用于维护代码规范。
 
 ```sh
 pnpm lint       # check only
 pnpm lint:fix   # check and fix
 ```
+
+## 部署
+
+项目可以在各类 Serverless 平台上部署。
+
+- 部署命令：`pnpm build`
+- 输出目录：`out`
+
+### 疑难解答
+
+- Cloudflare Pages 需要手动配置环境变量 `NODE_VERSION` 为较高的版本，如 `22.14.0`。
 
 ## 开源信息
 
