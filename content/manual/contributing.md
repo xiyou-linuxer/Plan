@@ -42,4 +42,4 @@ author: [L33Z22L11]
 
 ## 贡献者公约（CODE OF CONDUCT）
 
-请遵循 [贡献者公约](https://www.contributor-covenant.org/zh-cn/version/code_of_conduct/)。
+请遵循 [贡献者公约](https://www.contributor-covenant.org/zh-cn/version/2/1/code_of_conduct/)。
