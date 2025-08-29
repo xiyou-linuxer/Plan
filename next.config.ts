@@ -1,15 +1,13 @@
 import nextra from "nextra";
 
-const withNextra = nextra({});
+const withNextra = nextra({
+  latex: true,
+  search: {
+    codeblocks: false,
+  },
+});
 
 export default withNextra({
-  cleanDistDir: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  images: {
-    unoptimized: true,
-  },
   output: "export",
   reactStrictMode: true,
 });

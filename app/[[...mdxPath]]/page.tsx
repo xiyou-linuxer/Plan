@@ -18,7 +18,7 @@ export default async function Page(props) {
   const { default: MDXContent, toc, metadata } = result;
 
   return (
-    <Wrapper toc={toc} metadata={metadata}>
+    <Wrapper toc={toc} metadata={metadata} sourceCode={null}>
       <MDXContent {...props} params={params} />
       <PostFooter {...metadata} />
     </Wrapper>

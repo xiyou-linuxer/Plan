@@ -2,7 +2,7 @@ export default function Logo(props: {
   className?: string;
   style?: React.CSSProperties;
 }) {
-  const { className, style } = props;
+  const { className = "", style } = props;
 
   return (
     <span className={`type-song select-none ${className}`} style={style}>
