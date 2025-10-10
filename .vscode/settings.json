@@ -23,5 +23,6 @@
   "css.validate": false,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "iconify.inplace": false
+  "iconify.inplace": false,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

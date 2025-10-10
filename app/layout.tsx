@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { Footer, Layout, Navbar } from "nextra-theme-docs";
 import { Head, Search } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
@@ -9,7 +10,7 @@ import "./global.css";
 const title = "西邮 Linux 兴趣小组培养计划";
 const projectLink = "https://github.com/xiyou-linuxer/Plan";
 
-export const metadata = {
+export const metadata: Metadata = {
   // https://nextjs.org/docs/app/building-your-application/optimizing/metadata
   // https://github.com/shuding/nextra/blob/main/docs/app/layout.tsx
   metadataBase: new URL("https://plan.xiyoulinux.com/"),
@@ -36,6 +37,7 @@ export const metadata = {
 const navbar = (
   <Navbar
     logo={<Logo />}
+    // align="left" // 新版样式炸掉了，通过 global.css 解决
     projectLink={projectLink}
     chatLink="https://www.xiyoulinux.com/"
     chatIcon={
@@ -74,7 +76,8 @@ export default async function RootLayout({ children }) {
   const pageMap = await getPageMap();
 
   return (
-    <html lang="zh" dir="ltr">
+    // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
+    <html lang="zh" dir="ltr" suppressHydrationWarning>
       <Head />
       <body>
         <Layout

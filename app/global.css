@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @plugin "@iconify/tailwind4";
 
+:root {
+  --font-sans: "Inter", "Noto Sans SC", system-ui, sans-serif;
+}
+
 @font-face {
   font-family: 江城律动宋;
   src: url(/江城律动宋.subset.woff2);

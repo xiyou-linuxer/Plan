@@ -1,10 +1,11 @@
+import { Metadata } from "next";
 import { generateStaticParamsFor, importPage } from "nextra/pages";
 import { useMDXComponents } from "../../mdx-components";
 import PostFooter from "../components/PostFooter";
 
 export const generateStaticParams = generateStaticParamsFor("mdxPath");
 
-export async function generateMetadata(props) {
+export async function generateMetadata(props): Promise<Metadata> {
   const params = await props.params;
   const { metadata } = await importPage(params.mdxPath);
   return metadata;
