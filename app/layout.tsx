@@ -6,6 +6,7 @@ import Logo from "./components/Logo";
 
 import "nextra-theme-docs/style.css";
 import "./global.css";
+import "./inter.css";
 
 const title = "西邮 Linux 兴趣小组培养计划";
 const projectLink = "https://github.com/xiyou-linuxer/Plan";

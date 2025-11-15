@@ -2,7 +2,7 @@
   "name": "xlg-plan",
   "version": "3.1.0",
   "description": "西邮Linux兴趣小组培养计划",
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.22.0",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -14,20 +14,20 @@
     "lint:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.14",
-    "next": "^15.5.4",
+    "@tailwindcss/postcss": "^4.1.17",
+    "next": "^15.5.6",
     "nextra": "^4.6.0",
     "nextra-theme-docs": "^4.6.0",
     "postcss": "^8.5.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "tailwindcss": "^4.1.14"
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify/tailwind4": "^1.0.6",
-    "@types/node": "^24.7.1",
-    "@types/react": "^19.2.2",
+    "@iconify/tailwind4": "^1.1.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
     "pagefind": "^1.4.0",
     "prettier": "^3.6.2",
     "prettier-plugin-lint-md": "^1.0.1",

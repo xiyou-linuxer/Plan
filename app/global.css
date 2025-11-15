@@ -1,8 +1,9 @@
 @import "tailwindcss";
 @plugin "@iconify/tailwind4";
 
-:root {
-  --font-sans: "Inter", "Noto Sans SC", system-ui, sans-serif;
+@theme {
+  --font-sans: "InterVariable", "Noto Sans SC", system-ui, sans-serif;
+  --font-song: 江城律动宋, serif;
 }
 
 @font-face {
@@ -10,9 +11,13 @@
   src: url(/江城律动宋.subset.woff2);
 }
 
-.type-song {
-  font-family: 江城律动宋;
-  flex-shrink: 0;
+:root {
+  font-feature-settings: normal;
+  font-variant-alternates: styleset(
+    open-digits,
+    disambiguation,
+    round-quotes-and-commas
+  );
 }
 
 [class*="icon-["] {
