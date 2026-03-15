@@ -6,7 +6,6 @@ import Logo from "./components/Logo";
 
 import "nextra-theme-docs/style.css";
 import "./global.css";
-import "./inter.css";
 
 const title = "西邮 Linux 兴趣小组培养计划";
 const projectLink = "https://github.com/xiyou-linuxer/Plan";
@@ -64,7 +63,7 @@ const footer = (
   <Footer className="flex-wrap gap-x-6 gap-y-2">
     <span>© {new Date().getFullYear()} 西邮 Linux 兴趣小组</span>
     <a
-      href="https://beian.miit.gov.cn"
+      href="https://beian.miit.gov.cn/"
       target="_blank"
       rel="noopener noreferrer nofollow"
     >
@@ -79,7 +78,9 @@ export default async function RootLayout({ children }) {
   return (
     // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
     <html lang="zh" dir="ltr" suppressHydrationWarning>
-      <Head />
+      <Head>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+      </Head>
       <body>
         <Layout
           navbar={navbar}

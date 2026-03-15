@@ -2,7 +2,7 @@
   "name": "xlg-plan",
   "version": "3.1.0",
   "description": "西邮Linux兴趣小组培养计划",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -14,24 +14,24 @@
     "lint:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.17",
-    "next": "^15.5.7",
+    "@tailwindcss/postcss": "^4.2.1",
+    "next": "^16.1.6",
     "nextra": "^4.6.1",
     "nextra-theme-docs": "^4.6.1",
-    "postcss": "^8.5.6",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
-    "tailwindcss": "^4.1.17"
+    "postcss": "^8.5.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify/tailwind4": "^1.2.0",
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.7",
+    "@iconify/tailwind4": "^1.2.3",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
     "pagefind": "^1.4.0",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.1",
     "prettier-plugin-lint-md": "^1.0.1",
-    "prettier-plugin-tailwindcss": "^0.6.14",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "recursive-copy-cli": "^1.0.20",
     "typescript": "^5.9.3"
   },
