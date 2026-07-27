@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 28px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 14px; fill: #6b7280; }
+    .node-title { font-size: 16px; font-weight: 700; fill: #111827; }
+    .node-sub { font-size: 12px; fill: #6b7280; }
+    .chip { font-size: 11px; fill: #374151; }
+    .label { font-size: 12px; font-weight: 600; fill: #374151; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .legend { font-size: 12px; fill: #6b7280; }
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="136%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="780" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" class="title">后训练在做什么</text>
+  <text x="600" y="74" text-anchor="middle" class="subtitle">在 Base Model 基础上，用指令数据、偏好数据和业务反馈，让模型更会按人类意图完成任务</text>
+
+  <rect x="44" y="112" width="1112" height="384" rx="16" fill="#f8fafc" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="68" y="142" class="label">后训练主流程</text>
+
+  <g filter="url(#shadow)">
+    <rect x="76" y="184" width="136" height="88" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="144" y="216" text-anchor="middle" class="node-title">Base Model</text>
+    <text x="144" y="240" text-anchor="middle" class="node-sub">预训练产物</text>
+    <text x="144" y="258" text-anchor="middle" class="node-sub">有知识但未对齐</text>
+
+    <rect x="258" y="184" width="150" height="88" rx="10" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+    <text x="333" y="216" text-anchor="middle" class="node-title">指令数据</text>
+    <text x="333" y="240" text-anchor="middle" class="node-sub">问题 + 优质答案</text>
+    <text x="333" y="258" text-anchor="middle" class="node-sub">格式 / 话术 / 场景</text>
+
+    <rect x="454" y="184" width="150" height="88" rx="10" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+    <text x="529" y="216" text-anchor="middle" class="node-title">SFT 微调</text>
+    <text x="529" y="240" text-anchor="middle" class="node-sub">监督学习</text>
+    <text x="529" y="258" text-anchor="middle" class="node-sub">学会按指令回答</text>
+
+    <rect x="650" y="184" width="150" height="88" rx="10" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1.5"/>
+    <text x="725" y="216" text-anchor="middle" class="node-title">偏好数据</text>
+    <text x="725" y="240" text-anchor="middle" class="node-sub">好答案 vs 坏答案</text>
+    <text x="725" y="258" text-anchor="middle" class="node-sub">人工 / AI 标注</text>
+
+    <rect x="846" y="184" width="150" height="88" rx="10" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1.5"/>
+    <text x="921" y="216" text-anchor="middle" class="node-title">DPO / RLHF</text>
+    <text x="921" y="240" text-anchor="middle" class="node-sub">偏好优化</text>
+    <text x="921" y="258" text-anchor="middle" class="node-sub">更符合人类标准</text>
+  </g>
+
+  <path d="M 212 228 L 258 228" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 408 228 L 454 228" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 604 228 L 650 228" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 800 228 L 846 228" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="238" y="352" width="158" height="88" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+    <text x="317" y="384" text-anchor="middle" class="node-title">业务数据</text>
+    <text x="317" y="408" text-anchor="middle" class="node-sub">客服记录 / 专家示范</text>
+    <text x="317" y="426" text-anchor="middle" class="node-sub">Agent 工具轨迹</text>
+
+    <rect x="454" y="352" width="158" height="88" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+    <text x="533" y="384" text-anchor="middle" class="node-title">LoRA / QLoRA</text>
+    <text x="533" y="408" text-anchor="middle" class="node-sub">低成本适配场景</text>
+    <text x="533" y="426" text-anchor="middle" class="node-sub">少量更新参数</text>
+
+    <rect x="670" y="352" width="158" height="88" rx="10" fill="#ecfeff" stroke="#a5f3fc" stroke-width="1.5"/>
+    <text x="749" y="384" text-anchor="middle" class="node-title">评估对比</text>
+    <text x="749" y="408" text-anchor="middle" class="node-sub">任务成功率 / 幻觉率</text>
+    <text x="749" y="426" text-anchor="middle" class="node-sub">格式稳定 / 偏好胜率</text>
+
+    <rect x="886" y="352" width="158" height="88" rx="10" fill="#ecfeff" stroke="#a5f3fc" stroke-width="1.5"/>
+    <text x="965" y="384" text-anchor="middle" class="node-title">对齐模型</text>
+    <text x="965" y="408" text-anchor="middle" class="node-sub">更会听指令</text>
+    <text x="965" y="426" text-anchor="middle" class="node-sub">更适合业务</text>
+  </g>
+
+  <path d="M 317 352 L 317 316 L 529 316 L 529 272" stroke="#059669" stroke-width="2" fill="none" marker-end="url(#arrow-green)"/>
+  <text x="438" y="306" text-anchor="middle" class="small">构造训练样本</text>
+  <path d="M 396 396 L 454 396" stroke="#059669" stroke-width="2" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 612 396 L 670 396" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 828 396 L 886 396" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 921 272 L 921 314 L 749 314 L 749 352" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="836" y="304" text-anchor="middle" class="small">优化后评测</text>
+
+  <path d="M 965 440 C 965 484, 725 516, 317 440" stroke="#7c3aed" stroke-width="2" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow-purple)"/>
+  <text x="646" y="506" text-anchor="middle" class="small">上线后收集反馈，继续构造数据和迭代模型</text>
+
+  <rect x="44" y="536" width="1112" height="128" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="68" y="566" class="label">后训练想解决的问题</text>
+  <g>
+    <rect x="88" y="596" width="192" height="40" rx="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="184" y="621" text-anchor="middle" class="chip">从会续写变成会回答</text>
+    <rect x="310" y="596" width="192" height="40" rx="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="406" y="621" text-anchor="middle" class="chip">从通用模型适配业务场景</text>
+    <rect x="532" y="596" width="192" height="40" rx="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="628" y="621" text-anchor="middle" class="chip">从不稳定输出到格式可控</text>
+    <rect x="754" y="596" width="192" height="40" rx="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="850" y="621" text-anchor="middle" class="chip">从容易幻觉到更可信</text>
+    <rect x="976" y="596" width="126" height="40" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.2"/>
+    <text x="1039" y="621" text-anchor="middle" class="chip">服务 Agent</text>
+  </g>
+
+  <g transform="translate(74, 714)">
+    <line x1="0" y1="0" x2="34" y2="0" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <text x="44" y="4" class="legend">模型训练主线</text>
+    <line x1="160" y1="0" x2="194" y2="0" stroke="#059669" stroke-width="2" marker-end="url(#arrow-green)"/>
+    <text x="204" y="4" class="legend">业务数据进入训练</text>
+    <line x1="350" y1="0" x2="384" y2="0" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow-orange)"/>
+    <text x="394" y="4" class="legend">评估与优化</text>
+    <line x1="520" y1="0" x2="554" y2="0" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow-purple)"/>
+    <text x="564" y="4" class="legend">反馈闭环</text>
+  </g>
+
+  <text x="1128" y="724" text-anchor="end" class="small">learn-AI · post-training process</text>
+</svg>

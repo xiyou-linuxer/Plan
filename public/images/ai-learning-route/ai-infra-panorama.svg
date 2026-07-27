@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 920" width="1280" height="920">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 30px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 14px; fill: #6b7280; }
+    .layer-title { font-size: 14px; font-weight: 700; fill: #374151; }
+    .node-title { font-size: 15px; font-weight: 700; fill: #111827; }
+    .node-sub { font-size: 11px; fill: #6b7280; }
+    .chip { font-size: 11px; fill: #374151; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .legend { font-size: 12px; fill: #6b7280; }
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrow-gray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="136%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="920" fill="#ffffff"/>
+  <text x="640" y="46" text-anchor="middle" class="title">AI Infra 全景架构图</text>
+  <text x="640" y="72" text-anchor="middle" class="subtitle">目标：让模型训得动、跑得快、服务得稳，并且能被监控、调度、扩缩容和持续迭代</text>
+
+  <rect x="52" y="104" width="1176" height="82" rx="14" fill="#f8fafc" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="76" y="134" class="layer-title">入口层：请求从哪里来</text>
+  <g filter="url(#shadow)">
+    <rect x="250" y="126" width="170" height="42" rx="9" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.4"/>
+    <text x="335" y="153" text-anchor="middle" class="node-title">训练任务</text>
+    <rect x="548" y="126" width="170" height="42" rx="9" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.4"/>
+    <text x="633" y="153" text-anchor="middle" class="node-title">推理请求</text>
+    <rect x="846" y="126" width="170" height="42" rx="9" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1.4"/>
+    <text x="931" y="153" text-anchor="middle" class="node-title">运维 / 平台操作</text>
+  </g>
+
+  <rect x="52" y="214" width="1176" height="112" rx="14" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="76" y="244" class="layer-title">平台控制面：决定任务怎么调度、资源怎么分配、服务怎么治理</text>
+  <g filter="url(#shadow)">
+    <rect x="92" y="266" width="152" height="40" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.3"/>
+    <text x="168" y="291" text-anchor="middle" class="chip">Kubernetes / Slurm</text>
+    <rect x="268" y="266" width="152" height="40" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.3"/>
+    <text x="344" y="291" text-anchor="middle" class="chip">GPU 调度 / 配额</text>
+    <rect x="444" y="266" width="152" height="40" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.3"/>
+    <text x="520" y="291" text-anchor="middle" class="chip">镜像 / 环境管理</text>
+    <rect x="620" y="266" width="152" height="40" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.3"/>
+    <text x="696" y="291" text-anchor="middle" class="chip">服务发现 / 网关</text>
+    <rect x="796" y="266" width="152" height="40" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.3"/>
+    <text x="872" y="291" text-anchor="middle" class="chip">弹性伸缩 / 灰度</text>
+    <rect x="972" y="266" width="152" height="40" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.3"/>
+    <text x="1048" y="291" text-anchor="middle" class="chip">权限 / 成本治理</text>
+  </g>
+
+  <rect x="52" y="354" width="558" height="292" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="76" y="384" class="layer-title">训练链路：把数据和模型送进 GPU，产出 checkpoint / base model</text>
+  <g filter="url(#shadow)">
+    <rect x="92" y="420" width="132" height="70" rx="9" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.4"/>
+    <text x="158" y="448" text-anchor="middle" class="node-title">数据管道</text>
+    <text x="158" y="470" text-anchor="middle" class="node-sub">清洗 / 读取 / 分发</text>
+
+    <rect x="260" y="420" width="132" height="70" rx="9" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.4"/>
+    <text x="326" y="448" text-anchor="middle" class="node-title">训练框架</text>
+    <text x="326" y="470" text-anchor="middle" class="node-sub">PyTorch / Megatron</text>
+
+    <rect x="428" y="420" width="132" height="70" rx="9" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.4"/>
+    <text x="494" y="448" text-anchor="middle" class="node-title">分布式训练</text>
+    <text x="494" y="470" text-anchor="middle" class="node-sub">DP / TP / PP / ZeRO</text>
+
+    <rect x="176" y="540" width="132" height="70" rx="9" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.4"/>
+    <text x="242" y="568" text-anchor="middle" class="node-title">训练加速</text>
+    <text x="242" y="590" text-anchor="middle" class="node-sub">AMP / Checkpointing</text>
+
+    <rect x="344" y="540" width="132" height="70" rx="9" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.4"/>
+    <text x="410" y="568" text-anchor="middle" class="node-title">产物管理</text>
+    <text x="410" y="590" text-anchor="middle" class="node-sub">checkpoint / 权重</text>
+  </g>
+
+  <rect x="670" y="354" width="558" height="292" rx="16" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="694" y="384" class="layer-title">推理链路：把模型部署成在线服务，低延迟高吞吐地返回 token</text>
+  <g filter="url(#shadow)">
+    <rect x="710" y="420" width="132" height="70" rx="9" fill="#ffffff" stroke="#fed7aa" stroke-width="1.4"/>
+    <text x="776" y="448" text-anchor="middle" class="node-title">API Gateway</text>
+    <text x="776" y="470" text-anchor="middle" class="node-sub">鉴权 / 限流 / 路由</text>
+
+    <rect x="878" y="420" width="132" height="70" rx="9" fill="#ffffff" stroke="#fed7aa" stroke-width="1.4"/>
+    <text x="944" y="448" text-anchor="middle" class="node-title">请求调度</text>
+    <text x="944" y="470" text-anchor="middle" class="node-sub">batch / queue / SLA</text>
+
+    <rect x="1046" y="420" width="132" height="70" rx="9" fill="#ffffff" stroke="#fed7aa" stroke-width="1.4"/>
+    <text x="1112" y="448" text-anchor="middle" class="node-title">推理引擎</text>
+    <text x="1112" y="470" text-anchor="middle" class="node-sub">vLLM / SGLang</text>
+
+    <rect x="794" y="540" width="132" height="70" rx="9" fill="#ffffff" stroke="#fed7aa" stroke-width="1.4"/>
+    <text x="860" y="568" text-anchor="middle" class="node-title">KV Cache</text>
+    <text x="860" y="590" text-anchor="middle" class="node-sub">复用 / 搬运 / 管理</text>
+
+    <rect x="962" y="540" width="132" height="70" rx="9" fill="#ffffff" stroke="#fed7aa" stroke-width="1.4"/>
+    <text x="1028" y="568" text-anchor="middle" class="node-title">模型优化</text>
+    <text x="1028" y="590" text-anchor="middle" class="node-sub">量化 / 并行 / kernel</text>
+  </g>
+
+  <path d="M 335 168 L 335 214" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 633 168 L 633 214" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 931 168 L 931 214" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#arrow-purple)"/>
+  <path d="M 335 326 L 335 354" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 873 326 L 873 354" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+
+  <path d="M 224 455 L 260 455" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 392 455 L 428 455" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 494 490 L 494 514 L 410 514 L 410 540" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 326 490 L 326 514 L 242 514 L 242 540" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
+
+  <path d="M 842 455 L 878 455" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 1010 455 L 1046 455" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 1112 490 L 1112 514 L 1028 514 L 1028 540" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 944 490 L 944 514 L 860 514 L 860 540" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+
+  <rect x="52" y="674" width="1176" height="112" rx="14" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+  <text x="76" y="704" class="layer-title">共同底座：训练和推理都会依赖的硬件、网络、存储、算子与观测能力</text>
+  <g filter="url(#shadow)">
+    <rect x="92" y="724" width="138" height="40" rx="8" fill="#ffffff" stroke="#99f6e4" stroke-width="1.3"/>
+    <text x="161" y="749" text-anchor="middle" class="chip">GPU / HBM / NVLink</text>
+    <rect x="252" y="724" width="138" height="40" rx="8" fill="#ffffff" stroke="#99f6e4" stroke-width="1.3"/>
+    <text x="321" y="749" text-anchor="middle" class="chip">CUDA / Triton 算子</text>
+    <rect x="412" y="724" width="138" height="40" rx="8" fill="#ffffff" stroke="#99f6e4" stroke-width="1.3"/>
+    <text x="481" y="749" text-anchor="middle" class="chip">NCCL / RDMA 网络</text>
+    <rect x="572" y="724" width="138" height="40" rx="8" fill="#ffffff" stroke="#99f6e4" stroke-width="1.3"/>
+    <text x="641" y="749" text-anchor="middle" class="chip">对象存储 / 权重仓库</text>
+    <rect x="732" y="724" width="138" height="40" rx="8" fill="#ffffff" stroke="#99f6e4" stroke-width="1.3"/>
+    <text x="801" y="749" text-anchor="middle" class="chip">日志 / Trace / Metrics</text>
+    <rect x="892" y="724" width="138" height="40" rx="8" fill="#ffffff" stroke="#99f6e4" stroke-width="1.3"/>
+    <text x="961" y="749" text-anchor="middle" class="chip">DCGM / Prometheus</text>
+    <rect x="1052" y="724" width="138" height="40" rx="8" fill="#ffffff" stroke="#99f6e4" stroke-width="1.3"/>
+    <text x="1121" y="749" text-anchor="middle" class="chip">成本 / 容错 / 告警</text>
+  </g>
+
+  <path d="M 326 646 L 326 674" stroke="#059669" stroke-width="2" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 950 646 L 950 674" stroke="#059669" stroke-width="2" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 641 674 L 641 646 L 410 646 L 410 610" stroke="#059669" stroke-width="1.8" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 641 674 L 641 646 L 1028 646 L 1028 610" stroke="#059669" stroke-width="1.8" fill="none" marker-end="url(#arrow-green)"/>
+
+  <g transform="translate(72, 842)">
+    <line x1="0" y1="0" x2="34" y2="0" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <text x="44" y="4" class="legend">训练流：数据与训练任务</text>
+    <line x1="188" y1="0" x2="222" y2="0" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow-orange)"/>
+    <text x="232" y="4" class="legend">推理流：在线请求与响应</text>
+    <line x1="392" y1="0" x2="426" y2="0" stroke="#059669" stroke-width="2" marker-end="url(#arrow-green)"/>
+    <text x="436" y="4" class="legend">共享底座：硬件 / 网络 / 存储 / 观测</text>
+    <line x1="688" y1="0" x2="722" y2="0" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow-purple)"/>
+    <text x="732" y="4" class="legend">平台控制：调度 / 治理 / 运维</text>
+  </g>
+
+  <text x="1188" y="872" text-anchor="end" class="small">learn-AI · AI infra panorama</text>
+</svg>

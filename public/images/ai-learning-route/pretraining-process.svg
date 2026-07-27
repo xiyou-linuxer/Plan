@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 28px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 14px; fill: #6b7280; }
+    .node-title { font-size: 16px; font-weight: 700; fill: #111827; }
+    .node-sub { font-size: 12px; fill: #6b7280; }
+    .chip { font-size: 11px; fill: #374151; }
+    .label { font-size: 12px; font-weight: 600; fill: #374151; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .legend { font-size: 12px; fill: #6b7280; }
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="136%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" class="title">预训练在做什么</text>
+  <text x="600" y="74" text-anchor="middle" class="subtitle">让一个随机初始化的 Transformer 通过“预测下一个 token”反复试错，逐步变成具备通用能力的 Base Model</text>
+
+  <rect x="44" y="112" width="1112" height="396" rx="16" fill="#f8fafc" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="68" y="142" class="label">主训练循环</text>
+
+  <g filter="url(#shadow)">
+    <rect x="76" y="178" width="142" height="90" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="147" y="208" text-anchor="middle" class="node-title">原始数据</text>
+    <text x="147" y="232" text-anchor="middle" class="node-sub">文本 / 代码 / 图像</text>
+    <text x="147" y="252" text-anchor="middle" class="node-sub">网页 / 书籍 / 语料</text>
+
+    <rect x="260" y="178" width="142" height="90" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="331" y="208" text-anchor="middle" class="node-title">数据处理</text>
+    <text x="331" y="232" text-anchor="middle" class="node-sub">清洗 / 去重 / 过滤</text>
+    <text x="331" y="252" text-anchor="middle" class="node-sub">切分训练样本</text>
+
+    <rect x="444" y="178" width="142" height="90" rx="10" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+    <text x="515" y="208" text-anchor="middle" class="node-title">Tokenizer</text>
+    <text x="515" y="232" text-anchor="middle" class="node-sub">文本切成 token</text>
+    <text x="515" y="252" text-anchor="middle" class="node-sub">变成模型输入</text>
+
+    <rect x="628" y="178" width="142" height="90" rx="10" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1.5"/>
+    <text x="699" y="208" text-anchor="middle" class="node-title">Transformer</text>
+    <text x="699" y="232" text-anchor="middle" class="node-sub">随机初始化参数</text>
+    <text x="699" y="252" text-anchor="middle" class="node-sub">前向传播</text>
+
+    <rect x="812" y="178" width="142" height="90" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+    <text x="883" y="208" text-anchor="middle" class="node-title">预测输出</text>
+    <text x="883" y="232" text-anchor="middle" class="node-sub">下一个 token</text>
+    <text x="883" y="252" text-anchor="middle" class="node-sub">概率分布</text>
+
+    <rect x="996" y="178" width="122" height="90" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+    <text x="1057" y="208" text-anchor="middle" class="node-title">计算 Loss</text>
+    <text x="1057" y="232" text-anchor="middle" class="node-sub">预测 vs 真值</text>
+    <text x="1057" y="252" text-anchor="middle" class="node-sub">误差大小</text>
+  </g>
+
+  <path d="M 218 223 L 260 223" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 402 223 L 444 223" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 586 223 L 628 223" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 770 223 L 812 223" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 954 223 L 996 223" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <text x="424" y="206" text-anchor="middle" class="small">tokens</text>
+  <text x="792" y="206" text-anchor="middle" class="small">logits</text>
+
+  <g filter="url(#shadow)">
+    <rect x="316" y="344" width="180" height="88" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+    <text x="406" y="376" text-anchor="middle" class="node-title">反向传播</text>
+    <text x="406" y="400" text-anchor="middle" class="node-sub">根据 loss 计算梯度</text>
+    <text x="406" y="420" text-anchor="middle" class="node-sub">找到参数调整方向</text>
+
+    <rect x="540" y="344" width="180" height="88" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+    <text x="630" y="376" text-anchor="middle" class="node-title">优化器更新</text>
+    <text x="630" y="400" text-anchor="middle" class="node-sub">AdamW / 学习率</text>
+    <text x="630" y="420" text-anchor="middle" class="node-sub">让下次预测更准</text>
+
+    <rect x="764" y="344" width="180" height="88" rx="10" fill="#ecfeff" stroke="#a5f3fc" stroke-width="1.5"/>
+    <text x="854" y="376" text-anchor="middle" class="node-title">分布式训练</text>
+    <text x="854" y="400" text-anchor="middle" class="node-sub">多 GPU / 多机器</text>
+    <text x="854" y="420" text-anchor="middle" class="node-sub">并行训练大模型</text>
+  </g>
+
+  <path d="M 1057 268 L 1057 304 L 406 304 L 406 344" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="730" y="292" text-anchor="middle" class="small">loss 反向传递</text>
+  <path d="M 496 388 L 540 388" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 720 388 L 764 388" stroke="#ea580c" stroke-width="2" fill="none" marker-end="url(#arrow-orange)"/>
+
+  <path d="M 854 344 C 854 306, 699 306, 699 268" stroke="#7c3aed" stroke-width="2" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow-purple)"/>
+  <text x="774" y="320" text-anchor="middle" class="small">更新模型参数</text>
+
+  <path d="M 630 432 C 630 478, 101 476, 147 268" stroke="#7c3aed" stroke-width="2" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow-purple)"/>
+  <text x="346" y="466" text-anchor="middle" class="small">重复很多轮：不断喂数据、预测、算误差、更新参数</text>
+
+  <rect x="44" y="544" width="1112" height="124" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="68" y="574" class="label">训练过程中持续发生的事情</text>
+
+  <g>
+    <rect x="84" y="604" width="202" height="38" rx="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="185" y="628" text-anchor="middle" class="chip">定期评估：验证集 loss / benchmark</text>
+
+    <rect x="314" y="604" width="202" height="38" rx="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="415" y="628" text-anchor="middle" class="chip">保存 checkpoint：防止训练中断</text>
+
+    <rect x="544" y="604" width="202" height="38" rx="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="645" y="628" text-anchor="middle" class="chip">监控训练：loss / 显存 / 吞吐</text>
+
+    <rect x="774" y="604" width="302" height="38" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.2"/>
+    <text x="925" y="628" text-anchor="middle" class="chip">最终产物：Base Model，具备通用语言与知识能力</text>
+  </g>
+
+  <g transform="translate(74, 708)">
+    <line x1="0" y1="0" x2="34" y2="0" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <text x="44" y="4" class="legend">数据 / 前向流程</text>
+    <line x1="156" y1="0" x2="190" y2="0" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow-orange)"/>
+    <text x="200" y="4" class="legend">loss / 梯度更新</text>
+    <line x1="324" y1="0" x2="358" y2="0" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow-purple)"/>
+    <text x="368" y="4" class="legend">训练循环</text>
+  </g>
+
+  <text x="1128" y="724" text-anchor="end" class="small">learn-AI · pretraining process</text>
+</svg>

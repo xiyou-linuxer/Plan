@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 28px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 14px; fill: #6b7280; }
+    .section-title { font-size: 15px; font-weight: 700; fill: #111827; }
+    .section-subtitle { font-size: 12px; fill: #6b7280; }
+    .chip { font-size: 11px; fill: #374151; }
+    .label { font-size: 12px; font-weight: 600; fill: #374151; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .legend { font-size: 12px; fill: #6b7280; }
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="820" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" class="title">AI 从“生出来”到“跑起来”的完整链路</text>
+  <text x="600" y="74" text-anchor="middle" class="subtitle">算法造模型，后训练调行为，AI Infra 让模型高效稳定运行，Agent 把模型包装成真实产品能力</text>
+
+  <rect x="42" y="112" width="1116" height="164" rx="14" fill="#f8fafc" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="64" y="140" class="label">模型生产线</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="164" width="128" height="72" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="134" y="194" text-anchor="middle" class="section-title">数据准备</text>
+    <text x="134" y="216" text-anchor="middle" class="section-subtitle">教材与样本</text>
+
+    <rect x="230" y="164" width="128" height="72" rx="10" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+    <text x="294" y="194" text-anchor="middle" class="section-title">预训练</text>
+    <text x="294" y="216" text-anchor="middle" class="section-subtitle">生出 Base Model</text>
+
+    <rect x="390" y="164" width="128" height="72" rx="10" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1.5"/>
+    <text x="454" y="194" text-anchor="middle" class="section-title">后训练</text>
+    <text x="454" y="216" text-anchor="middle" class="section-subtitle">更听话更适配</text>
+
+    <rect x="550" y="164" width="128" height="72" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+    <text x="614" y="194" text-anchor="middle" class="section-title">模型评估</text>
+    <text x="614" y="216" text-anchor="middle" class="section-subtitle">判断是否变好</text>
+
+    <rect x="710" y="164" width="128" height="72" rx="10" fill="#ecfeff" stroke="#a5f3fc" stroke-width="1.5"/>
+    <text x="774" y="194" text-anchor="middle" class="section-title">推理部署</text>
+    <text x="774" y="216" text-anchor="middle" class="section-subtitle">在线服务模型</text>
+
+    <rect x="870" y="164" width="128" height="72" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+    <text x="934" y="194" text-anchor="middle" class="section-title">Agent 编排</text>
+    <text x="934" y="216" text-anchor="middle" class="section-subtitle">工具与任务系统</text>
+
+    <rect x="1030" y="164" width="98" height="72" rx="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="1079" y="194" text-anchor="middle" class="section-title">产品展示</text>
+    <text x="1079" y="216" text-anchor="middle" class="section-subtitle">交付用户</text>
+  </g>
+
+  <path d="M 198 200 L 230 200" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 358 200 L 390 200" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 518 200 L 550 200" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 678 200 L 710 200" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 838 200 L 870 200" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+  <path d="M 998 200 L 1030 200" stroke="#2563eb" stroke-width="2.2" fill="none" marker-end="url(#arrow-blue)"/>
+
+  <path d="M 1079 236 C 1079 294, 614 308, 614 246" stroke="#7c3aed" stroke-width="1.8" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow-purple)"/>
+  <text x="845" y="298" text-anchor="middle" class="small">用户反馈 / 线上日志 / 人工标注进入下一轮评估与优化</text>
+
+  <rect x="42" y="328" width="1116" height="376" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="64" y="358" class="label">每个阶段涉及的典型技术栈</text>
+
+  <g>
+    <rect x="70" y="388" width="155" height="248" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="147.5" y="416" text-anchor="middle" class="section-title">数据 &amp; 算法</text>
+    <text x="92" y="448" class="chip">• 数据清洗 / 去重</text>
+    <text x="92" y="474" class="chip">• Tokenizer</text>
+    <text x="92" y="500" class="chip">• 数据集构建</text>
+    <text x="92" y="526" class="chip">• Transformer</text>
+    <text x="92" y="552" class="chip">• 损失函数 / 优化器</text>
+    <text x="92" y="578" class="chip">• PyTorch / 训练代码</text>
+    <text x="92" y="604" class="chip">• 分布式训练</text>
+  </g>
+
+  <g>
+    <rect x="253" y="388" width="155" height="248" rx="10" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1.5"/>
+    <text x="330.5" y="416" text-anchor="middle" class="section-title">后训练</text>
+    <text x="275" y="448" class="chip">• SFT 指令微调</text>
+    <text x="275" y="474" class="chip">• LoRA / QLoRA</text>
+    <text x="275" y="500" class="chip">• DPO / 偏好优化</text>
+    <text x="275" y="526" class="chip">• RLHF / RLAIF</text>
+    <text x="275" y="552" class="chip">• 业务样本构造</text>
+    <text x="275" y="578" class="chip">• 工具调用轨迹</text>
+    <text x="275" y="604" class="chip">• 人工反馈数据</text>
+  </g>
+
+  <g>
+    <rect x="436" y="388" width="155" height="248" rx="10" fill="#ecfeff" stroke="#a5f3fc" stroke-width="1.5"/>
+    <text x="513.5" y="416" text-anchor="middle" class="section-title">AI Infra</text>
+    <text x="458" y="448" class="chip">• CUDA / Triton</text>
+    <text x="458" y="474" class="chip">• NCCL / RDMA</text>
+    <text x="458" y="500" class="chip">• vLLM / SGLang</text>
+    <text x="458" y="526" class="chip">• TensorRT-LLM</text>
+    <text x="458" y="552" class="chip">• KV Cache 管理</text>
+    <text x="458" y="578" class="chip">• 量化 / 并行</text>
+    <text x="458" y="604" class="chip">• 监控 / 扩缩容</text>
+  </g>
+
+  <g>
+    <rect x="619" y="388" width="155" height="248" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+    <text x="696.5" y="416" text-anchor="middle" class="section-title">Agent 应用</text>
+    <text x="641" y="448" class="chip">• Prompt / 规则</text>
+    <text x="641" y="474" class="chip">• Planner / Loop</text>
+    <text x="641" y="500" class="chip">• RAG / Embedding</text>
+    <text x="641" y="526" class="chip">• Vector DB</text>
+    <text x="641" y="552" class="chip">• Tool Calling</text>
+    <text x="641" y="578" class="chip">• MCP / Browser</text>
+    <text x="641" y="604" class="chip">• Trace / Eval</text>
+  </g>
+
+  <g>
+    <rect x="802" y="388" width="155" height="248" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+    <text x="879.5" y="416" text-anchor="middle" class="section-title">业务系统</text>
+    <text x="824" y="448" class="chip">• 后端 API</text>
+    <text x="824" y="474" class="chip">• 鉴权 / 权限</text>
+    <text x="824" y="500" class="chip">• 任务队列</text>
+    <text x="824" y="526" class="chip">• 数据库 / 缓存</text>
+    <text x="824" y="552" class="chip">• 日志 / 告警</text>
+    <text x="824" y="578" class="chip">• 计费 / 配额</text>
+    <text x="824" y="604" class="chip">• 灰度 / 回滚</text>
+  </g>
+
+  <g>
+    <rect x="985" y="388" width="143" height="248" rx="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="1056.5" y="416" text-anchor="middle" class="section-title">用户体验</text>
+    <text x="1005" y="448" class="chip">• Chat UI</text>
+    <text x="1005" y="474" class="chip">• 流式输出</text>
+    <text x="1005" y="500" class="chip">• 文件上传</text>
+    <text x="1005" y="526" class="chip">• 结果展示</text>
+    <text x="1005" y="552" class="chip">• 人工确认</text>
+    <text x="1005" y="578" class="chip">• 错误提示</text>
+    <text x="1005" y="604" class="chip">• 用户反馈</text>
+  </g>
+
+  <path d="M 147 636 L 147 670 L 330 670 L 330 636" stroke="#059669" stroke-width="1.8" fill="none" marker-end="url(#arrow-green)"/>
+  <text x="238" y="690" text-anchor="middle" class="small">训练数据与反馈数据不断回流</text>
+
+  <path d="M 514 636 L 514 666 L 696 666 L 696 636" stroke="#ea580c" stroke-width="1.8" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="605" y="690" text-anchor="middle" class="small">模型服务支撑 Agent 调用</text>
+
+  <path d="M 696 636 L 696 724 L 1056 724 L 1056 636" stroke="#2563eb" stroke-width="1.8" fill="none" marker-end="url(#arrow-blue)"/>
+  <text x="876" y="746" text-anchor="middle" class="small">Agent 通过业务系统把能力交付给用户</text>
+
+  <g transform="translate(70, 766)">
+    <line x1="0" y1="0" x2="34" y2="0" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <text x="44" y="4" class="legend">主流程</text>
+    <line x1="126" y1="0" x2="160" y2="0" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow-purple)"/>
+    <text x="170" y="4" class="legend">反馈闭环</text>
+    <line x1="268" y1="0" x2="302" y2="0" stroke="#059669" stroke-width="2" marker-end="url(#arrow-green)"/>
+    <text x="312" y="4" class="legend">数据回流</text>
+    <line x1="410" y1="0" x2="444" y2="0" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow-orange)"/>
+    <text x="454" y="4" class="legend">服务调用</text>
+  </g>
+
+  <text x="1130" y="790" text-anchor="end" class="small">learn-AI · AI lifecycle map</text>
+</svg>
