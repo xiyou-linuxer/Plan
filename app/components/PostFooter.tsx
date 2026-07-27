@@ -13,7 +13,7 @@ export default function PostFooter(props: { filePath: string; title: string }) {
       <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
         <strong>{title}</strong>
         <a
-          className="icon-[ph--pencil-simple-line-bold] text-blue-500"
+          className="icon-[tabler--pencil] text-blue-500"
           href={`https://github.com/xiyou-linuxer/Plan/blame/main/${filePath}`}
           target="_blank"
         />
